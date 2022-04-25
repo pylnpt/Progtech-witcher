@@ -19,6 +19,29 @@ Az alkalmazás a "szabadúszó dolgozóknak" a munkakeresését, a "munkaadók" 
 Az általunk kínált megoldással azonban ez a folyamat leegyszerűsödne. Emellett a régi rendszer is a már megszokott rendben tudna üzemelni. Viszont személyes megjelenést az elején nem igényel, illetve a nyitvatartási időt is figyelmen kívül lehet hagyni. Az ügyfél (legyen ez munkaadó / munkavállaló) létrehoz egy profilt az alkalmazáson belül ahol az alábbiakat kell megadnia:
 - nevét,
 - leendő felhasználó nevét
+- jelszavát (amit titkosítunk)
 - email címét
 - és a szerepkörét (munkát keres / kínál)
-<p>A többi jogi dologgal pedig a cégünk foglalkozik</p>
+<p>A többi jogi dologgal pedig a cégünk foglalkozik.</p>
+
+## 4. Funkcionális leírás
+Az összes ügyfél számára láthatóak a munkák, viszont azok csak az adminok jóváhagyása után kerülhetnek ki az alkalmazásra. Ugyanígy ezeket csak az adminok tudják módosítani és törölni.
+Leggyakoribb használata azonban mégis az ügyfelek által fog megtörténni.
+
+## 5. Fizikai környezet
+Az alkalmazás Windows operációs rendszeren képes lesz elfutni, mivel egy egyszerűbb Java asztali alkalmazásról van szó. Ebből adódóan nem igényel hatalmas erőforrásokat, egy kétmagos processzor, valamint 2-4GB memóriával (RAM) rendelkező számitógép/laptop képes hiba nélkül futtatni az alkalmazást.
+
+## 6. Követelmények
+
+   * **Funkcionális követelmények:**
+
+       - A felhasználók adatainak eltárolása
+       - A munkák adatainak eltárolása
+       - A munkák közötti keresés megvalósítása
+       - A munkák kiírásának kialakítása
+       - A munkák elfogadásának kialakítása
+
+   * **Nemfunkcionális követelmények:**
+
+       - A rendszernek egyszerre több felhasználót kell kiszolgálnia
+       - Igényes megjelenítés
