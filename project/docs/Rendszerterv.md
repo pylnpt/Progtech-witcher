@@ -9,4 +9,4 @@ akik eldönthetik hogy melyik munka kerülhet ki.
 
 ## 2. Projektterv
 Az alkalmazásban az adminoknak van a legnagyobb jogköre. Nekik ellenőrizni kell a kiírandó munkáknak a valódiságát (nehézség és jutalom szempontjából)
-Elfogadhatja és elutasíthatja a kiírandó munkákat. Aztán jönnek a munkaadó és munkavállaló jogkörök. Míg a munkaadó csak munkákat tud kiírni (természetesen kikerülés előtt az adminok ezeket ellenőrzik),addig a munkavállalók írhatnak elvállalhatnak és kiírnhatnak munkákat.
+Elfogadhatja és elutasíthatja a kiírandó munkákat. Aztán jönnek a munkaadó és munkavállaló jogkörök. Míg a munkaadó csak munkákat tud kiírni (természetesen kikerülés előtt az adminok ezeket ellenőrzik),addig a munkavállalók elvállalhatnak és kiírhatnak munkákat.
