@@ -21,7 +21,7 @@ Az általunk kínált megoldással azonban ez a folyamat leegyszerűsödne. Emel
 - leendő felhasználó nevét
 - jelszavát (amit titkosítunk)
 - email címét
-- és a szerepkörét (munkát keres / kínál)
+- és a szerepkörét (munkát keres / kínál, admint nem kaphat a felhasználó)
 <p>A többi jogi dologgal pedig a cégünk foglalkozik.</p>
 
 ## 4. Funkcionális leírás
@@ -45,3 +45,31 @@ Az alkalmazás Windows operációs rendszeren képes lesz elfutni, mivel egy egy
 
        - A rendszernek egyszerre több felhasználót kell kiszolgálnia
        - Igényes megjelenítés
+
+## 7. Absztrakt domain modellje
+![AbsztraktDomainModell](imgs%20/Abstract-Domain-Modell.jpg)
+
+## 8. Architektúrális terv
+Az architektúrális tervnek a funkcionális követelményeken túl fontos elemét képezik a rendszer használatát befolyásoló tényezők is. Az adatok tárolását adatbázisok segítségével biztosítjuk így rugalmasság szempontjából a későbbi bővítésekre is felkészültünk. Emellett valós időben több felhasználót tud biztonságosan kezelni egyszerre.</br>
+A felhasználók karbantartása is megvalósul. A hosszú ideje inaktív felhasználók előszöt email-ban értesítést kapnak majd ha erre sem reagálnak akkor a rendszerből törölve lesznek, így helyet szabadít fel a jövendőbeli felhasználóknak.
+Másik erőssége az alkalmazásnak, hogy az üzemeltetése egyszerű. Az esetleges szerver meghibásodás vagy szolgáltató váltás esetén gond nélkül áttelepíthető másik állomásra.</br>
+A mai korban elengedhetetlen követelmény a biztonság. Ezt a különböző felhasználói jogosultságokkal érhető el. Ennek köszönhetően a látogatók nem tudják az autók adatait módosítani valamint nem férhetnek hozzá bizalmas információkhoz. A felhasználók kezelése a token rendszerrel valósul meg.
+
+## 9.Implementációs terv
+Az asztali alkalmazás felülete JavaFX-el(fxml-ek segítségével) készül. Az elemeket CSS fájlok segítségével dizájnoljuk. A termékek és a felhasználók tárolására szükség van adatbázisra is. A webáruház backend részét Java nyelven valósítjuk meg. A fájlokat külön választjuk, az átláthatóság és az egyszerűbb bővítés érdekében.
+
+## 10.Tesztelési terv
+A tesztelés során az alkalmazásban megvalósított funkciók működését figyeljük. A teszteléssel a különböző hibák megtalálása a cél.
+ A teszteléseket a unit tesztek segítségével fogjuk elvégezni, valamint utólag
+ egy tesztelési dokumentáció is fog készülni amit a csapatunk eggyik tagja fgo elvégezni és dokumentálni.
+ A dokumentum táblázatos formában beküldendő.
+ A tesztelési dokumentum kitöltésére egy sablon:
+
+ **Tesztelő: Vezetéknév Keresztnév**
+
+ **Tesztelés dátuma: Év.Hónap.Nap**
+
+ Tesztszám | Rövid leírás | Várt eredmény | Eredmény | Megjegyzés
+ ----------|--------------|---------------|----------|-----------
+ például. Teszt #01 | Regisztráció | A felhasználó az adatok megadásával sikeresen regisztrálni tud  | A felhasználó sikeresen regisztrált | Nem találtam problémát.
+ ... | ... | ... | ... | ...
