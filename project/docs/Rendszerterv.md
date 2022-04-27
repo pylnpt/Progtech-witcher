@@ -47,7 +47,7 @@ Az alkalmazás Windows operációs rendszeren képes lesz elfutni, mivel egy egy
        - Igényes megjelenítés
 
 ## 7. Absztrakt domain modellje
-![AbsztraktDomainModell](imgs%20/Abstract-Domain-Modell.jpg)
+![AbsztraktDomainModell](imgs/abstract.png)
 
 ## 8. Architektúrális terv
 Az architektúrális tervnek a funkcionális követelményeken túl fontos elemét képezik a rendszer használatát befolyásoló tényezők is. Az adatok tárolását adatbázisok segítségével biztosítjuk így rugalmasság szempontjából a későbbi bővítésekre is felkészültünk. Emellett valós időben több felhasználót tud biztonságosan kezelni egyszerre.</br>
