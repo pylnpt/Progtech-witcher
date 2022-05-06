@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="736.0" prefWidth="1001.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <BorderPane layoutX="-1.0" layoutY="-8.0" prefHeight="753.0" prefWidth="1007.0">
+         <left>
+            <VBox prefHeight="746.0" prefWidth="281.0" style="-fx-background-color: e10c0f;" BorderPane.alignment="CENTER">
+               <children>
+                  <Button mnemonicParsing="false" prefHeight="47.0" prefWidth="281.0" text="Button" />
+               </children></VBox>
+         </left>
+         <top>
+            <HBox prefHeight="80.0" prefWidth="1007.0" style="-fx-background-color: #b50c0f;" BorderPane.alignment="CENTER" />
+         </top>
+         <center>
+            <VBox prefHeight="200.0" prefWidth="100.0" BorderPane.alignment="CENTER" />
+         </center>
+      </BorderPane>
+   </children>
+</AnchorPane>
