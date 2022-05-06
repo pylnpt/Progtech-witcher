@@ -1,10 +1,10 @@
 .button {
-    -fx-background-color: #3F2B63;
+    -fx-background-color: #38ba3c;
     -fx-background-radius: 0em;
 }
 
 .button:hover{
-    -fx-background-color: #2A1C42;
+    -fx-background-color: #0a7016;
 }
 
 .button:pressed{
@@ -44,3 +44,27 @@
     -fx-fill: white;
 }
 
+/* SCROLL BAR */
+/* Increment and decrement button's CSS */
+.table-view .increment-button,
+.table-view .decrement-button {
+    -fx-background-color: transparent;
+    -fx-background-radius: 2em;
+}
+
+/* MAIN SCROLLBAR */
+.table-view .scroll-bar:horizontal .track,
+.table-view .scroll-bar:vertical .track{
+    -fx-background-color: transparent;
+    -fx-border-color: derive(#7156DD,80%);
+    -fx-background-radius: 2em;
+    -fx-border-radius: 2em;
+}
+
+/* Scrollbar 'thumb' */
+.table-view .scroll-bar:horizontal .thumb,
+.table-view .scroll-bar:vertical .thumb {
+    -fx-background-color: derive(#7156DD,90%);
+    -fx-background-insets: 2, 0, 0;
+    -fx-background-radius: 2em;
+}

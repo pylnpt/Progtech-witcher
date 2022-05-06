@@ -4,30 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="80e184c2-d335-4b4f-9197-4274d58e0ef9" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_kordamp_ikonli_ikonli_core_12_2_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_kordamp_ikonli_ikonli_javafx_12_2_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/project/progtechwitcher/HomePage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/project/progtechwitcher/HomePageController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProgtechApp.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/database.sql" beforeDir="false" afterPath="$PROJECT_DIR$/database/database.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/module-info.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/progtechbead/progtechapp/HelloApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/progtechbead/progtechapp/HelloController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/progtechbead/progtechapp/hello-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/project/progtechwitcher/home-page-view.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/module-info.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/module-info.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/progtechbead/progtechapp/HelloApplication.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/progtechbead/progtechapp/HelloController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/progtechbead/progtechapp/hello-view.fxml" beforeDir="false" />
+    <list default="true" id="80e184c2-d335-4b4f-9197-4274d58e0ef9" name="Changes" comment="Started Layout of the UI.&#10;-&gt; Created a HomeView (WIP)&#10;-&gt; Created a Controller to the view(WIP)&#10;&#10;-&gt; created a style.css which is going to handle the styling of the UI.">
+      <change afterPath="$PROJECT_DIR$/src/main/resources/project/progtechwitcher/icons/profile.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/project/progtechwitcher/icons/users.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/project/progtechwitcher/icons/witcher-logo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/project/progtechwitcher/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project.iml" beforeDir="false" afterPath="$PROJECT_DIR$/project.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/project/progtechwitcher/home-page-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/project/progtechwitcher/home-page-view.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,14 +34,40 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources/project/progtechwitcher/icons" />
     <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Admin\Desktop\Progtech-witcher\project\src\main\resources\project\progtechwitcher\icons" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Admin\Desktop\Progtech-witcher\project\src\main\resources\project\progtechwitcher" />
+      <recent name="C:\Users\Admin\Desktop\Progtech-witcher\project\src\main\resources" />
       <recent name="C:\Users\Admin\Desktop\Progtech-witcher\project" />
     </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="HomePage" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="project.progtechwitcher.HomePage" />
+      <module name="project" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="project.progtechwitcher.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.HomePage" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -68,6 +78,14 @@
       <option name="presentableId" value="Default" />
       <updated>1651849952656</updated>
     </task>
+    <task id="LOCAL-00001" summary="Started Layout of the UI.&#10;-&gt; Created a HomeView (WIP)&#10;-&gt; Created a Controller to the view(WIP)&#10;&#10;-&gt; created a style.css which is going to handle the styling of the UI.">
+      <created>1651852426093</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1651852426094</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -80,5 +98,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Started Layout of the UI.&#10;-&gt; Created a HomeView (WIP)&#10;-&gt; Created a Controller to the view(WIP)&#10;&#10;-&gt; created a style.css which is going to handle the styling of the UI." />
+    <option name="LAST_COMMIT_MESSAGE" value="Started Layout of the UI.&#10;-&gt; Created a HomeView (WIP)&#10;-&gt; Created a Controller to the view(WIP)&#10;&#10;-&gt; created a style.css which is going to handle the styling of the UI." />
   </component>
 </project>
