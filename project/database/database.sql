@@ -29,6 +29,7 @@ CREATE TABLE `jobs` (
   `reward` int(11) DEFAULT NULL,
   `required_level` int(11) DEFAULT NULL,
   `is_someone_assigned` int(11) DEFAULT NULL,
+  `created_by` int(11) DEFAULT NULL,
   PRIMARY KEY (`id`)
 ) ENGINE=InnoDB AUTO_INCREMENT=3 DEFAULT CHARSET=utf8mb4;
 /*!40101 SET character_set_client = @saved_cs_client */;
@@ -39,7 +40,7 @@ CREATE TABLE `jobs` (
 
 LOCK TABLES `jobs` WRITE;
 /*!40000 ALTER TABLE `jobs` DISABLE KEYS */;
-INSERT INTO `jobs` VALUES (1,'Trial One','This is the first registered job in database',0,1,0),(2,'Trial Two','This is the second registered job in database',0,1,0);
+INSERT INTO `jobs` VALUES (1,'Trial One','This is the first registered job in database',0,1,1,1),(2,'Trial Two','This is the second registered job in database',0,1,0,1);
 /*!40000 ALTER TABLE `jobs` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -110,4 +111,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2022-04-20 18:08:21
+-- Dump completed on 2022-05-06 19:27:31
