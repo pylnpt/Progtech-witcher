@@ -1,6 +1,13 @@
 .container {
     -fx-background-radius: 2em;
 }
+
+.header {
+    -fx-border-style: solid;
+    -fx-border-width: 0 0 2px 0;
+    -fx-border-color: #ff9808;
+}
+
 .authentication-input {
     -fx-background-radius: 2em;
     -fx-background-color: #53477a;

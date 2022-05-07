@@ -5,19 +5,21 @@ import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.stage.Stage;
-import javafx.stage.StageStyle;
 
 import java.io.IOException;
 import java.util.Objects;
 
-public class HomePage extends Application {
+public class HomePageView extends Application {
     double x,y = 0;
 
     @Override
     public void start(Stage stage) throws IOException {
-        Parent root = FXMLLoader.load(Objects.requireNonNull(HomePage.class.getResource("home-page-view.fxml")));
+        Parent root = FXMLLoader.load(Objects.requireNonNull(HomePageView.class.getResource("home-page-view.fxml")));
+        // FXMLLoader loader = new FXMLLoader(Objects.requireNonNull(HomePageView.class.getResource("home-page-view.fxml")));
+        // loader.setController(new HomePageController());
+
         Scene scene = new Scene(root);
-        stage.initStyle(StageStyle.UNDECORATED);
+        //stage.initStyle(StageStyle.UNDECORATED);
 
         root.setOnMousePressed(event -> {
             x = event.getSceneX();

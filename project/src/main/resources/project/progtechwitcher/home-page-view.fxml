@@ -7,13 +7,19 @@
 <?import javafx.scene.layout.*?>
 <?import javafx.scene.text.*?>
 
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="900.0" prefWidth="1100.0" stylesheets="@css/style.css" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1">
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity"
+            minHeight="-Infinity" minWidth="-Infinity"
+            prefHeight="900.0" prefWidth="1100.0"
+            stylesheets="@css/style.css"
+            xmlns="http://javafx.com/javafx/16"
+            xmlns:fx="http://javafx.com/fxml/1"
+            fx:controller="project.progtechwitcher.HomePageController">
    <children>
-      <BorderPane layoutX="-1.0" layoutY="-8.0" prefHeight="753.0" prefWidth="1007.0" style="-fx-border-radius: 2em;" styleClass=".container" stylesheets="@css/style.css">
+      <BorderPane layoutX="-1.0" layoutY="-8.0" prefHeight="753.0" prefWidth="1000.0" style="-fx-border-radius: 2em;" styleClass=".container" stylesheets="@css/style.css" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
          <left>
-            <VBox fillWidth="false" minHeight="800.0" prefHeight="800.0" prefWidth="285.0" style="-fx-background-color: #8f80bf;" BorderPane.alignment="CENTER">
+            <VBox fx:id="" fillWidth="false" minHeight="800.0" prefHeight="800.0" prefWidth="285.0" style="-fx-background-color: #8f80bf;" BorderPane.alignment="CENTER">
                <children>
-                  <Button alignment="BASELINE_LEFT" graphicTextGap="10.0" mnemonicParsing="false" prefHeight="47.0" prefWidth="330.0" styleClass="navigation-button" stylesheets="@css/style.css" text="Home">
+                  <Button fx:id="homeBtn" alignment="BASELINE_LEFT" graphicTextGap="10.0" mnemonicParsing="false" prefHeight="42.0" prefWidth="364.0" styleClass="navigation-button" stylesheets="@css/style.css" text="Home">
                      <graphic>
                         <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true">
                            <image>
@@ -30,7 +36,7 @@
                      <VBox.margin>
                         <Insets />
                      </VBox.margin></Button>
-                  <Button alignment="BASELINE_LEFT" graphicTextGap="10.0" mnemonicParsing="false" prefHeight="47.0" prefWidth="336.0" styleClass="navigation-button" stylesheets="@css/style.css" text="Profile">
+                  <Button fx:id="profileBtn" alignment="BASELINE_LEFT" graphicTextGap="10.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="361.0" styleClass="navigation-button" stylesheets="@css/style.css" text="Profile">
                      <VBox.margin>
                         <Insets />
                      </VBox.margin>
@@ -48,7 +54,7 @@
                         </ImageView>
                      </graphic>
                   </Button>
-                  <Button alignment="BASELINE_LEFT" graphicTextGap="10.0" layoutX="10.0" layoutY="57.0" mnemonicParsing="false" prefHeight="47.0" prefWidth="370.0" styleClass="navigation-button" stylesheets="@css/style.css" text="Users">
+                  <Button fx:id="usersBtn" alignment="BASELINE_LEFT" graphicTextGap="10.0" layoutX="10.0" layoutY="57.0" mnemonicParsing="false" prefHeight="47.0" prefWidth="370.0" styleClass="navigation-button" stylesheets="@css/style.css" text="Users">
                      <padding>
                         <Insets left="30.0" />
                      </padding>
@@ -63,7 +69,7 @@
                         </ImageView>
                      </graphic>
                   </Button>
-                  <Button alignment="BASELINE_LEFT" graphicTextGap="10.0" layoutX="10.0" layoutY="104.0" mnemonicParsing="false" prefHeight="47.0" prefWidth="350.0" styleClass="navigation-button" stylesheets="@css/style.css" text="Jobs">
+                  <Button fx:id="jobsBtn" alignment="BASELINE_LEFT" graphicTextGap="10.0" layoutX="10.0" layoutY="104.0" mnemonicParsing="false" prefHeight="47.0" prefWidth="350.0" styleClass="navigation-button" stylesheets="@css/style.css" text="Jobs">
                      <padding>
                         <Insets left="30.0" />
                      </padding>
@@ -78,7 +84,7 @@
                         </ImageView>
                      </graphic>
                   </Button>
-                  <Button alignment="BASELINE_LEFT" graphicTextGap="10.0" layoutX="10.0" layoutY="151.0" mnemonicParsing="false" prefHeight="47.0" prefWidth="349.0" styleClass="navigation-button" stylesheets="@css/style.css" text="Post a job">
+                  <Button fx:id="postAJobBtn" alignment="BASELINE_LEFT" graphicTextGap="10.0" layoutX="10.0" layoutY="151.0" minHeight="47.0" minWidth="349.0" mnemonicParsing="false" styleClass="navigation-button" stylesheets="@css/style.css" text="Post a job">
                      <padding>
                         <Insets left="30.0" />
                      </padding>
@@ -140,7 +146,7 @@
                </opaqueInsets></VBox>
          </left>
          <top>
-            <HBox minHeight="100.0" minWidth="1100.0" prefHeight="124.0" prefWidth="1100.0" style="-fx-background-color: #53477a;" BorderPane.alignment="CENTER">
+            <HBox minHeight="100.0" minWidth="1100.0" prefHeight="124.0" prefWidth="1100.0" style="-fx-background-color: #53477a;" styleClass="header" BorderPane.alignment="CENTER">
                <children>
                   <ImageView fitHeight="100.0" fitWidth="100.0" pickOnBounds="true" preserveRatio="true">
                      <image>
@@ -158,9 +164,11 @@
                         <Insets top="50.0" />
                      </HBox.margin>
                   </Label>
-                  <HBox fx:id="container" alignment="TOP_RIGHT" fillHeight="false" prefHeight="124.0" prefWidth="709.0">
+                  <HBox fx:id="container" alignment="TOP_RIGHT" fillHeight="false"
+                        minHeight="124.0" minWidth="688.0" prefHeight="124.0" prefWidth="688.0">
                      <children>
-                        <ImageView accessibleRole="BUTTON" fitHeight="50.0" fitWidth="50.0" pickOnBounds="true" preserveRatio="true">
+                        <ImageView accessibleRole="BUTTON" fitHeight="50.0"
+                                   fitWidth="50.0" pickOnBounds="true" preserveRatio="true">
                            <image>
                               <Image url="@icons/x.png" />
                            </image>
@@ -174,21 +182,9 @@
          </top>
          <center>
             <BorderPane prefHeight="761.0" prefWidth="815.0" BorderPane.alignment="CENTER">
-               <top>
-                  <HBox prefHeight="100.0" prefWidth="200.0" style="-fx-background-color: #53477a;" stylesheets="@css/style.css" BorderPane.alignment="CENTER" />
-               </top>
                <center>
-                  <GridPane style="-fx-background-color: #9275bd;" BorderPane.alignment="CENTER">
-                    <columnConstraints>
-                      <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
-                      <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
-                    </columnConstraints>
-                    <rowConstraints>
-                      <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
-                      <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
-                      <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
-                    </rowConstraints>
-                  </GridPane>
+                  <AnchorPane fx:id="contentContainer" prefHeight="800.0" prefWidth="750.0"
+                              style="-fx-background-color: #9275bd;" BorderPane.alignment="CENTER" />
                </center></BorderPane>
          </center>
       </BorderPane>
