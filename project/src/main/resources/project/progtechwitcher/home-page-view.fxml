@@ -6,17 +6,17 @@
 <?import javafx.scene.layout.*?>
 <?import javafx.scene.text.*?>
 
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="736.0" prefWidth="1001.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1">
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="900.0" prefWidth="1100.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1">
    <children>
       <BorderPane layoutX="-1.0" layoutY="-8.0" prefHeight="753.0" prefWidth="1007.0">
          <left>
-            <VBox prefHeight="746.0" prefWidth="281.0" style="-fx-background-color: e10c0f;" BorderPane.alignment="CENTER">
+            <VBox fillWidth="false" minHeight="800.0" prefHeight="896.0" prefWidth="330.0" style="-fx-background-color: e10c0f;" BorderPane.alignment="CENTER">
                <children>
-                  <Button alignment="BASELINE_LEFT" graphicTextGap="10.0" mnemonicParsing="false" prefHeight="47.0" prefWidth="281.0" stylesheets="@css/style.css" text="User">
+                  <Button alignment="BASELINE_LEFT" graphicTextGap="10.0" mnemonicParsing="false" prefHeight="47.0" prefWidth="332.0" styleClass="navigateButton" stylesheets="@css/style.css" text="Home">
                      <graphic>
-                        <ImageView fitHeight="18.0" fitWidth="18.0" pickOnBounds="true" preserveRatio="true">
+                        <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true">
                            <image>
-                              <Image url="@icons/profile.png" />
+                              <Image url="@icons/home.png" />
                            </image>
                         </ImageView>
                      </graphic>
@@ -29,13 +29,177 @@
                      <VBox.margin>
                         <Insets />
                      </VBox.margin></Button>
+                  <Button alignment="BASELINE_LEFT" graphicTextGap="10.0" mnemonicParsing="false" prefHeight="47.0" prefWidth="336.0" styleClass="navigateButton" stylesheets="@css/style.css" text="Profile">
+                     <VBox.margin>
+                        <Insets />
+                     </VBox.margin>
+                     <padding>
+                        <Insets left="30.0" />
+                     </padding>
+                     <font>
+                        <Font name="Arial Bold" size="14.0" />
+                     </font>
+                     <graphic>
+                        <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@icons/profile.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                  </Button>
+                  <Button alignment="BASELINE_LEFT" graphicTextGap="10.0" layoutX="10.0" layoutY="57.0" mnemonicParsing="false" prefHeight="47.0" prefWidth="370.0" styleClass="navigateButton" stylesheets="@css/style.css" text="Users">
+                     <padding>
+                        <Insets left="30.0" />
+                     </padding>
+                     <font>
+                        <Font name="Arial Bold" size="14.0" />
+                     </font>
+                     <graphic>
+                        <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@icons/users.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                  </Button>
+                  <Button alignment="BASELINE_LEFT" graphicTextGap="10.0" layoutX="10.0" layoutY="104.0" mnemonicParsing="false" prefHeight="47.0" prefWidth="350.0" styleClass="navigateButton" stylesheets="@css/style.css" text="Jobs">
+                     <padding>
+                        <Insets left="30.0" />
+                     </padding>
+                     <font>
+                        <Font name="Arial Bold" size="14.0" />
+                     </font>
+                     <graphic>
+                        <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@icons/tasks-icon-17811.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                  </Button>
+                  <Button alignment="BASELINE_LEFT" graphicTextGap="10.0" layoutX="10.0" layoutY="151.0" mnemonicParsing="false" prefHeight="47.0" prefWidth="349.0" styleClass="navigateButton" stylesheets="@css/style.css" text="Post a job">
+                     <padding>
+                        <Insets left="30.0" />
+                     </padding>
+                     <font>
+                        <Font name="Arial Bold" size="14.0" />
+                     </font>
+                     <graphic>
+                        <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@icons/post-a-job.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                  </Button>
+                  <Button alignment="BASELINE_LEFT" graphicTextGap="10.0" layoutX="10.0" layoutY="198.0" mnemonicParsing="false" prefHeight="47.0" prefWidth="362.0" styleClass="navigateButton" stylesheets="@css/style.css" text="Users">
+                     <padding>
+                        <Insets left="30.0" />
+                     </padding>
+                     <font>
+                        <Font name="Arial Bold" size="14.0" />
+                     </font>
+                     <graphic>
+                        <ImageView fitHeight="18.0" fitWidth="18.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@icons/users.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                  </Button>
+                  <Button alignment="BASELINE_LEFT" graphicTextGap="10.0" layoutX="10.0" layoutY="245.0" mnemonicParsing="false" prefHeight="47.0" prefWidth="366.0" styleClass="navigateButton" stylesheets="@css/style.css" text="Users">
+                     <padding>
+                        <Insets left="30.0" />
+                     </padding>
+                     <font>
+                        <Font name="Arial Bold" size="14.0" />
+                     </font>
+                     <graphic>
+                        <ImageView fitHeight="18.0" fitWidth="18.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@icons/users.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                  </Button>
+                  <Button alignment="BASELINE_LEFT" graphicTextGap="10.0" layoutX="10.0" layoutY="292.0" mnemonicParsing="false" prefHeight="47.0" prefWidth="356.0" styleClass="navigateButton" stylesheets="@css/style.css" text="Users">
+                     <padding>
+                        <Insets left="30.0" />
+                     </padding>
+                     <font>
+                        <Font name="Arial Bold" size="14.0" />
+                     </font>
+                     <graphic>
+                        <ImageView fitHeight="18.0" fitWidth="18.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@icons/users.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                  </Button>
+                  <TextField prefHeight="30.0" prefWidth="250.0" promptText="\@Username">
+                     <opaqueInsets>
+                        <Insets />
+                     </opaqueInsets>
+                     <VBox.margin>
+                        <Insets bottom="10.0" top="150.0" />
+                     </VBox.margin>
+                     <font>
+                        <Font name="Arial" size="12.0" />
+                     </font>
+                     <BorderPane.margin>
+                        <Insets left="10.0" />
+                     </BorderPane.margin>
+                  </TextField>
+                  <TextField layoutX="10.0" layoutY="386.0" prefHeight="30.0" prefWidth="250.0" promptText="\@Passord">
+                     <VBox.margin>
+                        <Insets bottom="10.0" />
+                     </VBox.margin>
+                     <font>
+                        <Font name="Arial" size="12.0" />
+                     </font>
+                  </TextField>
+                  <Button alignment="CENTER" minWidth="200.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="200.0" styleClass="loginAndLogoutButton" stylesheets="@css/style.css" text="Login">
+                     <opaqueInsets>
+                        <Insets />
+                     </opaqueInsets>
+                  </Button>
                </children></VBox>
          </left>
          <top>
-            <HBox prefHeight="80.0" prefWidth="1007.0" style="-fx-background-color: #b50c0f;" BorderPane.alignment="CENTER" />
+            <HBox minHeight="100.0" minWidth="1100.0" prefHeight="100.0" prefWidth="1100.0" style="-fx-background-color: #b50c0f;" BorderPane.alignment="CENTER">
+               <children>
+                  <ImageView fitHeight="100.0" fitWidth="100.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@icons/witcher-logo.png" />
+                     </image>
+                     <HBox.margin>
+                        <Insets bottom="10.0" left="30.0" right="30.0" top="30.0" />
+                     </HBox.margin>
+                  </ImageView>
+                  <Label alignment="BASELINE_LEFT" text="ProgtechProject">
+                     <font>
+                        <Font name="Comic Sans MS" size="30.0" />
+                     </font>
+                     <HBox.margin>
+                        <Insets top="50.0" />
+                     </HBox.margin>
+                  </Label>
+                  <ImageView accessibleRole="BUTTON" fitHeight="50.0" fitWidth="50.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@icons/x.png" />
+                     </image>
+                     <HBox.margin>
+                        <Insets left="600.0" />
+                     </HBox.margin>
+                  </ImageView>
+               </children></HBox>
          </top>
          <center>
-            <VBox prefHeight="200.0" prefWidth="100.0" BorderPane.alignment="CENTER" />
+            <BorderPane prefHeight="900.0" prefWidth="1000.0" BorderPane.alignment="CENTER">
+               <top>
+                  <HBox prefHeight="100.0" prefWidth="200.0" style="-fx-background-color: #b50c0f;" stylesheets="@css/style.css" BorderPane.alignment="CENTER" />
+               </top></BorderPane>
          </center>
       </BorderPane>
    </children>

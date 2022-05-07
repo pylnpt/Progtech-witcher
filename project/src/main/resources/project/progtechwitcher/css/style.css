@@ -1,18 +1,26 @@
-.button {
+
+.loginAndLogoutButton {
+    -fx-background-color: #9d54a8;
+    -fx-color: #fff;
+    -fx-border-radius: 10px;
+    -fx-margin: 0, 0, 0, 50px;
+}
+
+.navigateButton {
     -fx-background-color: #38ba3c;
     -fx-background-radius: 0em;
 }
 
-.button:hover{
+.navigateButton:hover{
     -fx-background-color: #0a7016;
 }
 
-.button:pressed{
+.navigateButton:pressed{
     -fx-background-color: #7156DD;
 }
 
-.button:focused{
-    -fx-background-color: #7D6CC8;
+.navigateButton:focused{
+    -fx-background-color: #b50c0f;
     -fx-border-color: #CDD1D6;
     -fx-border-width: 0px 0px 0px 3px;
 }
