@@ -1,28 +1,34 @@
-
-.loginAndLogoutButton {
-    -fx-background-color: #9d54a8;
+.container {
+    -fx-background-radius: 2em;
+}
+.authentication-input {
+    -fx-background-radius: 2em;
+    -fx-background-color: #53477a;
+}
+.login-and-logout-button {
+    -fx-background-color: #53477a;
     -fx-color: #fff;
-    -fx-border-radius: 10px;
-    -fx-margin: 0, 0, 0, 50px;
+    -fx-background-radius: 2em;
 }
 
-.navigateButton {
-    -fx-background-color: #38ba3c;
+.navigation-button {
+    -fx-background-color: #8f80bf;
     -fx-background-radius: 0em;
 }
 
-.navigateButton:hover{
-    -fx-background-color: #0a7016;
+.navigation-button:hover{
+    -fx-background-color: #ff9808;
 }
 
-.navigateButton:pressed{
+.navigation-button:pressed{
     -fx-background-color: #7156DD;
 }
 
-.navigateButton:focused{
-    -fx-background-color: #b50c0f;
+.navigation-button:focused{
+    -fx-background-color: #53477a;
     -fx-border-color: #CDD1D6;
     -fx-border-width: 0px 0px 0px 3px;
+    -fx-text-fill: #ff9808;
 }
 
 .table-view.column-header,
