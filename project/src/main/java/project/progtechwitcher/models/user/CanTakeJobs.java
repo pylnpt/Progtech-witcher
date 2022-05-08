@@ -1,9 +1,11 @@
 package progtechbead.progtechapp.models.user;
 
+import  progtechbead.progtechapp.models.user.UserBase;
+import  progtechbead.progtechapp.models.user.RoleBase;
 import progtechbead.progtechapp.models.Jobs;
 
-public class CanTakeJobs extends RoleBase{
-    private UserBase user;
+public class CanTakeJobs extends progtechbead.progtechapp.models.user.RoleBase {
+    private progtechbead.progtechapp.models.user.UserBase user;
     public CanTakeJobs(UserBase user) {
         super(user);
     }

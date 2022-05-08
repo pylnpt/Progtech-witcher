@@ -7,28 +7,22 @@
 <?import javafx.scene.layout.*?>
 <?import javafx.scene.text.*?>
 
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity"
-            minHeight="-Infinity" minWidth="-Infinity"
-            prefHeight="900.0" prefWidth="1100.0"
-            stylesheets="@css/style.css"
-            xmlns="http://javafx.com/javafx/16"
-            xmlns:fx="http://javafx.com/fxml/1"
-            fx:controller="project.progtechwitcher.HomePageController">
+<AnchorPane fx:id="mainFrame" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="900.0" prefWidth="1100.0" stylesheets="@../css/style.css" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="project.progtechwitcher.MainController">
    <children>
-      <BorderPane layoutX="-1.0" layoutY="-8.0" prefHeight="753.0" prefWidth="1000.0" style="-fx-border-radius: 2em;" styleClass=".container" stylesheets="@css/style.css" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+      <BorderPane layoutX="-1.0" layoutY="-8.0" prefHeight="753.0" prefWidth="1000.0" style="-fx-border-radius: 2em;" styleClass=".container" stylesheets="@../css/style.css" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
          <left>
             <VBox fx:id="" fillWidth="false" minHeight="800.0" prefHeight="800.0" prefWidth="285.0" style="-fx-background-color: #8f80bf;" BorderPane.alignment="CENTER">
                <children>
-                  <Button fx:id="homeBtn" alignment="BASELINE_LEFT" graphicTextGap="10.0" mnemonicParsing="false" prefHeight="42.0" prefWidth="364.0" styleClass="navigation-button" stylesheets="@css/style.css" text="Home">
+                  <Button fx:id="homeBtn" alignment="BASELINE_LEFT" graphicTextGap="10.0" mnemonicParsing="false" prefHeight="65.0" prefWidth="350.0" styleClass="navigation-button" stylesheets="@../css/style.css" text="Home">
                      <graphic>
                         <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true">
                            <image>
-                              <Image url="@icons/home.png" />
+                              <Image url="@../icons/home.png" />
                            </image>
                         </ImageView>
                      </graphic>
                      <font>
-                        <Font name="Arial Bold" size="14.0" />
+                        <Font name="Arial Bold" size="18.0" />
                      </font>
                      <padding>
                         <Insets left="30.0" />
@@ -36,7 +30,52 @@
                      <VBox.margin>
                         <Insets />
                      </VBox.margin></Button>
-                  <Button fx:id="profileBtn" alignment="BASELINE_LEFT" graphicTextGap="10.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="361.0" styleClass="navigation-button" stylesheets="@css/style.css" text="Profile">
+                  <Button fx:id="jobsBtn" alignment="BASELINE_LEFT" graphicTextGap="10.0" layoutX="10.0" layoutY="104.0" mnemonicParsing="false" prefHeight="65.0" prefWidth="350.0" styleClass="navigation-button" stylesheets="@../css/style.css" text="Jobs">
+                     <padding>
+                        <Insets left="30.0" />
+                     </padding>
+                     <font>
+                        <Font name="Arial Bold" size="18.0" />
+                     </font>
+                     <graphic>
+                        <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../icons/tasks-icon-17811.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                  </Button>
+                  <Button fx:id="postAJobBtn" alignment="BASELINE_LEFT" graphicTextGap="10.0" layoutX="10.0" layoutY="151.0" minHeight="47.0" minWidth="350.0" mnemonicParsing="false" prefHeight="65.0" prefWidth="350.0" styleClass="navigation-button" stylesheets="@../css/style.css" text="Post a job">
+                     <padding>
+                        <Insets left="30.0" />
+                     </padding>
+                     <font>
+                        <Font name="Arial Bold" size="18.0" />
+                     </font>
+                     <graphic>
+                        <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../icons/post-a-job.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                  </Button>
+                  <Button fx:id="registerBtn" alignment="BASELINE_LEFT" graphicTextGap="10.0" layoutX="10.0" layoutY="170.0" minHeight="47.0" minWidth="350.0" mnemonicParsing="false" prefHeight="65.0" prefWidth="350.0" styleClass="navigation-button" stylesheets="@../css/style.css" text="Register">
+                     <padding>
+                        <Insets left="30.0" />
+                     </padding>
+                     <font>
+                        <Font name="Arial Bold" size="18.0" />
+                     </font>
+                     <graphic>
+                        <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../icons/register.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                  </Button>
+                  <Button fx:id="profileBtn" alignment="BASELINE_LEFT" graphicTextGap="10.0" mnemonicParsing="false" prefHeight="65.0" prefWidth="350.0" styleClass="navigation-button" stylesheets="@../css/style.css" text="Profile">
                      <VBox.margin>
                         <Insets />
                      </VBox.margin>
@@ -44,57 +83,27 @@
                         <Insets left="30.0" />
                      </padding>
                      <font>
-                        <Font name="Arial Bold" size="14.0" />
+                        <Font name="Arial Bold" size="18.0" />
                      </font>
                      <graphic>
                         <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true">
                            <image>
-                              <Image url="@icons/profile.png" />
+                              <Image url="@../icons/profile.png" />
                            </image>
                         </ImageView>
                      </graphic>
                   </Button>
-                  <Button fx:id="usersBtn" alignment="BASELINE_LEFT" graphicTextGap="10.0" layoutX="10.0" layoutY="57.0" mnemonicParsing="false" prefHeight="47.0" prefWidth="370.0" styleClass="navigation-button" stylesheets="@css/style.css" text="Users">
+                  <Button fx:id="usersBtn" alignment="BASELINE_LEFT" graphicTextGap="10.0" layoutX="10.0" layoutY="57.0" mnemonicParsing="false" prefHeight="65.0" prefWidth="350.0" styleClass="navigation-button" stylesheets="@../css/style.css" text="Users">
                      <padding>
                         <Insets left="30.0" />
                      </padding>
                      <font>
-                        <Font name="Arial Bold" size="14.0" />
+                        <Font name="Arial Bold" size="18.0" />
                      </font>
                      <graphic>
                         <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true">
                            <image>
-                              <Image url="@icons/users.png" />
-                           </image>
-                        </ImageView>
-                     </graphic>
-                  </Button>
-                  <Button fx:id="jobsBtn" alignment="BASELINE_LEFT" graphicTextGap="10.0" layoutX="10.0" layoutY="104.0" mnemonicParsing="false" prefHeight="47.0" prefWidth="350.0" styleClass="navigation-button" stylesheets="@css/style.css" text="Jobs">
-                     <padding>
-                        <Insets left="30.0" />
-                     </padding>
-                     <font>
-                        <Font name="Arial Bold" size="14.0" />
-                     </font>
-                     <graphic>
-                        <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true">
-                           <image>
-                              <Image url="@icons/tasks-icon-17811.png" />
-                           </image>
-                        </ImageView>
-                     </graphic>
-                  </Button>
-                  <Button fx:id="postAJobBtn" alignment="BASELINE_LEFT" graphicTextGap="10.0" layoutX="10.0" layoutY="151.0" minHeight="47.0" minWidth="349.0" mnemonicParsing="false" styleClass="navigation-button" stylesheets="@css/style.css" text="Post a job">
-                     <padding>
-                        <Insets left="30.0" />
-                     </padding>
-                     <font>
-                        <Font name="Arial Bold" size="14.0" />
-                     </font>
-                     <graphic>
-                        <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true">
-                           <image>
-                              <Image url="@icons/post-a-job.png" />
+                              <Image url="@../icons/users.png" />
                            </image>
                         </ImageView>
                      </graphic>
@@ -128,7 +137,7 @@
                               <String fx:value="authentication-input" />
                            </styleClass>
                         </TextField>
-                        <Button alignment="CENTER" minWidth="200.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="200.0" styleClass="login-and-logout-button" stylesheets="@css/style.css" text="Login" textFill="WHITE">
+                        <Button alignment="CENTER" minWidth="200.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="200.0" styleClass="login-and-logout-button" stylesheets="@../css/style.css" text="Login" textFill="WHITE">
                            <opaqueInsets>
                               <Insets />
                            </opaqueInsets>
@@ -138,7 +147,7 @@
                         </Button>
                      </children>
                      <VBox.margin>
-                        <Insets top="400.0" />
+                        <Insets top="200.0" />
                      </VBox.margin></VBox>
                </children>
                <opaqueInsets>
@@ -150,7 +159,7 @@
                <children>
                   <ImageView fitHeight="100.0" fitWidth="100.0" pickOnBounds="true" preserveRatio="true">
                      <image>
-                        <Image url="@icons/witcher-logo.png" />
+                        <Image url="@../icons/witcher-logo.png" />
                      </image>
                      <HBox.margin>
                         <Insets bottom="10.0" left="30.0" right="30.0" top="30.0" />
@@ -164,13 +173,11 @@
                         <Insets top="50.0" />
                      </HBox.margin>
                   </Label>
-                  <HBox fx:id="container" alignment="TOP_RIGHT" fillHeight="false"
-                        minHeight="124.0" minWidth="688.0" prefHeight="124.0" prefWidth="688.0">
+                  <HBox fx:id="container" alignment="TOP_RIGHT" fillHeight="false" minHeight="124.0" minWidth="688.0" prefHeight="124.0" prefWidth="688.0">
                      <children>
-                        <ImageView accessibleRole="BUTTON" fitHeight="50.0"
-                                   fitWidth="50.0" pickOnBounds="true" preserveRatio="true">
+                        <ImageView accessibleRole="BUTTON" fitHeight="50.0" fitWidth="50.0" pickOnBounds="true" preserveRatio="true">
                            <image>
-                              <Image url="@icons/x.png" />
+                              <Image url="@../icons/x.png" />
                            </image>
                            <HBox.margin>
                               <Insets left="600.0" />
@@ -183,8 +190,7 @@
          <center>
             <BorderPane prefHeight="761.0" prefWidth="815.0" BorderPane.alignment="CENTER">
                <center>
-                  <AnchorPane fx:id="contentContainer" prefHeight="800.0" prefWidth="750.0"
-                              style="-fx-background-color: #9275bd;" BorderPane.alignment="CENTER" />
+                  <AnchorPane fx:id="contentContainer" minHeight="750.0" minWidth="750.0" prefHeight="750.0" prefWidth="750.0" style="-fx-background-color: #9275bd;" BorderPane.alignment="CENTER" />
                </center></BorderPane>
          </center>
       </BorderPane>
