@@ -6,6 +6,9 @@ import project.progtechwitcher.models.user.*;
 
 public class ConnectToDatabase {
 
+    private ConnectToDatabase() {
+    }
+
     private static String url = "jdbc:mysql://localhost:3306/progtech";
     private static String user = "root";
     private static String pwd = "";
