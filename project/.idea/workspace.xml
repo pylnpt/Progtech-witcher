@@ -4,44 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="80e184c2-d335-4b4f-9197-4274d58e0ef9" name="Changes" comment="I made the project responsive and made a basic navigation for the main frame.">
-      <change afterPath="$PROJECT_DIR$/src/main/java/project/progtechwitcher/Controllers/HomeController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/project/progtechwitcher/Controllers/PostAJobController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/project/progtechwitcher/Controllers/ProfileController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/project/progtechwitcher/Controllers/RegisterController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/project/progtechwitcher/Controllers/UsersController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/project/progtechwitcher/Views/HomeView.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/project/progtechwitcher/Views/PostAJobView.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/project/progtechwitcher/Views/ProfileView.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/project/progtechwitcher/Views/RegisterView.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/project/progtechwitcher/Views/UsersView.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/project/progtechwitcher/fxml/home-view.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/project/progtechwitcher/fxml/post-a-job-view.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/project/progtechwitcher/fxml/profile-view.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/project/progtechwitcher/fxml/register-view.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/project/progtechwitcher/fxml/users-view.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/project/progtechwitcher/icons/register.png" afterDir="false" />
+    <list default="true" id="80e184c2-d335-4b4f-9197-4274d58e0ef9" name="Changes" comment="Created MVC folder structure.">
+      <change afterPath="$PROJECT_DIR$/src/main/resources/project/progtechwitcher/fxml/home-page-view.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/module-info.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/project/progtechwitcher/HomePageController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/project/progtechwitcher/MainController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/project/progtechwitcher/HomePageView.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/project/progtechwitcher/JobsController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/project/progtechwitcher/Controllers/JobsController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/project/progtechwitcher/JobsView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/project/progtechwitcher/Views/JobsView.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/project/progtechwitcher/NavigationController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/project/progtechwitcher/models/user/CanTakeJobs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/project/progtechwitcher/models/user/CanTakeJobs.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/project/progtechwitcher/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/project/progtechwitcher/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/project/progtechwitcher/home-page-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/project/progtechwitcher/fxml/home-page-view.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/project/progtechwitcher/jobs-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/project/progtechwitcher/fxml/jobs-view.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/module-info.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/module-info.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/project/progtechwitcher/HomePageController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/project/progtechwitcher/HomePageView.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/project/progtechwitcher/JobsController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/project/progtechwitcher/JobsView.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/project/progtechwitcher/NavigationController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/project/progtechwitcher/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/project/progtechwitcher/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/project/progtechwitcher/home-page-view.fxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/project/progtechwitcher/jobs-view.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/progtechbead/progtechapp/models/user/CanTakeJobs.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/progtechbead/progtechapp/models/user/CanTakeJobs.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -92,7 +58,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.externalResources" />
+    <property name="settings.editor.selected.configurable" value="preferences.JavaFX" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -207,7 +173,14 @@
       <option name="project" value="LOCAL" />
       <updated>1651965766777</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Created MVC folder structure.">
+      <created>1652038449371</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1652038449371</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -225,7 +198,8 @@
     <MESSAGE value="Started Layout of the UI.&#10;-&gt; Created a HomeView (WIP)&#10;-&gt; Created a Controller to the view(WIP)&#10;&#10;-&gt; created a style.css which is going to handle the styling of the UI." />
     <MESSAGE value="The base layout of the project is done, but it still needs some modification.&#10;For example the Authentication section's design, rework of the background and compontents's colors.&#10;Also some Icons(in .png file extension) has been added to the resources in the &quot;icons&quot; directory." />
     <MESSAGE value="I made the project responsive and made a basic navigation for the main frame." />
-    <option name="LAST_COMMIT_MESSAGE" value="I made the project responsive and made a basic navigation for the main frame." />
+    <MESSAGE value="Created MVC folder structure." />
+    <option name="LAST_COMMIT_MESSAGE" value="Created MVC folder structure." />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
