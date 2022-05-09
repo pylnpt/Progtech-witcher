@@ -6,6 +6,9 @@ import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.stage.Stage;
 import javafx.stage.StageStyle;
+import project.progtechwitcher.Database.ConnectToDatabase;
+import project.progtechwitcher.models.Jobs;
+import project.progtechwitcher.models.user.UserBase;
 
 import java.io.IOException;
 import java.util.Objects;
@@ -37,5 +40,17 @@ public class Main extends Application {
         stage.show();
     }
 
-    public static void main(String[] args) { launch(); }
+    public static void main(String[] args) throws Exception {
+        ConnectToDatabase.GetJobs(0, ConnectToDatabase.jobs, 'a');
+        for(Jobs x:ConnectToDatabase.jobs)
+        {
+            System.out.println(x.toString());
+        }
+        ConnectToDatabase.GetUsers();
+        for(UserBase x:ConnectToDatabase.users)
+        {
+            System.out.println(x.toString());
+        }
+        launch();
+    }
 }

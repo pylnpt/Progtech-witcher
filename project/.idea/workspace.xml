@@ -4,10 +4,37 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="80e184c2-d335-4b4f-9197-4274d58e0ef9" name="Changes" comment="Created MVC folder structure.">
-      <change afterPath="$PROJECT_DIR$/src/main/resources/project/progtechwitcher/fxml/home-page-view.fxml" afterDir="false" />
+    <list default="true" id="05cb5648-eda6-4c6c-9877-ff37a4422db0" name="Changes" comment="I made the project responsive and made a basic navigation for the main frame.">
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/ojdbc11.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/project/progtechwitcher/Database/ConnectToDatabase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/progtechbead/progtechapp/models/user/CanTakeJobs.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/progtechbead/progtechapp/models/user/CanTakeJobs.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project.iml" beforeDir="false" afterPath="$PROJECT_DIR$/project.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/module-info.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/project/progtechwitcher/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/project/progtechwitcher/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/project/progtechwitcher/models/Jobs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/project/progtechwitcher/models/Jobs.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/project/progtechwitcher/models/user/Admin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/project/progtechwitcher/models/user/Admin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/project/progtechwitcher/models/user/CanAdvertiseJobs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/project/progtechwitcher/models/user/CanAdvertiseJobs.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/project/progtechwitcher/models/user/CanTakeJobs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/project/progtechwitcher/models/user/CanTakeJobs.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/project/progtechwitcher/models/user/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/project/progtechwitcher/models/user/Employee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/project/progtechwitcher/models/user/Employer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/project/progtechwitcher/models/user/Employer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/project/progtechwitcher/models/user/Role.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/project/progtechwitcher/models/user/Role.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/project/progtechwitcher/models/user/RoleBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/project/progtechwitcher/models/user/RoleBase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/project/progtechwitcher/models/user/UserBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/project/progtechwitcher/models/user/UserBase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/module-info.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/module-info.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/progtechbead/progtechapp/models/Jobs.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/progtechbead/progtechapp/models/user/Admin.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/progtechbead/progtechapp/models/user/CanAdvertiseJobs.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/progtechbead/progtechapp/models/user/CanTakeJobs.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/progtechbead/progtechapp/models/user/Employee.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/progtechbead/progtechapp/models/user/Employer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/progtechbead/progtechapp/models/user/Role.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/progtechbead/progtechapp/models/user/RoleBase.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/progtechbead/progtechapp/models/user/UserBase$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/progtechbead/progtechapp/models/user/UserBase.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/project/progtechwitcher/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/project/progtechwitcher/Main.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,17 +78,20 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources/project/progtechwitcher/icons" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/mysql-connector-java-8.0.29/mysql-connector-java-8.0.29.jar" />
+    <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.JavaFX" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Dorina\Documents\GitHub\Progtech-witcher\project\src\main\java\project\progtechwitcher" />
+      <recent name="C:\Users\Dorina\Documents\GitHub\Progtech-witcher\project\src\main\java\project\progtechwitcher\models" />
       <recent name="C:\Users\Admin\Desktop\Progtech-witcher\project\src\main\resources\project\progtechwitcher\icons" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -193,6 +223,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Started Layout of the UI.&#10;-&gt; Created a HomeView (WIP)&#10;-&gt; Created a Controller to the view(WIP)&#10;&#10;-&gt; created a style.css which is going to handle the styling of the UI." />
