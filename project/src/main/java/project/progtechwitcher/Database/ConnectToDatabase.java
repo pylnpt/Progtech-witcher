@@ -1,6 +1,9 @@
 package project.progtechwitcher.Database;
 import java.sql.*;
 import java.util.ArrayList;
+
+
+import project.progtechwitcher.Logging.Log;
 import project.progtechwitcher.models.Jobs;
 import project.progtechwitcher.models.user.*;
 
@@ -14,61 +17,17 @@ public class ConnectToDatabase {
     private static String pwd = "";
     private static String driver= "com.mysql.cj.jdbc.Driver";
 
-    public static void TestConnection() {
-//        String url = "jdbc:mariadb//localhost:3306/progtech";
-//        String user = "root";
-//        String pwd = "";
-//        Class.forName("com.mysql.cj.jdbc.Driver");
-//        Connection conn = DriverManager.getConnection(url, user, pwd);
-//        Statement st = conn.createStatement();
-//        String query="select * from users";
-//        ResultSet rs = st.executeQuery(query);
-//        while(rs.next())
-//        {
-//            System.out.println(rs.getInt(2));
-//        }
-//        st.close();
-//        conn.close();
-
-        try {
-            Class.forName("com.mysql.cj.jdbc.Driver");
-        } catch (ClassNotFoundException e) {
-            System.out.println("Where is your MySQL JDBC Driver?");
-            e.printStackTrace();
-            return;
-        }
-
-        System.out.println("MySQL JDBC Driver Registered!");
-        Connection connection = null;
-
-        try {
-            connection = DriverManager
-                    .getConnection(url,user, pwd);
-
-        } catch (SQLException e) {
-            System.out.println("Connection Failed! Check output console");
-            e.printStackTrace();
-            return;
-        }
-
-        if (connection != null) {
-            System.out.println("You made it, take control your database now!");
-        } else {
-            System.out.println("Failed to make connection!");
-        }
-    }
-
     public static ArrayList<Jobs> jobs = new ArrayList<Jobs>();
     public static ArrayList<UserBase> users = new ArrayList<UserBase>();
 
-    public static void GetJobs(int inputId, ArrayList<Jobs> jobs, char type) throws Exception {
-
+    private static Connection ConnectToDb()
+    {
         try {
             Class.forName(driver);
         } catch (ClassNotFoundException e) {
-            //log
+
             e.printStackTrace();
-            return;
+            Log.Error(e.getMessage());
         }
 
         Connection connection = null;
@@ -78,12 +37,18 @@ public class ConnectToDatabase {
                     .getConnection(url,user, pwd);
 
         } catch (SQLException e) {
-            //log
+            Log.Error("Connecting to database failed");
             e.printStackTrace();
-            return;
         }
+        return connection;
+    }
+
+    public static final void GetJobs(int inputId, ArrayList<Jobs> jobs, char type){
+
+        Connection connection = ConnectToDb();
 
         if (connection != null) {
+            Log.Info("Connected to database");
             try {
                 Statement st = connection.createStatement();
                 String query;
@@ -142,36 +107,25 @@ public class ConnectToDatabase {
             catch (SQLException e)
             {
                 System.out.println(e);
-                //Log
+                Log.Error("Some error occured in database connection");
+            }
+            catch (Exception e)
+            {
+                System.out.println(e);
+                Log.Error("Some error occured while getting data from Jobs table");
             }
         } else {
-            //log??
-            System.out.println("Failed to make connection!");
+            System.out.println("Failed to make connection");
+            Log.Error("Failed to make connection");
         }
     }
 
-    public static void GetUsers() throws Exception {
-        try {
-            Class.forName(driver);
-        } catch (ClassNotFoundException e) {
-            //log
-            e.printStackTrace();
-            return;
-        }
+    public static void GetUsers(){
 
-        Connection connection = null;
-
-        try {
-            connection = DriverManager
-                    .getConnection(url,user, pwd);
-
-        } catch (SQLException e) {
-            //log
-            e.printStackTrace();
-            return;
-        }
+        Connection connection = ConnectToDb();
 
         if (connection != null) {
+            Log.Info("Connected to database");
             try {
                 Statement st = connection.createStatement();
                 String query = "select * from users";
@@ -235,11 +189,16 @@ public class ConnectToDatabase {
             }catch (SQLException e)
             {
                 System.out.println(e);
-                //Log
+                Log.Error("Some error occured in database connection");
+            }
+            catch (Exception e)
+            {
+                System.out.println(e);
+                Log.Error("Some error occured while getting data from Users table");
             }
         } else {
-            //log??
             System.out.println("Failed to make connection!");
+            Log.Error("Failed to make connection");
         }
 
     }
