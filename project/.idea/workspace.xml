@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="80e184c2-d335-4b4f-9197-4274d58e0ef9" name="Changes" comment="Created MVC folder structure.">
-      <change afterPath="$PROJECT_DIR$/src/main/resources/project/progtechwitcher/fxml/home-page-view.fxml" afterDir="false" />
+    <list default="true" id="05cb5648-eda6-4c6c-9877-ff37a4422db0" name="Changes" comment="Database things">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/progtechbead/progtechapp/models/user/CanTakeJobs.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/progtechbead/progtechapp/models/user/CanTakeJobs.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,17 +49,19 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources/project/progtechwitcher/icons" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/mysql-connector-java-8.0.29/mysql-connector-java-8.0.29.jar" />
+    <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.JavaFX" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Dorina\Documents\GitHub\Progtech-witcher\project\src\main\java\project\progtechwitcher" />
+      <recent name="C:\Users\Dorina\Documents\GitHub\Progtech-witcher\project\src\main\java\project\progtechwitcher\models" />
       <recent name="C:\Users\Admin\Desktop\Progtech-witcher\project\src\main\resources\project\progtechwitcher\icons" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -180,7 +180,21 @@
       <option name="project" value="LOCAL" />
       <updated>1652038449371</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Database things">
+      <created>1652088407687</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1652088407687</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Database things">
+      <created>1652088437864</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1652088437864</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -193,13 +207,15 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Started Layout of the UI.&#10;-&gt; Created a HomeView (WIP)&#10;-&gt; Created a Controller to the view(WIP)&#10;&#10;-&gt; created a style.css which is going to handle the styling of the UI." />
     <MESSAGE value="The base layout of the project is done, but it still needs some modification.&#10;For example the Authentication section's design, rework of the background and compontents's colors.&#10;Also some Icons(in .png file extension) has been added to the resources in the &quot;icons&quot; directory." />
     <MESSAGE value="I made the project responsive and made a basic navigation for the main frame." />
     <MESSAGE value="Created MVC folder structure." />
-    <option name="LAST_COMMIT_MESSAGE" value="Created MVC folder structure." />
+    <MESSAGE value="Database things" />
+    <option name="LAST_COMMIT_MESSAGE" value="Database things" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

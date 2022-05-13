@@ -9,6 +9,7 @@ module project.progtechwitcher {
     requires org.kordamp.ikonli.javafx;
     requires org.kordamp.bootstrapfx.core;
     requires eu.hansolo.tilesfx;
+    requires java.sql;
 
     opens project.progtechwitcher to javafx.fxml;
     exports project.progtechwitcher;

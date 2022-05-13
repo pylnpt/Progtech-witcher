@@ -1,5 +1,5 @@
-package progtechbead.progtechapp.models.user;
-import progtechbead.progtechapp.models.Jobs;
+package project.progtechwitcher.models.user;
+import project.progtechwitcher.models.Jobs;
 
 import java.util.ArrayList;
 
@@ -13,6 +13,19 @@ public abstract class UserBase {
     public ArrayList<Jobs> takenJobs;
     public ArrayList<Jobs> advertisedJobs;
 
+    @Override
+    public String toString() {
+        return "UserBase{" +
+                "id=" + id +
+                ", username='" + username + '\'' +
+                ", password='" + password + '\'' +
+                ", role=" + role +
+                ", level=" + level +
+                ", takenJobs=" + takenJobs +
+                ", advertisedJobs=" + advertisedJobs +
+                '}';
+    }
+
     public UserBase(String username, Role role) {
         setUsername(username);
         setRole(role);
@@ -20,13 +33,17 @@ public abstract class UserBase {
         {
             case ADMIN:
             {
-                this.takenJobs = new ArrayList<Jobs>();
-                this.advertisedJobs = new ArrayList<Jobs>();
+//                this.takenJobs = new ArrayList<Jobs>();
+//                this.advertisedJobs = new ArrayList<Jobs>();
                 setLevel(100);
                 break;
             }
-            case EMPLOYEE, EMPLOYER: {
+            case EMPLOYEE: {
                 this.takenJobs = new ArrayList<Jobs>();
+                break;
+            }
+            case EMPLOYER:
+            {
                 this.advertisedJobs = new ArrayList<Jobs>();
                 break;
             }

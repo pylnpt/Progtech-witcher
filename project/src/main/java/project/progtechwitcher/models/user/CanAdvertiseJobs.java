@@ -1,6 +1,6 @@
-package progtechbead.progtechapp.models.user;
+package project.progtechwitcher.models.user;
 
-import progtechbead.progtechapp.models.Jobs;
+import project.progtechwitcher.models.Jobs;
 
 public class CanAdvertiseJobs extends RoleBase{
     private UserBase user;
