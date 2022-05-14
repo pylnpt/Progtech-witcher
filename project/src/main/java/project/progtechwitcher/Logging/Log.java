@@ -2,7 +2,6 @@ package project.progtechwitcher.Logging;
 import org.apache.log4j.*;
 
 import java.io.File;
-import java.io.IOException;
 
 //Azért egy külön osztály, hogy ne kelljen mindenhova importálni a felső 2 osztályt + létrehozni egy loggert.
 //https://www.youtube.com/watch?v=uco-a7c6U8w&t=47s
@@ -10,7 +9,7 @@ public class Log {
     private static final Logger log = LogManager.getRootLogger();
     private static final ConsoleAppender appender = new ConsoleAppender();
     private static final FileAppender fileAppender = new FileAppender();
-    private static String filePath = "C:\\Program Files\\WitcherApp";
+    private static String filePath = ".\\src\\main\\java\\project\\progtechwitcher\\Logging\\LogFiles";
     private static String fileName = "log.txt";
 
     public static void CreateLogFile(){

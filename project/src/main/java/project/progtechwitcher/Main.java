@@ -7,6 +7,7 @@ import javafx.scene.Scene;
 import javafx.stage.Stage;
 import javafx.stage.StageStyle;
 import project.progtechwitcher.Database.ConnectToDatabase;
+import project.progtechwitcher.Logging.Log;
 import project.progtechwitcher.models.Jobs;
 import project.progtechwitcher.models.user.UserBase;
 
@@ -51,6 +52,7 @@ public class Main extends Application {
         {
             System.out.println(x.toString());
         }
+        Log.CreateLogFile();
         launch();
     }
 }
