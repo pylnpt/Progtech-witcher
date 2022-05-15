@@ -10,7 +10,7 @@ module project.progtechwitcher {
     requires org.kordamp.bootstrapfx.core;
     requires eu.hansolo.tilesfx;
     requires java.sql;
-    requires org.apache.log4j;
+    requires org.apache.logging.log4j;
 
     opens project.progtechwitcher to javafx.fxml;
     exports project.progtechwitcher;
