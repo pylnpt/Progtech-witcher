@@ -35,7 +35,11 @@ public class ConnectToDatabase {
                     .getConnection(url,user, pwd);
 
         } catch (SQLException e) {
-            Log.Error(ConnectToDatabase.class,"Failed to make connection");
+            Log.Error(ConnectToDatabase.class,e.getMessage());
+        }
+        if(connection != null)
+        {
+            Log.Info(ConnectToDatabase.class, "Connected to Database");
         }
         return connection;
     }
@@ -45,7 +49,6 @@ public class ConnectToDatabase {
         Connection connection = ConnectToDb();
 
         if (connection != null) {
-            Log.Info(ConnectToDatabase.class,"Connected to database");
             try {
                 Statement st = connection.createStatement();
                 String query;
@@ -97,23 +100,19 @@ public class ConnectToDatabase {
                     jobs.add(j);
                 }
                 st.close();
-
                 connection.close();
-
+                Log.Info(ConnectToDatabase.class, "Getting data from Jobs table was successful");
             }
             catch (SQLException e)
             {
                 System.out.println(e);
-                Log.Error(ConnectToDatabase.class,"Some error occured in database connection");
+                Log.Error(ConnectToDatabase.class,e.getMessage());
             }
             catch (Exception e)
             {
                 System.out.println(e);
                 Log.Error(ConnectToDatabase.class,"Some error occured while getting data from Jobs table");
             }
-        } else {
-            System.out.println("Failed to make connection");
-            Log.Error(ConnectToDatabase.class,"Failed to make connection");
         }
     }
 
@@ -122,7 +121,6 @@ public class ConnectToDatabase {
         Connection connection = ConnectToDb();
 
         if (connection != null) {
-            Log.Info(ConnectToDatabase.class,"Connected to database");
             try {
                 Statement st = connection.createStatement();
                 String query = "select * from users";
@@ -183,19 +181,17 @@ public class ConnectToDatabase {
                 }
                 st.close();
                 connection.close();
+                Log.Info(ConnectToDatabase.class, "Getting data from Users table was successful");
             }catch (SQLException e)
             {
                 System.out.println(e);
-                Log.Error(ConnectToDatabase.class,"Some error occured in database connection");
+                Log.Error(ConnectToDatabase.class,e.getMessage());
             }
             catch (Exception e)
             {
                 System.out.println(e);
                 Log.Error(ConnectToDatabase.class,"Some error occured while getting data from Users table");
             }
-        } else {
-            System.out.println("Failed to make connection!");
-            Log.Error(ConnectToDatabase.class,"Failed to make connection");
         }
 
     }

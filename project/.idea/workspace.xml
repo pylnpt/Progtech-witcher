@@ -4,11 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="05cb5648-eda6-4c6c-9877-ff37a4422db0" name="Changes" comment="Managed to log all levels to CONSOLE">
+    <list default="true" id="05cb5648-eda6-4c6c-9877-ff37a4422db0" name="Changes" comment="Log into file but need to fix date in filename">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/project/progtechwitcher/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/project/progtechwitcher/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/project/progtechwitcher/Database/ConnectToDatabase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/project/progtechwitcher/Database/ConnectToDatabase.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/log4j2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/log4j2.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/log4j2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/log4j2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/project/progtechwitcher/Logging/Log.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/project/progtechwitcher/Logging/Log.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/project/progtechwitcher/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/project/progtechwitcher/Main.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -151,7 +152,7 @@
       <option name="presentableId" value="Default" />
       <updated>1651849952656</updated>
       <workItem from="1652528695416" duration="91000" />
-      <workItem from="1652634375299" duration="12536000" />
+      <workItem from="1652634375299" duration="15994000" />
     </task>
     <task id="LOCAL-00001" summary="Started Layout of the UI.&#10;-&gt; Created a HomeView (WIP)&#10;-&gt; Created a Controller to the view(WIP)&#10;&#10;-&gt; created a style.css which is going to handle the styling of the UI.">
       <created>1651852426093</created>
@@ -216,7 +217,14 @@
       <option name="project" value="LOCAL" />
       <updated>1652656087544</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Log into file but need to fix date in filename">
+      <created>1652659755034</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1652659755034</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -242,7 +250,8 @@
     <MESSAGE value="Database things" />
     <MESSAGE value="Fixed logging to console (Error and below)" />
     <MESSAGE value="Managed to log all levels to CONSOLE" />
-    <option name="LAST_COMMIT_MESSAGE" value="Managed to log all levels to CONSOLE" />
+    <MESSAGE value="Log into file but need to fix date in filename" />
+    <option name="LAST_COMMIT_MESSAGE" value="Log into file but need to fix date in filename" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
