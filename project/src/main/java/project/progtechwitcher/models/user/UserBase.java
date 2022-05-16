@@ -95,7 +95,7 @@ public abstract class UserBase {
     }
 
     public void setLevel(int level) {
-        if(level > this.level)
+        if(level >= this.level)
         {
             this.level = level;
         }

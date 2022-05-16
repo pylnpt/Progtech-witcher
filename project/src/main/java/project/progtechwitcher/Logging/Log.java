@@ -8,7 +8,7 @@ import org.apache.logging.log4j.Logger;
 public class Log {
     private static Logger log = null;
 
-    public static void Warning(String className, String message)
+    public static void Warning(Class className, String message)
     {
         log = LogManager.getLogger(className);
         log.warn(message);

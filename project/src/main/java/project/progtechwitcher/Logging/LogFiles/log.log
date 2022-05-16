@@ -1,32 +1,293 @@
-2022-05-16 21:06:58,701 [INFO] project.progtechwitcher.Logging.Log [main] : Connected to Database
-2022-05-16 21:06:58,765 [INFO] project.progtechwitcher.Logging.Log [main] : Getting data from Jobs table was successful
-2022-05-16 21:06:58,781 [INFO] project.progtechwitcher.Logging.Log [main] : Connected to Database
-2022-05-16 21:06:58,796 [INFO] project.progtechwitcher.Logging.Log [main] : Connected to Database
-2022-05-16 21:06:58,799 [INFO] project.progtechwitcher.Logging.Log [main] : Getting data from Jobs table was successful
-2022-05-16 21:06:58,805 [INFO] project.progtechwitcher.Logging.Log [main] : Connected to Database
-2022-05-16 21:06:58,807 [INFO] project.progtechwitcher.Logging.Log [main] : Getting data from Jobs table was successful
-2022-05-16 21:06:58,808 [INFO] project.progtechwitcher.Logging.Log [main] : Getting data from Users table was successful
-2022-05-16 21:34:03,600 [INFO] project.progtechwitcher.Logging.Log [main] : Connected to Database
-2022-05-16 21:34:03,638 [INFO] project.progtechwitcher.Logging.Log [main] : Getting data from Jobs table was successful
-2022-05-16 21:34:03,652 [INFO] project.progtechwitcher.Logging.Log [main] : Connected to Database
-2022-05-16 21:34:03,659 [INFO] project.progtechwitcher.Logging.Log [main] : Connected to Database
-2022-05-16 21:34:03,662 [INFO] project.progtechwitcher.Logging.Log [main] : Getting data from Jobs table was successful
-2022-05-16 21:34:03,666 [INFO] project.progtechwitcher.Logging.Log [main] : Connected to Database
-2022-05-16 21:34:03,669 [INFO] project.progtechwitcher.Logging.Log [main] : Getting data from Jobs table was successful
-2022-05-16 21:34:03,670 [INFO] project.progtechwitcher.Logging.Log [main] : Getting data from Users table was successful
-2022-05-16 21:34:38,466 [INFO] project.progtechwitcher.Logging.Log [main] : Connected to Database
-2022-05-16 21:34:38,491 [INFO] project.progtechwitcher.Logging.Log [main] : Getting data from Jobs table was successful
-2022-05-16 21:34:38,502 [INFO] project.progtechwitcher.Logging.Log [main] : Connected to Database
-2022-05-16 21:34:38,507 [INFO] project.progtechwitcher.Logging.Log [main] : Connected to Database
-2022-05-16 21:34:38,508 [INFO] project.progtechwitcher.Logging.Log [main] : Getting data from Jobs table was successful
-2022-05-16 21:34:38,511 [INFO] project.progtechwitcher.Logging.Log [main] : Connected to Database
-2022-05-16 21:34:38,513 [INFO] project.progtechwitcher.Logging.Log [main] : Getting data from Jobs table was successful
-2022-05-16 21:34:38,513 [INFO] project.progtechwitcher.Logging.Log [main] : Getting data from Users table was successful
-2022-05-16 21:37:21,316 [INFO] project.progtechwitcher.Logging.Log [main] : Connected to Database
-2022-05-16 21:37:21,357 [INFO] project.progtechwitcher.Logging.Log [main] : Getting data from Jobs table was successful
-2022-05-16 21:37:21,369 [INFO] project.progtechwitcher.Logging.Log [main] : Connected to Database
-2022-05-16 21:37:21,372 [INFO] project.progtechwitcher.Logging.Log [main] : Connected to Database
-2022-05-16 21:37:21,374 [INFO] project.progtechwitcher.Logging.Log [main] : Getting data from Jobs table was successful
-2022-05-16 21:37:21,378 [INFO] project.progtechwitcher.Logging.Log [main] : Connected to Database
-2022-05-16 21:37:21,379 [INFO] project.progtechwitcher.Logging.Log [main] : Getting data from Jobs table was successful
-2022-05-16 21:37:21,379 [INFO] project.progtechwitcher.Logging.Log [main] : Getting data from Users table was successful
+2022-05-17 00:04:00,654 [INFO] project.progtechwitcher.Logging.Log [main] : Connected to Database
+2022-05-17 00:04:00,704 [INFO] project.progtechwitcher.Logging.Log [main] : Getting data from Jobs table was successful
+2022-05-17 00:04:30,350 [INFO] project.progtechwitcher.Logging.Log [main] : Connected to Database
+2022-05-17 00:04:30,387 [INFO] project.progtechwitcher.Logging.Log [main] : Getting data from Jobs table was successful
+2022-05-17 00:05:02,724 [INFO] project.progtechwitcher.Logging.Log [main] : Connected to Database
+2022-05-17 00:05:02,759 [INFO] project.progtechwitcher.Logging.Log [main] : Getting data from Jobs table was successful
+2022-05-17 00:05:40,581 [INFO] project.progtechwitcher.Logging.Log [main] : Connected to Database
+2022-05-17 00:05:40,619 [INFO] project.progtechwitcher.Logging.Log [main] : Getting data from Jobs table was successful
+2022-05-17 00:06:18,474 [INFO] project.progtechwitcher.Logging.Log [main] : Connected to Database
+2022-05-17 00:06:18,508 [INFO] project.progtechwitcher.Logging.Log [main] : Getting data from Jobs table was successful
+2022-05-17 00:06:33,654 [INFO] project.progtechwitcher.Logging.Log [main] : Connected to Database
+2022-05-17 00:06:33,682 [INFO] project.progtechwitcher.Logging.Log [main] : Getting data from Jobs table was successful
+2022-05-17 00:06:58,042 [INFO] project.progtechwitcher.Logging.Log [main] : Connected to Database
+2022-05-17 00:06:58,064 [INFO] project.progtechwitcher.Logging.Log [main] : Getting data from Jobs table was successful
+2022-05-17 00:07:13,972 [INFO] project.progtechwitcher.Logging.Log [main] : Connected to Database
+2022-05-17 00:07:14,006 [INFO] project.progtechwitcher.Logging.Log [main] : Getting data from Jobs table was successful
+2022-05-17 00:07:22,494 [INFO] project.progtechwitcher.Logging.Log [main] : Connected to Database
+2022-05-17 00:07:22,523 [INFO] project.progtechwitcher.Logging.Log [main] : Getting data from Jobs table was successful
+2022-05-17 00:07:59,394 [INFO] project.progtechwitcher.Logging.Log [main] : Connected to Database
+2022-05-17 00:07:59,426 [INFO] project.progtechwitcher.Logging.Log [main] : Getting data from Jobs table was successful
+2022-05-17 00:09:28,060 [INFO] project.progtechwitcher.Logging.Log [main] : Connected to Database
+2022-05-17 00:09:28,084 [INFO] project.progtechwitcher.Logging.Log [main] : Connected to Database
+2022-05-17 00:09:28,092 [INFO] project.progtechwitcher.Logging.Log [main] : Getting data from Jobs table was successful
+2022-05-17 00:09:28,095 [INFO] project.progtechwitcher.Logging.Log [main] : Connected to Database
+2022-05-17 00:09:28,097 [INFO] project.progtechwitcher.Logging.Log [main] : Getting data from Jobs table was successful
+2022-05-17 00:09:28,098 [INFO] project.progtechwitcher.Logging.Log [main] : Getting data from Users table was successful
+2022-05-17 00:09:28,101 [INFO] project.progtechwitcher.Logging.Log [main] : Connected to Database
+2022-05-17 00:09:28,112 [ERROR] project.progtechwitcher.Logging.Log [main] : Duplicate entry 'unique' for key 'username'
+2022-05-17 00:09:28,131 [INFO] project.progtechwitcher.Logging.Log [main] : Connected to Database
+2022-05-17 00:09:28,133 [INFO] project.progtechwitcher.Logging.Log [main] : Getting data from Jobs table was successful
+2022-05-17 00:09:28,135 [INFO] project.progtechwitcher.Logging.Log [main] : Connected to Database
+2022-05-17 00:09:28,138 [INFO] project.progtechwitcher.Logging.Log [main] : Connected to Database
+2022-05-17 00:09:28,140 [INFO] project.progtechwitcher.Logging.Log [main] : Getting data from Jobs table was successful
+2022-05-17 00:09:28,142 [INFO] project.progtechwitcher.Logging.Log [main] : Connected to Database
+2022-05-17 00:09:28,145 [INFO] project.progtechwitcher.Logging.Log [main] : Connected to Database
+2022-05-17 00:09:28,146 [INFO] project.progtechwitcher.Logging.Log [main] : Getting data from Jobs table was successful
+2022-05-17 00:09:28,149 [INFO] project.progtechwitcher.Logging.Log [main] : Connected to Database
+2022-05-17 00:09:28,150 [INFO] project.progtechwitcher.Logging.Log [main] : Getting data from Jobs table was successful
+2022-05-17 00:09:28,151 [INFO] project.progtechwitcher.Logging.Log [main] : Getting data from Users table was successful
+2022-05-17 00:09:28,156 [INFO] project.progtechwitcher.Logging.Log [main] : Connected to Database
+2022-05-17 00:09:28,158 [INFO] project.progtechwitcher.Logging.Log [main] : Getting data from Jobs table was successful
+2022-05-17 00:09:28,160 [INFO] project.progtechwitcher.Logging.Log [main] : Connected to Database
+2022-05-17 00:09:28,171 [INFO] project.progtechwitcher.Logging.Log [main] : Connected to Database
+2022-05-17 00:09:28,175 [INFO] project.progtechwitcher.Logging.Log [main] : Getting data from Jobs table was successful
+2022-05-17 00:09:28,177 [INFO] project.progtechwitcher.Logging.Log [main] : Connected to Database
+2022-05-17 00:09:28,179 [INFO] project.progtechwitcher.Logging.Log [main] : Connected to Database
+2022-05-17 00:09:28,181 [INFO] project.progtechwitcher.Logging.Log [main] : Getting data from Jobs table was successful
+2022-05-17 00:09:28,183 [INFO] project.progtechwitcher.Logging.Log [main] : Connected to Database
+2022-05-17 00:09:28,184 [INFO] project.progtechwitcher.Logging.Log [main] : Getting data from Jobs table was successful
+2022-05-17 00:09:28,185 [INFO] project.progtechwitcher.Logging.Log [main] : Getting data from Users table was successful
+2022-05-17 00:09:28,191 [INFO] project.progtechwitcher.Logging.Log [main] : Connected to Database
+2022-05-17 00:09:28,194 [INFO] project.progtechwitcher.Logging.Log [main] : Connected to Database
+2022-05-17 00:09:28,195 [INFO] project.progtechwitcher.Logging.Log [main] : Getting data from Jobs table was successful
+2022-05-17 00:09:28,198 [INFO] project.progtechwitcher.Logging.Log [main] : Connected to Database
+2022-05-17 00:09:28,199 [INFO] project.progtechwitcher.Logging.Log [main] : Getting data from Jobs table was successful
+2022-05-17 00:09:28,200 [INFO] project.progtechwitcher.Logging.Log [main] : Getting data from Users table was successful
+2022-05-17 00:09:28,202 [INFO] project.progtechwitcher.Logging.Log [main] : Connected to Database
+2022-05-17 00:09:28,205 [INFO] project.progtechwitcher.Logging.Log [main] : Connected to Database
+2022-05-17 00:09:28,206 [INFO] project.progtechwitcher.Logging.Log [main] : Getting data from Jobs table was successful
+2022-05-17 00:09:28,208 [INFO] project.progtechwitcher.Logging.Log [main] : Connected to Database
+2022-05-17 00:09:28,210 [INFO] project.progtechwitcher.Logging.Log [main] : Getting data from Jobs table was successful
+2022-05-17 00:09:28,212 [INFO] project.progtechwitcher.Logging.Log [main] : Connected to Database
+2022-05-17 00:09:28,215 [INFO] project.progtechwitcher.Logging.Log [main] : Connected to Database
+2022-05-17 00:09:28,216 [INFO] project.progtechwitcher.Logging.Log [main] : Getting data from Jobs table was successful
+2022-05-17 00:09:28,218 [INFO] project.progtechwitcher.Logging.Log [main] : Connected to Database
+2022-05-17 00:09:28,219 [INFO] project.progtechwitcher.Logging.Log [main] : Getting data from Jobs table was successful
+2022-05-17 00:09:28,220 [INFO] project.progtechwitcher.Logging.Log [main] : Getting data from Users table was successful
+2022-05-17 00:09:28,230 [INFO] project.progtechwitcher.Logging.Log [main] : Connected to Database
+2022-05-17 00:09:28,232 [INFO] project.progtechwitcher.Logging.Log [main] : Connected to Database
+2022-05-17 00:09:28,234 [INFO] project.progtechwitcher.Logging.Log [main] : Getting data from Jobs table was successful
+2022-05-17 00:09:28,236 [INFO] project.progtechwitcher.Logging.Log [main] : Connected to Database
+2022-05-17 00:09:28,237 [INFO] project.progtechwitcher.Logging.Log [main] : Getting data from Jobs table was successful
+2022-05-17 00:09:28,238 [INFO] project.progtechwitcher.Logging.Log [main] : Getting data from Users table was successful
+2022-05-17 00:10:07,443 [INFO] project.progtechwitcher.Logging.Log [main] : Connected to Database
+2022-05-17 00:10:07,466 [INFO] project.progtechwitcher.Logging.Log [main] : Connected to Database
+2022-05-17 00:10:07,476 [INFO] project.progtechwitcher.Logging.Log [main] : Getting data from Jobs table was successful
+2022-05-17 00:10:07,480 [INFO] project.progtechwitcher.Logging.Log [main] : Connected to Database
+2022-05-17 00:10:07,481 [INFO] project.progtechwitcher.Logging.Log [main] : Getting data from Jobs table was successful
+2022-05-17 00:10:07,482 [INFO] project.progtechwitcher.Logging.Log [main] : Getting data from Users table was successful
+2022-05-17 00:10:07,484 [INFO] project.progtechwitcher.Logging.Log [main] : Connected to Database
+2022-05-17 00:10:07,491 [INFO] project.progtechwitcher.Logging.Log [main] : Connected to Database
+2022-05-17 00:10:07,494 [INFO] project.progtechwitcher.Logging.Log [main] : Connected to Database
+2022-05-17 00:10:07,496 [INFO] project.progtechwitcher.Logging.Log [main] : Getting data from Jobs table was successful
+2022-05-17 00:10:07,499 [INFO] project.progtechwitcher.Logging.Log [main] : Connected to Database
+2022-05-17 00:10:07,500 [INFO] project.progtechwitcher.Logging.Log [main] : Getting data from Jobs table was successful
+2022-05-17 00:10:07,503 [INFO] project.progtechwitcher.Logging.Log [main] : Connected to Database
+2022-05-17 00:10:07,504 [INFO] project.progtechwitcher.Logging.Log [main] : Getting data from Jobs table was successful
+2022-05-17 00:10:07,506 [INFO] project.progtechwitcher.Logging.Log [main] : Connected to Database
+2022-05-17 00:10:07,507 [INFO] project.progtechwitcher.Logging.Log [main] : Getting data from Jobs table was successful
+2022-05-17 00:10:07,508 [INFO] project.progtechwitcher.Logging.Log [main] : Getting data from Users table was successful
+2022-05-17 00:10:26,391 [INFO] project.progtechwitcher.Logging.Log [main] : Connected to Database
+2022-05-17 00:10:26,420 [INFO] project.progtechwitcher.Logging.Log [main] : Getting data from Jobs table was successful
+2022-05-17 00:10:26,423 [INFO] project.progtechwitcher.Logging.Log [main] : Connected to Database
+2022-05-17 00:10:26,429 [INFO] project.progtechwitcher.Logging.Log [main] : Connected to Database
+2022-05-17 00:10:26,432 [INFO] project.progtechwitcher.Logging.Log [main] : Getting data from Jobs table was successful
+2022-05-17 00:10:26,436 [INFO] project.progtechwitcher.Logging.Log [main] : Connected to Database
+2022-05-17 00:10:26,440 [INFO] project.progtechwitcher.Logging.Log [main] : Connected to Database
+2022-05-17 00:10:26,442 [INFO] project.progtechwitcher.Logging.Log [main] : Getting data from Jobs table was successful
+2022-05-17 00:10:26,445 [INFO] project.progtechwitcher.Logging.Log [main] : Connected to Database
+2022-05-17 00:10:26,447 [INFO] project.progtechwitcher.Logging.Log [main] : Getting data from Jobs table was successful
+2022-05-17 00:10:26,451 [INFO] project.progtechwitcher.Logging.Log [main] : Connected to Database
+2022-05-17 00:10:26,453 [INFO] project.progtechwitcher.Logging.Log [main] : Getting data from Jobs table was successful
+2022-05-17 00:10:26,456 [INFO] project.progtechwitcher.Logging.Log [main] : Connected to Database
+2022-05-17 00:10:26,456 [INFO] project.progtechwitcher.Logging.Log [main] : Getting data from Jobs table was successful
+2022-05-17 00:10:26,457 [INFO] project.progtechwitcher.Logging.Log [main] : Getting data from Users table was successful
+2022-05-17 00:10:50,805 [INFO] project.progtechwitcher.Logging.Log [main] : Connected to Database
+2022-05-17 00:10:50,830 [INFO] project.progtechwitcher.Logging.Log [main] : Connected to Database
+2022-05-17 00:10:50,837 [INFO] project.progtechwitcher.Logging.Log [main] : Getting data from Jobs table was successful
+2022-05-17 00:10:50,841 [INFO] project.progtechwitcher.Logging.Log [main] : Connected to Database
+2022-05-17 00:10:50,842 [INFO] project.progtechwitcher.Logging.Log [main] : Getting data from Jobs table was successful
+2022-05-17 00:10:50,846 [INFO] project.progtechwitcher.Logging.Log [main] : Connected to Database
+2022-05-17 00:10:50,847 [INFO] project.progtechwitcher.Logging.Log [main] : Getting data from Jobs table was successful
+2022-05-17 00:10:50,850 [INFO] project.progtechwitcher.Logging.Log [main] : Connected to Database
+2022-05-17 00:10:50,850 [INFO] project.progtechwitcher.Logging.Log [main] : Getting data from Jobs table was successful
+2022-05-17 00:10:50,851 [INFO] project.progtechwitcher.Logging.Log [main] : Getting data from Users table was successful
+2022-05-17 00:10:50,853 [INFO] project.progtechwitcher.Logging.Log [main] : Connected to Database
+2022-05-17 00:10:50,862 [ERROR] project.progtechwitcher.Logging.Log [main] : Duplicate entry '007' for key 'username'
+2022-05-17 00:10:50,878 [INFO] project.progtechwitcher.Logging.Log [main] : Connected to Database
+2022-05-17 00:10:50,879 [INFO] project.progtechwitcher.Logging.Log [main] : Getting data from Jobs table was successful
+2022-05-17 00:10:50,882 [INFO] project.progtechwitcher.Logging.Log [main] : Connected to Database
+2022-05-17 00:10:50,885 [INFO] project.progtechwitcher.Logging.Log [main] : Connected to Database
+2022-05-17 00:10:50,887 [INFO] project.progtechwitcher.Logging.Log [main] : Getting data from Jobs table was successful
+2022-05-17 00:10:50,889 [INFO] project.progtechwitcher.Logging.Log [main] : Connected to Database
+2022-05-17 00:10:50,891 [INFO] project.progtechwitcher.Logging.Log [main] : Connected to Database
+2022-05-17 00:10:50,892 [INFO] project.progtechwitcher.Logging.Log [main] : Getting data from Jobs table was successful
+2022-05-17 00:10:50,894 [INFO] project.progtechwitcher.Logging.Log [main] : Connected to Database
+2022-05-17 00:10:50,895 [INFO] project.progtechwitcher.Logging.Log [main] : Getting data from Jobs table was successful
+2022-05-17 00:10:50,898 [INFO] project.progtechwitcher.Logging.Log [main] : Connected to Database
+2022-05-17 00:10:50,899 [INFO] project.progtechwitcher.Logging.Log [main] : Getting data from Jobs table was successful
+2022-05-17 00:10:50,901 [INFO] project.progtechwitcher.Logging.Log [main] : Connected to Database
+2022-05-17 00:10:50,901 [INFO] project.progtechwitcher.Logging.Log [main] : Getting data from Jobs table was successful
+2022-05-17 00:10:50,903 [INFO] project.progtechwitcher.Logging.Log [main] : Getting data from Users table was successful
+2022-05-17 00:10:50,908 [INFO] project.progtechwitcher.Logging.Log [main] : Connected to Database
+2022-05-17 00:10:50,909 [INFO] project.progtechwitcher.Logging.Log [main] : Getting data from Jobs table was successful
+2022-05-17 00:10:50,911 [INFO] project.progtechwitcher.Logging.Log [main] : Connected to Database
+2022-05-17 00:10:50,921 [INFO] project.progtechwitcher.Logging.Log [main] : Connected to Database
+2022-05-17 00:10:50,924 [INFO] project.progtechwitcher.Logging.Log [main] : Getting data from Jobs table was successful
+2022-05-17 00:10:50,926 [INFO] project.progtechwitcher.Logging.Log [main] : Connected to Database
+2022-05-17 00:10:50,928 [INFO] project.progtechwitcher.Logging.Log [main] : Connected to Database
+2022-05-17 00:10:50,929 [INFO] project.progtechwitcher.Logging.Log [main] : Getting data from Jobs table was successful
+2022-05-17 00:10:50,932 [INFO] project.progtechwitcher.Logging.Log [main] : Connected to Database
+2022-05-17 00:10:50,933 [INFO] project.progtechwitcher.Logging.Log [main] : Getting data from Jobs table was successful
+2022-05-17 00:10:50,936 [INFO] project.progtechwitcher.Logging.Log [main] : Connected to Database
+2022-05-17 00:10:50,937 [INFO] project.progtechwitcher.Logging.Log [main] : Getting data from Jobs table was successful
+2022-05-17 00:10:50,939 [INFO] project.progtechwitcher.Logging.Log [main] : Connected to Database
+2022-05-17 00:10:50,940 [INFO] project.progtechwitcher.Logging.Log [main] : Getting data from Jobs table was successful
+2022-05-17 00:10:50,940 [INFO] project.progtechwitcher.Logging.Log [main] : Getting data from Users table was successful
+2022-05-17 00:10:50,945 [INFO] project.progtechwitcher.Logging.Log [main] : Connected to Database
+2022-05-17 00:10:50,947 [INFO] project.progtechwitcher.Logging.Log [main] : Connected to Database
+2022-05-17 00:10:50,949 [INFO] project.progtechwitcher.Logging.Log [main] : Getting data from Jobs table was successful
+2022-05-17 00:10:50,957 [INFO] project.progtechwitcher.Logging.Log [main] : Connected to Database
+2022-05-17 00:10:50,959 [INFO] project.progtechwitcher.Logging.Log [main] : Getting data from Jobs table was successful
+2022-05-17 00:10:50,963 [INFO] project.progtechwitcher.Logging.Log [main] : Connected to Database
+2022-05-17 00:10:50,964 [INFO] project.progtechwitcher.Logging.Log [main] : Getting data from Jobs table was successful
+2022-05-17 00:10:50,966 [INFO] project.progtechwitcher.Logging.Log [main] : Connected to Database
+2022-05-17 00:10:50,967 [INFO] project.progtechwitcher.Logging.Log [main] : Getting data from Jobs table was successful
+2022-05-17 00:10:50,968 [INFO] project.progtechwitcher.Logging.Log [main] : Getting data from Users table was successful
+2022-05-17 00:10:50,970 [INFO] project.progtechwitcher.Logging.Log [main] : Connected to Database
+2022-05-17 00:10:50,973 [INFO] project.progtechwitcher.Logging.Log [main] : Connected to Database
+2022-05-17 00:10:50,973 [INFO] project.progtechwitcher.Logging.Log [main] : Getting data from Jobs table was successful
+2022-05-17 00:10:50,975 [INFO] project.progtechwitcher.Logging.Log [main] : Connected to Database
+2022-05-17 00:10:50,978 [INFO] project.progtechwitcher.Logging.Log [main] : Getting data from Jobs table was successful
+2022-05-17 00:10:50,980 [INFO] project.progtechwitcher.Logging.Log [main] : Connected to Database
+2022-05-17 00:10:50,982 [INFO] project.progtechwitcher.Logging.Log [main] : Connected to Database
+2022-05-17 00:10:50,983 [INFO] project.progtechwitcher.Logging.Log [main] : Getting data from Jobs table was successful
+2022-05-17 00:10:50,989 [INFO] project.progtechwitcher.Logging.Log [main] : Connected to Database
+2022-05-17 00:10:50,990 [INFO] project.progtechwitcher.Logging.Log [main] : Getting data from Jobs table was successful
+2022-05-17 00:10:50,993 [INFO] project.progtechwitcher.Logging.Log [main] : Connected to Database
+2022-05-17 00:10:50,994 [INFO] project.progtechwitcher.Logging.Log [main] : Getting data from Jobs table was successful
+2022-05-17 00:10:50,996 [INFO] project.progtechwitcher.Logging.Log [main] : Connected to Database
+2022-05-17 00:10:50,998 [INFO] project.progtechwitcher.Logging.Log [main] : Getting data from Jobs table was successful
+2022-05-17 00:10:50,998 [INFO] project.progtechwitcher.Logging.Log [main] : Getting data from Users table was successful
+2022-05-17 00:10:51,002 [INFO] project.progtechwitcher.Logging.Log [main] : Connected to Database
+2022-05-17 00:10:51,004 [INFO] project.progtechwitcher.Logging.Log [main] : Connected to Database
+2022-05-17 00:10:51,005 [INFO] project.progtechwitcher.Logging.Log [main] : Getting data from Jobs table was successful
+2022-05-17 00:10:51,007 [INFO] project.progtechwitcher.Logging.Log [main] : Connected to Database
+2022-05-17 00:10:51,008 [INFO] project.progtechwitcher.Logging.Log [main] : Getting data from Jobs table was successful
+2022-05-17 00:10:51,011 [INFO] project.progtechwitcher.Logging.Log [main] : Connected to Database
+2022-05-17 00:10:51,012 [INFO] project.progtechwitcher.Logging.Log [main] : Getting data from Jobs table was successful
+2022-05-17 00:10:51,014 [INFO] project.progtechwitcher.Logging.Log [main] : Connected to Database
+2022-05-17 00:10:51,015 [INFO] project.progtechwitcher.Logging.Log [main] : Getting data from Jobs table was successful
+2022-05-17 00:10:51,015 [INFO] project.progtechwitcher.Logging.Log [main] : Getting data from Users table was successful
+2022-05-17 00:11:03,305 [INFO] project.progtechwitcher.Logging.Log [main] : Connected to Database
+2022-05-17 00:11:03,328 [INFO] project.progtechwitcher.Logging.Log [main] : Connected to Database
+2022-05-17 00:11:03,338 [INFO] project.progtechwitcher.Logging.Log [main] : Getting data from Jobs table was successful
+2022-05-17 00:11:03,342 [INFO] project.progtechwitcher.Logging.Log [main] : Connected to Database
+2022-05-17 00:11:03,343 [INFO] project.progtechwitcher.Logging.Log [main] : Getting data from Jobs table was successful
+2022-05-17 00:11:03,348 [INFO] project.progtechwitcher.Logging.Log [main] : Connected to Database
+2022-05-17 00:11:03,349 [INFO] project.progtechwitcher.Logging.Log [main] : Getting data from Jobs table was successful
+2022-05-17 00:11:03,351 [INFO] project.progtechwitcher.Logging.Log [main] : Connected to Database
+2022-05-17 00:11:03,353 [INFO] project.progtechwitcher.Logging.Log [main] : Getting data from Jobs table was successful
+2022-05-17 00:11:03,353 [INFO] project.progtechwitcher.Logging.Log [main] : Getting data from Users table was successful
+2022-05-17 00:11:03,355 [INFO] project.progtechwitcher.Logging.Log [main] : Connected to Database
+2022-05-17 00:11:03,364 [ERROR] project.progtechwitcher.Logging.Log [main] : Duplicate entry '007' for key 'username'
+2022-05-17 00:12:58,611 [INFO] project.progtechwitcher.Logging.Log [main] : Connected to Database
+2022-05-17 00:12:58,639 [INFO] project.progtechwitcher.Logging.Log [main] : Connected to Database
+2022-05-17 00:12:58,647 [INFO] project.progtechwitcher.Logging.Log [main] : Getting data from Jobs table was successful
+2022-05-17 00:12:58,652 [INFO] project.progtechwitcher.Logging.Log [main] : Connected to Database
+2022-05-17 00:12:58,654 [INFO] project.progtechwitcher.Logging.Log [main] : Getting data from Jobs table was successful
+2022-05-17 00:12:58,658 [INFO] project.progtechwitcher.Logging.Log [main] : Connected to Database
+2022-05-17 00:12:58,660 [INFO] project.progtechwitcher.Logging.Log [main] : Getting data from Jobs table was successful
+2022-05-17 00:12:58,663 [INFO] project.progtechwitcher.Logging.Log [main] : Connected to Database
+2022-05-17 00:12:58,666 [INFO] project.progtechwitcher.Logging.Log [main] : Getting data from Jobs table was successful
+2022-05-17 00:12:58,666 [INFO] project.progtechwitcher.Logging.Log [main] : Getting data from Users table was successful
+2022-05-17 00:12:58,669 [INFO] project.progtechwitcher.Logging.Log [main] : Connected to Database
+2022-05-17 00:12:58,681 [ERROR] project.progtechwitcher.Logging.Log [main] : Duplicate entry 'user' for key 'username'
+2022-05-17 00:12:58,702 [INFO] project.progtechwitcher.Logging.Log [main] : Connected to Database
+2022-05-17 00:12:58,706 [INFO] project.progtechwitcher.Logging.Log [main] : Getting data from Jobs table was successful
+2022-05-17 00:12:58,708 [INFO] project.progtechwitcher.Logging.Log [main] : Connected to Database
+2022-05-17 00:12:58,712 [INFO] project.progtechwitcher.Logging.Log [main] : Connected to Database
+2022-05-17 00:12:58,715 [INFO] project.progtechwitcher.Logging.Log [main] : Getting data from Jobs table was successful
+2022-05-17 00:12:58,717 [INFO] project.progtechwitcher.Logging.Log [main] : Connected to Database
+2022-05-17 00:12:58,720 [INFO] project.progtechwitcher.Logging.Log [main] : Connected to Database
+2022-05-17 00:12:58,721 [INFO] project.progtechwitcher.Logging.Log [main] : Getting data from Jobs table was successful
+2022-05-17 00:12:58,724 [INFO] project.progtechwitcher.Logging.Log [main] : Connected to Database
+2022-05-17 00:12:58,726 [INFO] project.progtechwitcher.Logging.Log [main] : Getting data from Jobs table was successful
+2022-05-17 00:12:58,730 [INFO] project.progtechwitcher.Logging.Log [main] : Connected to Database
+2022-05-17 00:12:58,731 [INFO] project.progtechwitcher.Logging.Log [main] : Getting data from Jobs table was successful
+2022-05-17 00:12:58,733 [INFO] project.progtechwitcher.Logging.Log [main] : Connected to Database
+2022-05-17 00:12:58,734 [INFO] project.progtechwitcher.Logging.Log [main] : Getting data from Jobs table was successful
+2022-05-17 00:12:58,735 [INFO] project.progtechwitcher.Logging.Log [main] : Getting data from Users table was successful
+2022-05-17 00:12:58,740 [INFO] project.progtechwitcher.Logging.Log [main] : Connected to Database
+2022-05-17 00:12:58,743 [INFO] project.progtechwitcher.Logging.Log [main] : Getting data from Jobs table was successful
+2022-05-17 00:12:58,745 [INFO] project.progtechwitcher.Logging.Log [main] : Connected to Database
+2022-05-17 00:12:58,755 [INFO] project.progtechwitcher.Logging.Log [main] : Connected to Database
+2022-05-17 00:12:58,758 [INFO] project.progtechwitcher.Logging.Log [main] : Getting data from Jobs table was successful
+2022-05-17 00:12:58,769 [INFO] project.progtechwitcher.Logging.Log [main] : Connected to Database
+2022-05-17 00:12:58,772 [INFO] project.progtechwitcher.Logging.Log [main] : Connected to Database
+2022-05-17 00:12:58,773 [INFO] project.progtechwitcher.Logging.Log [main] : Getting data from Jobs table was successful
+2022-05-17 00:12:58,775 [INFO] project.progtechwitcher.Logging.Log [main] : Connected to Database
+2022-05-17 00:12:58,776 [INFO] project.progtechwitcher.Logging.Log [main] : Getting data from Jobs table was successful
+2022-05-17 00:12:58,780 [INFO] project.progtechwitcher.Logging.Log [main] : Connected to Database
+2022-05-17 00:12:58,782 [INFO] project.progtechwitcher.Logging.Log [main] : Getting data from Jobs table was successful
+2022-05-17 00:12:58,784 [INFO] project.progtechwitcher.Logging.Log [main] : Connected to Database
+2022-05-17 00:12:58,785 [INFO] project.progtechwitcher.Logging.Log [main] : Getting data from Jobs table was successful
+2022-05-17 00:12:58,786 [INFO] project.progtechwitcher.Logging.Log [main] : Getting data from Users table was successful
+2022-05-17 00:12:58,792 [INFO] project.progtechwitcher.Logging.Log [main] : Connected to Database
+2022-05-17 00:12:58,795 [INFO] project.progtechwitcher.Logging.Log [main] : Connected to Database
+2022-05-17 00:12:58,796 [INFO] project.progtechwitcher.Logging.Log [main] : Getting data from Jobs table was successful
+2022-05-17 00:12:58,803 [INFO] project.progtechwitcher.Logging.Log [main] : Connected to Database
+2022-05-17 00:12:58,805 [INFO] project.progtechwitcher.Logging.Log [main] : Getting data from Jobs table was successful
+2022-05-17 00:12:58,809 [INFO] project.progtechwitcher.Logging.Log [main] : Connected to Database
+2022-05-17 00:12:58,810 [INFO] project.progtechwitcher.Logging.Log [main] : Getting data from Jobs table was successful
+2022-05-17 00:12:58,812 [INFO] project.progtechwitcher.Logging.Log [main] : Connected to Database
+2022-05-17 00:12:58,814 [INFO] project.progtechwitcher.Logging.Log [main] : Getting data from Jobs table was successful
+2022-05-17 00:12:58,814 [INFO] project.progtechwitcher.Logging.Log [main] : Getting data from Users table was successful
+2022-05-17 00:12:58,817 [INFO] project.progtechwitcher.Logging.Log [main] : Connected to Database
+2022-05-17 00:12:58,820 [INFO] project.progtechwitcher.Logging.Log [main] : Connected to Database
+2022-05-17 00:12:58,821 [INFO] project.progtechwitcher.Logging.Log [main] : Getting data from Jobs table was successful
+2022-05-17 00:12:58,824 [INFO] project.progtechwitcher.Logging.Log [main] : Connected to Database
+2022-05-17 00:12:58,828 [INFO] project.progtechwitcher.Logging.Log [main] : Getting data from Jobs table was successful
+2022-05-17 00:12:58,832 [INFO] project.progtechwitcher.Logging.Log [main] : Connected to Database
+2022-05-17 00:12:58,835 [INFO] project.progtechwitcher.Logging.Log [main] : Connected to Database
+2022-05-17 00:12:58,836 [INFO] project.progtechwitcher.Logging.Log [main] : Getting data from Jobs table was successful
+2022-05-17 00:12:58,839 [INFO] project.progtechwitcher.Logging.Log [main] : Connected to Database
+2022-05-17 00:12:58,840 [INFO] project.progtechwitcher.Logging.Log [main] : Getting data from Jobs table was successful
+2022-05-17 00:12:58,844 [INFO] project.progtechwitcher.Logging.Log [main] : Connected to Database
+2022-05-17 00:12:58,845 [INFO] project.progtechwitcher.Logging.Log [main] : Getting data from Jobs table was successful
+2022-05-17 00:12:58,848 [INFO] project.progtechwitcher.Logging.Log [main] : Connected to Database
+2022-05-17 00:12:58,850 [INFO] project.progtechwitcher.Logging.Log [main] : Getting data from Jobs table was successful
+2022-05-17 00:12:58,850 [INFO] project.progtechwitcher.Logging.Log [main] : Getting data from Users table was successful
+2022-05-17 00:12:58,855 [INFO] project.progtechwitcher.Logging.Log [main] : Connected to Database
+2022-05-17 00:12:58,858 [INFO] project.progtechwitcher.Logging.Log [main] : Connected to Database
+2022-05-17 00:12:58,860 [INFO] project.progtechwitcher.Logging.Log [main] : Getting data from Jobs table was successful
+2022-05-17 00:12:58,865 [INFO] project.progtechwitcher.Logging.Log [main] : Connected to Database
+2022-05-17 00:12:58,866 [INFO] project.progtechwitcher.Logging.Log [main] : Getting data from Jobs table was successful
+2022-05-17 00:12:58,871 [INFO] project.progtechwitcher.Logging.Log [main] : Connected to Database
+2022-05-17 00:12:58,873 [INFO] project.progtechwitcher.Logging.Log [main] : Getting data from Jobs table was successful
+2022-05-17 00:12:58,876 [INFO] project.progtechwitcher.Logging.Log [main] : Connected to Database
+2022-05-17 00:12:58,877 [INFO] project.progtechwitcher.Logging.Log [main] : Getting data from Jobs table was successful
+2022-05-17 00:12:58,877 [INFO] project.progtechwitcher.Logging.Log [main] : Getting data from Users table was successful
+2022-05-17 00:21:50,140 [INFO] project.progtechwitcher.Logging.Log [main] : Connected to Database
+2022-05-17 00:50:39,157 [INFO] project.progtechwitcher.Logging.Log [main] : Connected to Database
+2022-05-17 00:51:01,294 [INFO] project.progtechwitcher.Logging.Log [main] : Connected to Database
+2022-05-17 00:51:01,332 [INFO] project.progtechwitcher.Logging.Log [main] : Getting data from Jobs table was successful
+2022-05-17 00:51:01,344 [INFO] project.progtechwitcher.Logging.Log [main] : Connected to Database
+2022-05-17 00:51:01,351 [INFO] project.progtechwitcher.Logging.Log [main] : Connected to Database
+2022-05-17 00:51:01,353 [INFO] project.progtechwitcher.Logging.Log [main] : Getting data from Jobs table was successful
+2022-05-17 00:51:01,357 [INFO] project.progtechwitcher.Logging.Log [main] : Connected to Database
+2022-05-17 00:51:01,359 [INFO] project.progtechwitcher.Logging.Log [main] : Getting data from Jobs table was successful
+2022-05-17 00:51:01,371 [INFO] project.progtechwitcher.Logging.Log [main] : Connected to Database
+2022-05-17 00:51:01,372 [INFO] project.progtechwitcher.Logging.Log [main] : Getting data from Jobs table was successful
+2022-05-17 00:51:01,375 [INFO] project.progtechwitcher.Logging.Log [main] : Connected to Database
+2022-05-17 00:51:01,376 [INFO] project.progtechwitcher.Logging.Log [main] : Getting data from Jobs table was successful
+2022-05-17 00:51:01,376 [INFO] project.progtechwitcher.Logging.Log [main] : Getting data from Users table was successful
+2022-05-17 01:09:08,247 [INFO] project.progtechwitcher.Logging.Log [main] : Connected to Database
+2022-05-17 01:09:08,280 [INFO] project.progtechwitcher.Logging.Log [main] : Connected to Database
+2022-05-17 01:09:08,292 [INFO] project.progtechwitcher.Logging.Log [main] : Getting data from Jobs table was successful
+2022-05-17 01:09:08,297 [INFO] project.progtechwitcher.Logging.Log [main] : Connected to Database
+2022-05-17 01:09:08,299 [INFO] project.progtechwitcher.Logging.Log [main] : Getting data from Jobs table was successful
+2022-05-17 01:09:08,299 [INFO] project.progtechwitcher.Logging.Log [main] : Getting data from Users table was successful
+2022-05-17 01:09:08,302 [INFO] project.progtechwitcher.Logging.Log [main] : Connected to Database
+2022-05-17 01:09:08,324 [ERROR] project.progtechwitcher.Logging.Log [main] : Duplicate entry 'admin1' for key 'username'

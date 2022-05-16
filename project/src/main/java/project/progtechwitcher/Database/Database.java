@@ -20,7 +20,7 @@ public class Database {
     public static ArrayList<Jobs> jobs = new ArrayList<Jobs>();
     public static ArrayList<UserBase> users = new ArrayList<UserBase>();
 
-    private static Connection ConnectToDb(){
+    protected static Connection ConnectToDb(){
         try {
             Class.forName(driver);
         } catch (ClassNotFoundException e) {
@@ -198,6 +198,7 @@ public class Database {
                 st.close();
                 connection.close();
                 users = null;
+                users = new ArrayList<UserBase>();
                 GetUsers();
             }
             catch (Exception e)
@@ -214,7 +215,7 @@ public class Database {
                 Statement st = connection.createStatement();
                 String query = String.format("Insert into jobs(title, description, reward, required_level, is_someone_assigned, created_by) " +
                         "values(\'"+title+"\', \'"+description+"\', "+reward+", "+requiredLevel+", 0, "+createdBy+");");
-                st.executeUpdate(query);
+                int rs = st.executeUpdate(query);
                 st.close();
                 connection.close();
                 jobs=null;
@@ -334,7 +335,7 @@ public class Database {
         Connection connection = ConnectToDb();
         if (connection != null) {
             try {
-                String query = String.format("Delete from jobs where job_id = "+jobId);
+                String query = String.format("Delete from jobs where id = "+jobId);
                 Statement st = connection.createStatement();
                 st.execute(query);
                 st.close();
