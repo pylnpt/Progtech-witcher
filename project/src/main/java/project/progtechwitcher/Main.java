@@ -5,9 +5,8 @@ import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.stage.Stage;
-import javafx.stage.StageStyle;
-import project.progtechwitcher.Database.ConnectToDatabase;
-import project.progtechwitcher.Logging.Log;
+import project.progtechwitcher.Database.Database;
+import project.progtechwitcher.Database.TypeForReadingJobs;
 import project.progtechwitcher.models.Jobs;
 import project.progtechwitcher.models.user.UserBase;
 
@@ -42,13 +41,13 @@ public class Main extends Application {
     }
 
     public static void main(String[] args) throws Exception {
-        ConnectToDatabase.GetJobs(0, ConnectToDatabase.jobs, 'a');
-        for(Jobs x:ConnectToDatabase.jobs)
+        Database.GetJobs(0, Database.jobs, TypeForReadingJobs.ALL);
+        for(Jobs x: Database.jobs)
         {
             System.out.println(x.toString());
         }
-        ConnectToDatabase.GetUsers();
-        for(UserBase x:ConnectToDatabase.users)
+        Database.GetUsers();
+        for(UserBase x: Database.users)
         {
             System.out.println(x.toString());
         }
