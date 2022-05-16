@@ -52,7 +52,6 @@ public class Main extends Application {
         {
             System.out.println(x.toString());
         }
-        Log.CreateLogFile();
         launch();
     }
 }
