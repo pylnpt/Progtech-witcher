@@ -4,16 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="05cb5648-eda6-4c6c-9877-ff37a4422db0" name="Changes" comment="Styling of the main frame of the UI">
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+    <list default="true" id="05cb5648-eda6-4c6c-9877-ff37a4422db0" name="Changes" comment="Implemented CRUD operations">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project.iml" beforeDir="false" afterPath="$PROJECT_DIR$/project.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/project/progtechwitcher/Database/ConnectToDatabase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/project/progtechwitcher/Database/Database.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/project/progtechwitcher/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/project/progtechwitcher/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/project/progtechwitcher/models/user/Admin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/project/progtechwitcher/models/user/Admin.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/project/progtechwitcher/models/user/CanAdvertiseJobs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/project/progtechwitcher/models/user/CanAdvertiseJobs.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/project/progtechwitcher/models/user/CanTakeJobs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/project/progtechwitcher/models/user/CanTakeJobs.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/project/progtechwitcher/models/user/UserBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/project/progtechwitcher/models/user/UserBase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/project/progtechwitcher/Database/ConnectToDatabase$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/project/progtechwitcher/Database/ConnectToDatabase.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/project/progtechwitcher/models/user/Admin.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/project/progtechwitcher/models/user/Admin.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/project/progtechwitcher/models/user/CanAdvertiseJobs.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/project/progtechwitcher/models/user/CanAdvertiseJobs.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/project/progtechwitcher/models/user/CanTakeJobs.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/project/progtechwitcher/models/user/CanTakeJobs.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/project/progtechwitcher/models/user/UserBase$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/project/progtechwitcher/models/user/UserBase$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/project/progtechwitcher/models/user/UserBase.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/project/progtechwitcher/models/user/UserBase.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,8 +23,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="FxmlFile" />
-        <option value="Class" />
         <option value="Enum" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -228,7 +227,14 @@
       <option name="project" value="LOCAL" />
       <updated>1652659755034</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Implemented CRUD operations">
+      <created>1652728287147</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1652728287147</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -255,7 +261,8 @@
     <MESSAGE value="Fixed logging to console (Error and below)" />
     <MESSAGE value="Managed to log all levels to CONSOLE" />
     <MESSAGE value="Log into file but need to fix date in filename" />
-    <option name="LAST_COMMIT_MESSAGE" value="Log into file but need to fix date in filename" />
+    <MESSAGE value="Implemented CRUD operations" />
+    <option name="LAST_COMMIT_MESSAGE" value="Implemented CRUD operations" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

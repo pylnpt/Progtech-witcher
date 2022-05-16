@@ -7,6 +7,7 @@ import javafx.scene.Scene;
 import javafx.stage.Stage;
 import project.progtechwitcher.Database.Database;
 import project.progtechwitcher.Database.TypeForReadingJobs;
+import project.progtechwitcher.Hash.MD5Hash;
 import project.progtechwitcher.models.Jobs;
 import project.progtechwitcher.models.user.UserBase;
 
@@ -51,6 +52,7 @@ public class Main extends Application {
         {
             System.out.println(x.toString());
         }
+        System.out.println(MD5Hash.getMd5("123"));
         launch();
     }
 }
