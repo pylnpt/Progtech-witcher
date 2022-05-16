@@ -4,8 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="05cb5648-eda6-4c6c-9877-ff37a4422db0" name="Changes" comment="Database things">
+    <list default="true" id="05cb5648-eda6-4c6c-9877-ff37a4422db0" name="Changes" comment="Log into file but need to fix date in filename">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/project/progtechwitcher/Database/ConnectToDatabase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/project/progtechwitcher/Database/ConnectToDatabase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/log4j2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/log4j2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/log4j2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/log4j2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/project/progtechwitcher/Logging/Log.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/project/progtechwitcher/Logging/Log.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/project/progtechwitcher/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/project/progtechwitcher/Main.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,11 +57,13 @@
     <property name="DatabaseDriversLRU" value="mysql" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/mysql-connector-java-8.0.29/mysql-connector-java-8.0.29.jar" />
-    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../../../apache-log4j-2.17.2-bin/log4j-core-2.17.2.jar" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -65,11 +72,11 @@
       <recent name="C:\Users\Admin\Desktop\Progtech-witcher\project\src\main\resources\project\progtechwitcher\icons" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\Admin\Desktop\Progtech-witcher\project\src\main\resources\project\progtechwitcher" />
-      <recent name="C:\Users\Admin\Desktop\Progtech-witcher\project\src\main\resources" />
-      <recent name="C:\Users\Admin\Desktop\Progtech-witcher\project\src\main\resources\project\progtechwitcher\Views" />
-      <recent name="C:\Users\Admin\Desktop\Progtech-witcher\project\src\main\java" />
-      <recent name="C:\Users\Admin\Desktop\Progtech-witcher\project\src\main\resources\project\progtechwitcher\icons" />
+      <recent name="C:\Users\Dorina\Documents\GitHub\Progtech-witcher\project\src\main\resources" />
+      <recent name="C:\Users\Dorina\Documents\GitHub\Progtech-witcher\project\src\main\java\project\progtechwitcher\Logging" />
+      <recent name="C:\Users\Dorina\Documents\GitHub\Progtech-witcher\project\src\main\java" />
+      <recent name="C:\Users\Dorina\Documents\GitHub\Progtech-witcher\project\src" />
+      <recent name="C:\Users\Dorina\Documents\GitHub\Progtech-witcher\project\src\main\java\project\progtechwitcher" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="project.progtechwitcher" />
@@ -139,11 +146,13 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="80e184c2-d335-4b4f-9197-4274d58e0ef9" name="Changes" comment="" />
+      <changelist id="05cb5648-eda6-4c6c-9877-ff37a4422db0" name="Changes" comment="Database things" />
       <created>1651849952656</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1651849952656</updated>
+      <workItem from="1652528695416" duration="91000" />
+      <workItem from="1652634375299" duration="15994000" />
     </task>
     <task id="LOCAL-00001" summary="Started Layout of the UI.&#10;-&gt; Created a HomeView (WIP)&#10;-&gt; Created a Controller to the view(WIP)&#10;&#10;-&gt; created a style.css which is going to handle the styling of the UI.">
       <created>1651852426093</created>
@@ -194,8 +203,32 @@
       <option name="project" value="LOCAL" />
       <updated>1652088437864</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Fixed logging to console (Error and below)">
+      <created>1652650823222</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1652650823222</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Managed to log all levels to CONSOLE">
+      <created>1652656087544</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1652656087544</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Log into file but need to fix date in filename">
+      <created>1652659755034</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1652659755034</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -215,7 +248,10 @@
     <MESSAGE value="I made the project responsive and made a basic navigation for the main frame." />
     <MESSAGE value="Created MVC folder structure." />
     <MESSAGE value="Database things" />
-    <option name="LAST_COMMIT_MESSAGE" value="Database things" />
+    <MESSAGE value="Fixed logging to console (Error and below)" />
+    <MESSAGE value="Managed to log all levels to CONSOLE" />
+    <MESSAGE value="Log into file but need to fix date in filename" />
+    <option name="LAST_COMMIT_MESSAGE" value="Log into file but need to fix date in filename" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
