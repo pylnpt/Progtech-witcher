@@ -1,4 +1,4 @@
-package progtechbead.progtechapp.models.user;
+package project.progtechwitcher.models.user;
 
 public enum Role {
     ADMIN,

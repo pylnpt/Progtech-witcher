@@ -1,4 +1,4 @@
-package progtechbead.progtechapp.models;
+package project.progtechwitcher.models;
 
 public class Jobs {
     private int id;
@@ -7,7 +7,7 @@ public class Jobs {
     private int reward;
     private int requiredLevel;
     private boolean isSomeoneAssigned;
-    private int takenBy = 0;//ez, vagy egy User obj, de abban meg van egy Jobs lista
+    private int acceptedBy = 0;//db_connection táblából
     private int createdBy = 0;
     private boolean isDone = false;
 
@@ -75,16 +75,16 @@ public class Jobs {
         return isSomeoneAssigned;
     }
 
-    public int getTakenBy() {
-        return takenBy;
+    public int getAcceptedBy() {
+        return acceptedBy;
     }
 
-    public void setTakenBy(int takenBy) throws Exception {
-        if(this.takenBy == 0 && takenBy != 0) {
-            this.takenBy = takenBy;
+    public void setAcceptedBy(int acceptedBy) throws Exception {
+        if(this.acceptedBy == 0 && acceptedBy != 0) {
+            this.acceptedBy = acceptedBy;
             this.isSomeoneAssigned = true;
         }
-        else if(takenBy == 0 && this.takenBy!=0)
+        else if(acceptedBy == 0 && this.acceptedBy !=0)
         {
             throw new Exception("Already taken");
         }
@@ -106,9 +106,25 @@ public class Jobs {
         return isDone;
     }
 
-    public void setDone() {
-        if(this.isSomeoneAssigned == true
-                && this.isDone == false)
-            isDone = true;
+    public void setDone(boolean setDone) {
+        this.isDone = isDone;
+    }
+    public void setSomeoneAssigned(boolean someoneAssigned) {
+        isSomeoneAssigned = someoneAssigned;
+    }
+
+    @Override
+    public String toString() {
+        return "Jobs{" +
+                "id=" + id +
+                ", title='" + title + '\'' +
+                ", description='" + description + '\'' +
+                ", reward=" + reward +
+                ", requiredLevel=" + requiredLevel +
+                ", isSomeoneAssigned=" + isSomeoneAssigned +
+                ", acceptedBy=" + acceptedBy +
+                ", createdBy=" + createdBy +
+                ", isDone=" + isDone +
+                '}';
     }
 }

@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="800.0" prefWidth="750.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="project.progtechwitcher.Controllers.HomeController">
+
+    <children>
+        <BorderPane layoutX="-3.0" layoutY="-2.0" prefHeight="800.0" prefWidth="750.0" style="-fx-background-color: #9275bd;">
+         <center>
+            <GridPane BorderPane.alignment="CENTER">
+              <columnConstraints>
+                <ColumnConstraints hgrow="SOMETIMES" maxWidth="707.0" minWidth="10.0" prefWidth="666.0" />
+                <ColumnConstraints hgrow="SOMETIMES" maxWidth="362.0" minWidth="10.0" prefWidth="84.0" />
+              </columnConstraints>
+              <rowConstraints>
+                <RowConstraints maxHeight="261.0" minHeight="0.0" prefHeight="54.0" vgrow="SOMETIMES" />
+                <RowConstraints maxHeight="688.0" minHeight="10.0" prefHeight="79.0" vgrow="SOMETIMES" />
+                <RowConstraints maxHeight="700.0" minHeight="10.0" prefHeight="667.0" vgrow="SOMETIMES" />
+              </rowConstraints>
+               <children>
+                  <Label graphicTextGap="10.0" prefHeight="53.0" prefWidth="579.0" text="Welcome! " textFill="#541690">
+                     <font>
+                        <Font name="Arial Narrow" size="24.0" />
+                     </font>
+                     <padding>
+                        <Insets left="10.0" />
+                     </padding>
+                  </Label>
+                  <Label graphicTextGap="10.0" layoutX="10.0" layoutY="15.0" prefHeight="53.0" prefWidth="655.0" text="In order to use this app please log in to your account or create one." textFill="#541690" GridPane.rowIndex="1">
+                     <font>
+                        <Font name="Arial Narrow" size="24.0" />
+                     </font>
+                     <padding>
+                        <Insets left="10.0" />
+                     </padding>
+                  </Label>
+                  <GridPane GridPane.rowIndex="2">
+                    <columnConstraints>
+                      <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                      <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                    </columnConstraints>
+                    <rowConstraints>
+                      <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                      <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                      <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                    </rowConstraints>
+                     <children>
+                        <VBox prefHeight="223.0" prefWidth="243.0" styleClass="card" stylesheets="@../css/style.css">
+                           <GridPane.margin>
+                              <Insets />
+                           </GridPane.margin>
+                           <children>
+                              <Label contentDisplay="CENTER" prefHeight="41.0" prefWidth="344.0" style="-fx-background-color: #541690;" styleClass="card-header" text="What can you do after you log in:" textAlignment="CENTER" textFill="#ff9808">
+                                 <font>
+                                    <Font size="18.0" />
+                                 </font>
+                                 <padding>
+                                    <Insets left="10.0" />
+                                 </padding>
+                              </Label>
+                              <TextArea editable="false" maxWidth="300.0" minWidth="250.0" prefHeight="178.0" prefWidth="250.0" styleClass="card-body" text="- Post a bounty if you have a problem with &#10;  monsters or with supernatural beings&#10;&#10;- Accept a job if you are a Witcher">
+                                 <font>
+                                    <Font size="14.0" />
+                                 </font>
+                                 <VBox.margin>
+                                    <Insets left="10.0" />
+                                 </VBox.margin>
+                              </TextArea>
+                           </children>
+                        </VBox>
+                     </children>
+                  </GridPane>
+               </children>
+            </GridPane>
+         </center>
+        </BorderPane>
+        <Accordion />
+    </children>
+</AnchorPane>

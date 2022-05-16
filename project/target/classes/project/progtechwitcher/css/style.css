@@ -1,3 +1,15 @@
+.card {
+    -fx-background-color: #fff;
+    -fx-background-radius: 30;
+}
+.card-header {
+    -fx-background-radius: 30 30 0 0 ;
+}
+
+.card-body {
+    -fx-background-radius: 0 0 30 30;
+    -fx-background-color: #fff;
+}
 .container {
     -fx-background-radius: 2em;
 }

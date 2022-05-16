@@ -1,0 +1,24 @@
+<!--https://stackoverflow.com/questions/19304165/time-based-triggering-policy-in-log4j2-->
+<Configuration>
+    <Properties>
+        <Property name="filename">./src/main/java/project/progtechwitcher/Logging/LogFiles</Property>
+    </Properties>
+    <Appenders>
+        <RollingFile name="File" fileName="${filename}/log.log" filePattern="${filename}/log-%d{yyyy-MM-dd}.log">
+            <PatternLayout>
+                <pattern>%d [%p] %C [%t] : %m%n</pattern>
+            </PatternLayout>
+            <TimeBasedTriggeringPolicy interval="1" modulate="true"/>
+        </RollingFile>
+        <Console name="STDOUT" target="SYSTEM_OUT">
+            <PatternLayout pattern="%d [%p] %c [%t] : %m%n"/>
+        </Console>
+    </Appenders>
+    <Loggers>
+        <Logger name="org.apache.log4j.xml" level="all"/>
+        <Root level="all">
+            <AppenderRef ref="File"/>
+            <AppenderRef ref="STDOUT"/>
+        </Root>
+    </Loggers>
+</Configuration>

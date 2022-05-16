@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="800.0" prefWidth="750.0"
+            xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1"
+            fx:controller="project.progtechwitcher.Controllers.JobsController">
+   <children>
+      <BorderPane layoutX="-3.0" layoutY="-2.0" prefHeight="800.0" prefWidth="750.0" style="-fx-background-color: #9275bd;">
+         <center>
+            <TextField editable="false" text="JOBS" BorderPane.alignment="CENTER" />
+         </center>
+      </BorderPane>
+      <Accordion />
+   </children>
+</AnchorPane>

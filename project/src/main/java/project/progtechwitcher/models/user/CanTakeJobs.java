@@ -1,28 +1,29 @@
-package progtechbead.progtechapp.models.user;
+package project.progtechwitcher.models.user;
+import project.progtechwitcher.Database.Database;
+import project.progtechwitcher.models.Jobs;
 
-import progtechbead.progtechapp.models.Jobs;
-
-public class CanTakeJobs extends RoleBase{
+public class CanTakeJobs extends RoleBase {
     private UserBase user;
     public CanTakeJobs(UserBase user) {
         super(user);
     }
-    public void TakeJob(Jobs job) throws Exception {
-        if(job.getRequiredLevel() > user.getLevel())
+
+
+    public void TakeJob(int JobId, int requiredLevel) throws Exception {
+        if(requiredLevel > user.getLevel())
         {
             throw new Exception("");
         }
         else
         {
-            job.setTakenBy(user.getId());
-            user.AddNewJob(job);
+            Database.ApplyToJob(JobId, this.user.getId());
         }
     }
 
-    public void JobDone(Jobs job)
+    public void JobDone(int jobId)
     {
-        job.setDone();
-        user.setLevel(user.getLevel()+job.getReward());
+        Database.SetJobDone(jobId, this.user.getId());
+        Database.AddReward2User(jobId, this.user.getId());
     }
 }
 
