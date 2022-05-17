@@ -180,7 +180,9 @@ public class ProfileController {
                 myJobsTable.getItems().add(jobs);
             }
             else {
-                myJobsTable.getItems().add(jobs);
+                if(jobs.getAcceptedBy()==0) {
+                    myJobsTable.getItems().add(jobs);
+                }
             }
         }
     }
