@@ -116,26 +116,22 @@ public class Database {
                     int requiredLevel= rs.getInt("required_level");
                     boolean isSomeoneAssigned = rs.getBoolean("is_someone_assigned");//igazából ez egy felesleges mező, de már így marad
                     int createdBy = rs.getInt("created_by");
-                    int acceptedBy = 0;
-                    boolean isDone = false;
-
-                    Statement st2 = connection.createStatement();
+                    Jobs j = new Jobs(title, description,
+                            reward, requiredLevel);
+                    Connection con = ConnectToDb();
+                    Statement st2 = con.createStatement();
                     ResultSet rs2 = st2.executeQuery("select user_id, is_done from work_user_connection where job_id = " + id);
                     if(rs2.next() != false)
                     {
-                        acceptedBy = rs2.getInt(1);
-                        isDone = rs2.getBoolean(2);
+                        j.setAcceptedBy(rs2.getInt(1));
+                        j.setDone(rs2.getInt("is_done")==1?true:false);
                     }
                     st2.close();
+                    con.close();
 
-                    Jobs j = new Jobs(title, description,
-                            reward, requiredLevel);
-                    j.setAcceptedBy(acceptedBy);
                     j.setId(id);
                     j.setCreatedBy(createdBy);
-                    j.setDone(isDone);
                     j.setSomeoneAssigned(isSomeoneAssigned);
-
                     jobs.add(j);
                 }
                 st.close();
@@ -320,7 +316,7 @@ public class Database {
                 preparedStmt.executeUpdate(query);
 
                 Statement st = connection.createStatement();
-                query = String.format("Insert into work_user_connection(user_id, job_id) values("+userId+","+jobId+")");
+                query = String.format("Insert into work_user_connection(user_id, job_id, is_done) values("+userId+","+jobId+", 0)");
                 st.executeUpdate(query);
                 preparedStmt.close();
                 st.close();
@@ -344,14 +340,12 @@ public class Database {
         if (connection != null) {
             try {
                 String query = String.format("Update work_user_connection set is_done = 1 where user_id = "+userId+" and job_id = "+jobId);
-                Statement preparedStmt = connection.createStatement();
-                preparedStmt.executeUpdate(query);
+                PreparedStatement preparedStmt = connection.prepareStatement(query);
+                preparedStmt.executeUpdate();
                 preparedStmt.close();
                 connection.close();
                 GetJobs(0, jobs, TypeForReadingJobs.ALL);
 
-                users = null;
-                users = new ArrayList<UserBase>();
 
                 GetUsers(0);
             } catch (Exception e) {
@@ -395,7 +389,7 @@ public class Database {
         Connection connection = ConnectToDb();
         if (connection != null) {
             try {
-                String query = String.format("Update users set password = md5("+password+") where user_id = "+userId);
+                String query = String.format("Update users set password = md5("+password+") where id = "+userId);
                 Statement preparedStmt = connection.createStatement();
                 preparedStmt.executeUpdate(query);
                 preparedStmt.close();

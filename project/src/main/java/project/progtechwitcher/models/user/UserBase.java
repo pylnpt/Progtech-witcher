@@ -29,7 +29,7 @@ public abstract class UserBase {
 
     public final void ModifyPassword(String password)
     {
-        Database.ModifyPassword(this.getId(), password);
+        Database.ModifyPassword(id, password);
     }
 
     public UserBase(String username, Role role) {

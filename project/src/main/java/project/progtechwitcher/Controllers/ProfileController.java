@@ -5,13 +5,17 @@ import javafx.scene.control.*;
 import javafx.scene.control.cell.PropertyValueFactory;
 import javafx.scene.layout.HBox;
 import project.progtechwitcher.Database.Database;
+import project.progtechwitcher.Hash.MD5Hash;
 import project.progtechwitcher.MainController;
 import project.progtechwitcher.models.Jobs;
+import project.progtechwitcher.models.user.CanAdvertiseJobs;
+import project.progtechwitcher.models.user.CanTakeJobs;
 import project.progtechwitcher.models.user.Role;
 import project.progtechwitcher.models.user.UserBase;
 
 import java.lang.reflect.Array;
 import java.util.ArrayList;
+import java.util.HashMap;
 
 public class ProfileController {
     @FXML
@@ -29,37 +33,99 @@ public class ProfileController {
     @FXML
     TextArea descriptionTextField;
     @FXML
+    private Button doneBtn;
+
+    @FXML
+    private Button ModPassword;
+    @FXML
+    private PasswordField currentPassword;
+    @FXML
+    private PasswordField NewPassword;
+    @FXML
+    private PasswordField NewPassword2;
+    @FXML
+    private Button cancelBtn;
+
+    private UserBase user;
+    private int jobId=0;
+
+    @FXML
     private void initialize()
     {
-        if(MainController.userId != 0){
-            Database.GetUsers(MainController.userId);
-        }
+        Database.GetUsers(MainController.userId);
+        user =Database.users.get(0);
+        passwordOff();
+        changePasswordBtn.setOnMouseClicked(event->{
+            passwordOn();
+        });
+        cancelBtn.setOnMouseClicked(event -> passwordOff());
+        ModPassword.setOnMouseClicked(event->ChangePasswd());
 
         generateTable();
         addDataToTextField();
 
         myJobsTable.setOnMouseClicked(e -> clickCell());
-
+        SetJobDone();
 
     }
-    private void clearTable(){
+
+    private void passwordOff()
+    {
+        ModPassword.setDisable(true);
+        ModPassword.setManaged(false);
+        ModPassword.setVisible(false);
+
+        cancelBtn.setDisable(true);
+        cancelBtn.setManaged(false);
+        cancelBtn.setVisible(false);
+
+        currentPassword.setDisable(true);
+        currentPassword.setVisible(false);
+
+        NewPassword.setDisable(true);
+        NewPassword.setVisible(false);
+
+        NewPassword2.setDisable(true);
+        NewPassword2.setVisible(false);
+    }
+    private void passwordOn()
+    {
+        ModPassword.setDisable(false);
+        ModPassword.setManaged(true);
+        ModPassword.setVisible(true);
+
+        cancelBtn.setDisable(false);
+        cancelBtn.setManaged(true);
+        cancelBtn.setVisible(true);
+
+        currentPassword.setDisable(false);
+        currentPassword.setVisible(true);
+
+        NewPassword.setDisable(false);
+        NewPassword.setVisible(true);
+
+        NewPassword2.setDisable(false);
+        NewPassword2.setVisible(true);
+    }
+    private void ClearTable()
+    {
         myJobsTable.getItems().clear();
+        System.out.println("kox");
+
     }
+
     private void addDataToTextField(){
-        for(UserBase user: Database.users)
-        {
-            userNameInput.setText(user.getUsername());
-            roleInput.setText(user.getRole().toString());
-            levelInput.setText(Integer.toString(user.getLevel()));
-        }
+        userNameInput.setText(user.getUsername());
+        roleInput.setText(user.getRole().toString());
+        levelInput.setText(Integer.toString(user.getLevel()));
+
     }
 
     private void generateTable(){
-        UserBase employer = Database.users.get(0);
 
         ArrayList<Jobs> tableData;
 
-        switch (employer.getRole())
+        switch (user.getRole())
         {
             case ADMIN -> {
                 tableData = new ArrayList<>();
@@ -68,12 +134,19 @@ public class ProfileController {
                 break;
             }
             case EMPLOYER -> {
-                tableData = new ArrayList<>(employer.advertisedJobs);
-                addTableData(employer.advertisedJobs);
+                tableData = new ArrayList<>(user.advertisedJobs);
+                addTableData(user.advertisedJobs);
                 break;
             }
             case EMPLOYEE -> {
-                tableData = new ArrayList<>(employer.takenJobs);
+                tableData = new ArrayList<>();
+                for(Jobs job : user.takenJobs)
+                {
+                    if(job.isDone() != true)
+                    {
+                        tableData.add(job);
+                    }
+                }
                 addTableData(tableData);
                 break;
             }
@@ -102,7 +175,7 @@ public class ProfileController {
         myJobsTable.getColumns().add(thirdColumn);
 
         for (Jobs jobs : tableData){
-            if(Database.users.get(0).getRole() == Role.EMPLOYEE && jobs.isDone() == false)
+            if(user.getRole() == Role.EMPLOYEE && jobs.isDone() == false)
             {
                 myJobsTable.getItems().add(jobs);
             }
@@ -120,7 +193,11 @@ public class ProfileController {
             String splitDescription = myJobsTable.getSelectionModel().getSelectedItem().toString().split(",")[2];
             String description = splitDescription.split("'")[1];
 
+            String idSplit = myJobsTable.getSelectionModel().getSelectedItem().toString().split(",")[0];
+            jobId = Integer.parseInt(idSplit.split("=")[1]);
             descriptionTextField.setText(description);
+
+            System.out.println(jobId);
         }
         catch(Exception e)
         {
@@ -128,5 +205,55 @@ public class ProfileController {
         }
     }
 
+    private void ChangePasswd()
+    {
+        if(!(currentPassword.getText()=="" || NewPassword.getText()=="" || NewPassword2.getText()==""))
+        {
+            if(MD5Hash.getMd5(currentPassword.getText()).equals(user.getPassword()))
+            {
+                if(NewPassword.getText().equals(NewPassword2.getText()))
+                {
+                    user.ModifyPassword(NewPassword.getText());
+                }
+            }
+        }
+    }
+
+    @FXML
+    private void SetJobDone(){
+        if(user.getRole() == Role.EMPLOYEE) {
+            doneBtn.setOnMouseClicked(event -> {
+                SetButtonActionIfEmployee();
+                ClearTable();
+                generateTable();
+                addDataToTextField();
+            });
+        }
+        else
+        {
+            doneBtn.setText("Delete Job");
+            doneBtn.setOnMouseClicked(event -> {
+                try {
+                    SetButtonActionIfEmployer();
+                } catch (IllegalAccessException e) {
+                    e.printStackTrace();
+                    ClearTable();
+                    generateTable();
+                }
+            });
+        }
+    }
+
+    private void SetButtonActionIfEmployee(){
+        new CanTakeJobs(user).JobDone(jobId);
+        Database.GetUsers(user.getId());
+        user = Database.users.get(0);
+    }
+
+    private void SetButtonActionIfEmployer() throws IllegalAccessException {
+        new CanAdvertiseJobs(user).DeleteJob(jobId);
+        Database.GetUsers(user.getId());
+        user = Database.users.get(0);
+    }
 
 }

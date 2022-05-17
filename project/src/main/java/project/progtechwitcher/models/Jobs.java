@@ -107,7 +107,7 @@ public class Jobs {
     }
 
     public void setDone(boolean setDone) {
-        this.isDone = isDone;
+        this.isDone = setDone;
     }
     public void setSomeoneAssigned(boolean someoneAssigned) {
         isSomeoneAssigned = someoneAssigned;
