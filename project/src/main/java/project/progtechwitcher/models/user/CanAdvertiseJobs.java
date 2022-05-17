@@ -6,6 +6,7 @@ public class CanAdvertiseJobs extends RoleBase{
     private UserBase user;
     public CanAdvertiseJobs(UserBase user) {
         super(user);
+        this.user=user;
     }
 
     public void AdvertiseJob(String title, String description, int reward, int requiredLevel) {

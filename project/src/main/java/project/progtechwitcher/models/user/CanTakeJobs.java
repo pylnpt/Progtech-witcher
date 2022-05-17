@@ -6,6 +6,7 @@ public class CanTakeJobs extends RoleBase {
     private UserBase user;
     public CanTakeJobs(UserBase user) {
         super(user);
+        this.user=user;
     }
 
 

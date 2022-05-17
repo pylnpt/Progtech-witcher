@@ -42,11 +42,10 @@ public class Database {
         }
         return connection;
     }
-    protected static UserBase SwitchOnRole(Role role, String username, String passwordmd5, int id, int level)
+    protected static UserBase SwitchOnRole(Role role, String username, String passwordmd5, int id, int level, ArrayList<Jobs> UsersJobs)
     {
         Connection connection = ConnectToDb();
         UserBase user = null;
-        ArrayList<Jobs> UsersJobs=null;
         switch (role) {
             case ADMIN -> {
                 user = new Admin(username);
@@ -54,7 +53,7 @@ public class Database {
                 user.setId(id);
             }
             case EMPLOYER -> {
-                user = new CanAdvertiseJobs(new Employer(username));
+                user = new Employer(username);
                 user.setLevel(level);
                 user.setId(id);
                 user.setPassword(passwordmd5);
@@ -64,7 +63,7 @@ public class Database {
                 user.advertisedJobs = UsersJobs;
             }
             case EMPLOYEE -> {
-                user = new CanTakeJobs(new Employee(username));
+                user = new Employee(username);
                 user.setLevel(level);
                 user.setId(id);
                 user.setPassword(passwordmd5);
@@ -97,18 +96,12 @@ public class Database {
                 String query = "";
                 switch (type) {
                     case ALL -> {
-                        jobs = null;
-                        jobs = new ArrayList<Jobs>();
                         query = "select * from jobs";
                     }
                     case CREATED -> {
-                        jobs = null;
-                        jobs = new ArrayList<Jobs>();
                         query = String.format("select * from jobs where created_by = " + inputId);
                     }
                     case ACCEPTED -> {
-                        jobs = null;
-                        jobs = new ArrayList<Jobs>();
                         query = String.format("select * from jobs where id = " + inputId);
                     }
                     default -> throw new IllegalStateException("Unexpected value: " + type);
@@ -181,25 +174,21 @@ public class Database {
                     users = null;
                     users = new ArrayList<UserBase>();
                     query = String.format("select * from users where id = "+ inputId);
-
-                    query = "select * from users";
                 }
-                else {
-                    query = String.format("select * from users whereid = "+inputId);
 
-                }
+
                 ResultSet rs = st.executeQuery(query);
 
                 while(rs.next())
                 {
-                    UserBase user = null;
+                    //UserBase user = null;
                     Role role= RoleConverter.StringToRole(rs.getString("role"));
                     int id = rs.getInt("id");
                     String username = rs.getString("username");
                     String passwordmd5 = rs.getString("password");
                     int level = rs.getInt("level");
                     ArrayList<Jobs> UsersJobs = null;
-                    users.add(SwitchOnRole(role, username, passwordmd5, id, level));
+                    users.add(SwitchOnRole(role, username, passwordmd5, id, level, UsersJobs));
                 }
                 st.close();
                 connection.close();
@@ -256,7 +245,8 @@ public class Database {
                         String username = rs.getString("username");
                         String passwordmd5 = rs.getString("password");
                         int level = rs.getInt("level");
-                        user = SwitchOnRole(role, username, passwordmd5, id, level);
+                        ArrayList<Jobs> UsersJobs = null;
+                        user = SwitchOnRole(role, username, passwordmd5, id, level, UsersJobs);
                     }
                 } catch (Exception e) {
                     Log.Error(Database.class, e.getMessage());

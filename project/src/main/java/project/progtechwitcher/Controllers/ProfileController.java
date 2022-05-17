@@ -3,14 +3,11 @@ package project.progtechwitcher.Controllers;
 import javafx.fxml.FXML;
 import javafx.scene.control.*;
 import javafx.scene.control.cell.PropertyValueFactory;
-import javafx.scene.input.MouseEvent;
 import javafx.scene.layout.HBox;
-import javafx.scene.layout.VBox;
 import project.progtechwitcher.Database.Database;
+import project.progtechwitcher.MainController;
 import project.progtechwitcher.models.Jobs;
-import project.progtechwitcher.models.user.CanAdvertiseJobs;
-import project.progtechwitcher.models.user.Employee;
-import project.progtechwitcher.models.user.Employer;
+import project.progtechwitcher.models.user.Role;
 import project.progtechwitcher.models.user.UserBase;
 
 import java.lang.reflect.Array;
@@ -34,16 +31,17 @@ public class ProfileController {
     @FXML
     private void initialize()
     {
-        Database.GetUsers(2);
+        if(MainController.userId != 0){
+            Database.GetUsers(MainController.userId);
+        }
 
-        // dButton.setOnAction(event ->KOX());
-        addDataToTextField(userNameInput, roleInput, levelInput);
-        generateTable(myJobsTable, tableSection);
+        generateTable();
+        addDataToTextField();
         myJobsTable.setOnMouseClicked(e -> clickCell());
 
     }
 
-    private void addDataToTextField(TextField userNameInput, TextField roleInput, TextField levelInput ){
+    private void addDataToTextField(){
         for(UserBase user: Database.users)
         {
             userNameInput.setText(user.getUsername());
@@ -52,13 +50,10 @@ public class ProfileController {
         }
     }
 
-    private void generateTable(TableView myJobsTable, HBox tableSection){
+    private void generateTable(){
         UserBase employer = Database.users.get(0);
-        System.out.println(employer.toString());
-        System.out.println(employer.getRole());
 
-
-        ArrayList<Jobs> tableData = null;
+        ArrayList<Jobs> tableData;
 
         switch (employer.getRole())
         {
@@ -70,7 +65,7 @@ public class ProfileController {
             }
             case EMPLOYER -> {
                 tableData = new ArrayList<>(employer.advertisedJobs);
-                addTableData(tableData);
+                addTableData(employer.advertisedJobs);
                 break;
             }
             case EMPLOYEE -> {
@@ -103,7 +98,13 @@ public class ProfileController {
         myJobsTable.getColumns().add(thirdColumn);
 
         for (Jobs jobs : tableData){
-            myJobsTable.getItems().add(jobs);
+            if(Database.users.get(0).getRole() == Role.EMPLOYEE && jobs.isDone() == false)
+            {
+                myJobsTable.getItems().add(jobs);
+            }
+            else {
+                myJobsTable.getItems().add(jobs);
+            }
         }
         System.out.println(myJobsTable.getSelectionModel().getSelectedItem());
     }
@@ -111,11 +112,17 @@ public class ProfileController {
     @FXML
     public void clickCell()
     {
-        descriptionTextField.setText("");
-        String splitDescription = myJobsTable.getSelectionModel().getSelectedItem().toString().split("," )[2];
-        String description = splitDescription.split("'")[1];
+        try {
+            descriptionTextField.setText("");
+            String splitDescription = myJobsTable.getSelectionModel().getSelectedItem().toString().split(",")[2];
+            String description = splitDescription.split("'")[1];
 
-        descriptionTextField.setText(description);
+            descriptionTextField.setText(description);
+        }
+        catch(Exception e)
+        {
+
+        }
     }
 
 
