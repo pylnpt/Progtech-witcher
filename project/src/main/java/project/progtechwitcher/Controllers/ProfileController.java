@@ -4,7 +4,9 @@ import javafx.fxml.FXML;
 import javafx.scene.control.*;
 import javafx.scene.control.cell.PropertyValueFactory;
 import javafx.scene.input.MouseEvent;
-import project.progtechwitcher.Database.ConnectToDatabase;
+import javafx.scene.layout.HBox;
+import javafx.scene.layout.VBox;
+import project.progtechwitcher.Database.Database;
 import project.progtechwitcher.models.Jobs;
 import project.progtechwitcher.models.user.CanAdvertiseJobs;
 import project.progtechwitcher.models.user.Employee;
@@ -25,23 +27,24 @@ public class ProfileController {
     private Button changePasswordBtn;
     @FXML
     private TableView myJobsTable;
-
+    @FXML
+    private HBox tableSection;
     @FXML
     TextArea descriptionTextField;
     @FXML
     private void initialize()
     {
-        ConnectToDatabase.GetUsers(2);
+        Database.GetUsers(2);
 
         // dButton.setOnAction(event ->KOX());
         addDataToTextField(userNameInput, roleInput, levelInput);
-        generateTable(myJobsTable);
-        myJobsTable.setOnMouseClicked(e -> clickItem());
+        generateTable(myJobsTable, tableSection);
+        myJobsTable.setOnMouseClicked(e -> clickCell());
 
     }
 
     private void addDataToTextField(TextField userNameInput, TextField roleInput, TextField levelInput ){
-        for(UserBase user: ConnectToDatabase.users)
+        for(UserBase user: Database.users)
         {
             userNameInput.setText(user.getUsername());
             roleInput.setText(user.getRole().toString());
@@ -49,8 +52,8 @@ public class ProfileController {
         }
     }
 
-    private void generateTable(TableView myJobsTable){
-        UserBase employer = ConnectToDatabase.users.get(0);
+    private void generateTable(TableView myJobsTable, HBox tableSection){
+        UserBase employer = Database.users.get(0);
         System.out.println(employer.toString());
         System.out.println(employer.getRole());
 
@@ -61,18 +64,24 @@ public class ProfileController {
         {
             case ADMIN -> {
                 tableData = new ArrayList<>();
+                tableSection.managedProperty().bind(myJobsTable.visibleProperty());
+                tableSection.setVisible(false);
                 break;
             }
             case EMPLOYER -> {
                 tableData = new ArrayList<>(employer.advertisedJobs);
+                addTableData(tableData);
                 break;
             }
             case EMPLOYEE -> {
                 tableData = new ArrayList<>(employer.takenJobs);
+                addTableData(tableData);
                 break;
             }
         }
-
+    }
+    @FXML
+    public void addTableData(ArrayList<Jobs> tableData){
         TableColumn<String, Jobs> firstColumn = new TableColumn<>("Title");
         TableColumn<Integer, Jobs> secondColumn = new TableColumn<>("Reward");
         TableColumn<Integer, Jobs> thirdColumn = new TableColumn<>("Required level");
@@ -100,7 +109,7 @@ public class ProfileController {
     }
 
     @FXML
-    public void clickItem()
+    public void clickCell()
     {
         descriptionTextField.setText("");
         String splitDescription = myJobsTable.getSelectionModel().getSelectedItem().toString().split("," )[2];
@@ -108,4 +117,6 @@ public class ProfileController {
 
         descriptionTextField.setText(description);
     }
+
+
 }

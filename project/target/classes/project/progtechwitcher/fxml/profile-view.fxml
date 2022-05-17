@@ -79,7 +79,7 @@
             </GridPane>
          </top>
          <center>
-            <HBox prefHeight="100.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+            <HBox fx:id="tableSection" prefHeight="100.0" prefWidth="200.0" BorderPane.alignment="CENTER">
                <children>
                   <TableView fx:id="myJobsTable" prefHeight="200.0" prefWidth="400.0">
                      <HBox.margin>
