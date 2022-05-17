@@ -42,6 +42,49 @@ public class Database {
         }
         return connection;
     }
+    protected static UserBase SwitchOnRole(Role role, String username, String passwordmd5, int id, int level)
+    {
+        Connection connection = ConnectToDb();
+        UserBase user = null;
+        ArrayList<Jobs> UsersJobs=null;
+        switch (role) {
+            case ADMIN -> {
+                user = new Admin(username);
+                user.setPassword(passwordmd5);
+                user.setId(id);
+            }
+            case EMPLOYER -> {
+                user = new CanAdvertiseJobs(new Employer(username));
+                user.setLevel(level);
+                user.setId(id);
+                user.setPassword(passwordmd5);
+
+                UsersJobs = new ArrayList<>();
+                GetJobs(id, UsersJobs, TypeForReadingJobs.CREATED);
+                user.advertisedJobs = UsersJobs;
+            }
+            case EMPLOYEE -> {
+                user = new CanTakeJobs(new Employee(username));
+                user.setLevel(level);
+                user.setId(id);
+                user.setPassword(passwordmd5);
+
+                UsersJobs = new ArrayList<>();
+                try {
+                    Statement st2 = connection.createStatement();
+                    String query = String.format("select job_id from work_user_connection where user_id =" + id);
+                    ResultSet rs2 = st2.executeQuery(query);
+                    while (rs2.next()) {
+                        GetJobs(rs2.getInt("job_id"), UsersJobs, TypeForReadingJobs.ACCEPTED);
+                    }
+                } catch (SQLException throwables) {
+                    Log.Error(Database.class, throwables.getMessage());
+                }
+                user.takenJobs = UsersJobs;
+            }
+        }
+        return user;
+    }
 
     //Read
     public static final void GetJobs(int inputId, ArrayList<Jobs> jobs, TypeForReadingJobs type){
@@ -54,12 +97,18 @@ public class Database {
                 String query = "";
                 switch (type) {
                     case ALL -> {
+                        jobs = null;
+                        jobs = new ArrayList<Jobs>();
                         query = "select * from jobs";
                     }
                     case CREATED -> {
+                        jobs = null;
+                        jobs = new ArrayList<Jobs>();
                         query = String.format("select * from jobs where created_by = " + inputId);
                     }
                     case ACCEPTED -> {
+                        jobs = null;
+                        jobs = new ArrayList<Jobs>();
                         query = String.format("select * from jobs where id = " + inputId);
                     }
                     default -> throw new IllegalStateException("Unexpected value: " + type);
@@ -122,10 +171,22 @@ public class Database {
                 String query;
                 if(inputId==0)
                 {
+
+                    users = null;
+                    users = new ArrayList<UserBase>();
+                    query = "select * from users";
+                }
+                else
+                {
+                    users = null;
+                    users = new ArrayList<UserBase>();
+                    query = String.format("select * from users where id = "+ inputId);
+
                     query = "select * from users";
                 }
                 else {
                     query = String.format("select * from users whereid = "+inputId);
+
                 }
                 ResultSet rs = st.executeQuery(query);
 
@@ -138,42 +199,7 @@ public class Database {
                     String passwordmd5 = rs.getString("password");
                     int level = rs.getInt("level");
                     ArrayList<Jobs> UsersJobs = null;
-
-                    switch (role) {
-                        case ADMIN -> {
-                            user = new Admin(username);
-                            user.setPassword(passwordmd5);
-                            //user.setLevel(level);
-                            user.setId(id);
-                        }
-                        case EMPLOYER -> {
-                            user = new CanAdvertiseJobs(new Employer(username));
-                            user.setLevel(level);
-                            user.setId(id);
-                            user.setPassword(passwordmd5);
-
-                            UsersJobs = new ArrayList<>();
-                            GetJobs(id, UsersJobs, TypeForReadingJobs.CREATED);
-                            user.advertisedJobs = UsersJobs;
-                        }
-                        case EMPLOYEE -> {
-                            user = new CanTakeJobs(new Employee(username));
-                            user.setLevel(level);
-                            user.setId(id);
-                            user.setPassword(passwordmd5);
-                            
-                            UsersJobs = new ArrayList<>();
-                            Statement st2 = connection.createStatement();
-                            query = String.format("select job_id from work_user_connection where user_id =" + id);
-                            ResultSet rs2 = st2.executeQuery(query);
-                            while(rs2.next())
-                            {
-                                GetJobs(rs2.getInt("job_id"), UsersJobs, TypeForReadingJobs.ACCEPTED);
-                            }
-                            user.takenJobs = UsersJobs;
-                        }
-                    }
-                    users.add(user);
+                    users.add(SwitchOnRole(role, username, passwordmd5, id, level));
                 }
                 st.close();
                 connection.close();
@@ -191,6 +217,56 @@ public class Database {
         }
 
     }
+    public static int AuthenticatedUsersNumben(String username, String password)
+    {
+        int result = 0;
+        Connection connection = ConnectToDb();
+        if(connection!=null)
+        {
+            try
+            {
+                Statement st = connection.createStatement();
+                String query = String.format("select count(*) as cnt from users where username = \'"+username+"\' and password = md5(\'"+password+"\')");
+                ResultSet rs = st.executeQuery(query);
+                rs.next();
+                result = rs.getInt("cnt");
+            }
+            catch (Exception e)
+            {
+                Log.Error(Database.class, e.getMessage());
+            }
+        }
+        return result;//ha 0 ==> nem jó valamelyik adat, nem jelentkezett be
+    }
+    public static UserBase Login(String inputUsername, String password)
+    {
+        UserBase user = null;
+        if(AuthenticatedUsersNumben(inputUsername, password) == 1)
+        {
+            Connection connection = ConnectToDb();
+            if (connection != null) {
+                try {
+                    Statement st = connection.createStatement();
+                    String query = String.format("select * from users where username = \'"+inputUsername+"\'");
+                    ResultSet rs = st.executeQuery(query);
+
+                    while(rs.next()) {
+                        Role role = RoleConverter.StringToRole(rs.getString("role"));
+                        int id = rs.getInt("id");
+                        String username = rs.getString("username");
+                        String passwordmd5 = rs.getString("password");
+                        int level = rs.getInt("level");
+                        user = SwitchOnRole(role, username, passwordmd5, id, level);
+                    }
+                } catch (Exception e) {
+                    Log.Error(Database.class, e.getMessage());
+                }
+            }
+        }
+//        if(user!=null)
+//            System.out.println(user.toString());
+        return user;
+    }
 
     //Create
     public static void Registrate(String username, String password, Role role) {
@@ -204,8 +280,11 @@ public class Database {
                 int rs = st.executeUpdate(query);
                 st.close();
                 connection.close();
+
+
                 users = null;
                 users = new ArrayList<UserBase>();
+
                 GetUsers(0);
             }
             catch (Exception e)
@@ -225,11 +304,12 @@ public class Database {
                 int rs = st.executeUpdate(query);
                 st.close();
                 connection.close();
-                jobs=null;
-                jobs = new ArrayList<Jobs>();
                 GetJobs(0, jobs, TypeForReadingJobs.ALL);
+
+
                 users = null;
                 users = new ArrayList<UserBase>();
+
                 GetUsers(0);
             }
             catch (Exception e)
@@ -255,11 +335,12 @@ public class Database {
                 preparedStmt.close();
                 st.close();
                 connection.close();
-                jobs=null;
-                jobs = new ArrayList<Jobs>();
                 GetJobs(0, jobs, TypeForReadingJobs.ALL);
+
+
                 users = null;
                 users = new ArrayList<UserBase>();
+
                 GetUsers(0);
             }
             catch (Exception e)
@@ -277,11 +358,11 @@ public class Database {
                 preparedStmt.executeUpdate(query);
                 preparedStmt.close();
                 connection.close();
-                jobs=null;
-                jobs = new ArrayList<Jobs>();
                 GetJobs(0, jobs, TypeForReadingJobs.ALL);
+
                 users = null;
                 users = new ArrayList<UserBase>();
+
                 GetUsers(0);
             } catch (Exception e) {
                 Log.Error(Database.class, e.getMessage());
@@ -310,8 +391,10 @@ public class Database {
                 st2.executeUpdate(query);
                 st2.close();
                 connection.close();
+
                 users = null;
                 users = new ArrayList<UserBase>();
+              
                 GetUsers(0);
             } catch (Exception e) {
                 Log.Error(Database.class, e.getMessage());
@@ -327,8 +410,10 @@ public class Database {
                 preparedStmt.executeUpdate(query);
                 preparedStmt.close();
                 connection.close();
+
                 users = null;
                 users = new ArrayList<UserBase>();
+
                 GetUsers(0);
             } catch (Exception e) {
                 Log.Error(Database.class, e.getMessage());
@@ -349,11 +434,11 @@ public class Database {
                 connection.close();
 
 
-                jobs=null;
-                jobs = new ArrayList<Jobs>();
                 GetJobs(0, jobs, TypeForReadingJobs.ALL);
+
                 users = null;
                 users = new ArrayList<UserBase>();
+
                 GetUsers(0);
             } catch (Exception e) {
                 Log.Error(Database.class, e.getMessage());
@@ -382,13 +467,12 @@ public class Database {
                     st3.execute(query);
                     st3.close();
                 }
-
                 connection.close();
-                jobs=null;
-                jobs = new ArrayList<Jobs>();
                 GetJobs(0, jobs, TypeForReadingJobs.ALL);
+
                 users = null;
                 users = new ArrayList<UserBase>();
+
                 GetUsers(0);
             } catch (Exception e) {
                 Log.Error(Database.class, e.getMessage());
