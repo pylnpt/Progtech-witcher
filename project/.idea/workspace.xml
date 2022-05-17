@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="05cb5648-eda6-4c6c-9877-ff37a4422db0" name="Changes" comment="Started usersview - WIP">
+    <list default="true" id="05cb5648-eda6-4c6c-9877-ff37a4422db0" name="Changes" comment="Started usersview - WIP"></list>
       <change afterPath="$PROJECT_DIR$/.idea/libraries/log4j_api_2_17_21.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/libraries/log4j_core_2_17_21.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/libraries/mysql_connector_java_8_0_292.xml" afterDir="false" />
