@@ -42,17 +42,6 @@ public class Main extends Application {
     }
 
     public static void main(String[] args) throws Exception {
-        Database.GetJobs(0, Database.jobs, TypeForReadingJobs.ALL);
-        for(Jobs x: Database.jobs)
-        {
-            System.out.println(x.toString());
-        }
-        Database.GetUsers(0);
-        for(UserBase x: Database.users)
-        {
-            System.out.println(x.toString());
-        }
-        System.out.println(MD5Hash.getMd5("123"));
         launch();
     }
 }

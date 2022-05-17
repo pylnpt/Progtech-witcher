@@ -4,23 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="05cb5648-eda6-4c6c-9877-ff37a4422db0" name="Changes" comment="Created md5 hash">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/mysql_connector_java_8_0_29.xml" afterDir="false" />
+    <list default="true" id="05cb5648-eda6-4c6c-9877-ff37a4422db0" name="Changes" comment="We can now register">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project.iml" beforeDir="false" afterPath="$PROJECT_DIR$/project.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/Tests/project/progtechwitcher/Database/DatabaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Tests/project/progtechwitcher/Database/DatabaseTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/project/progtechwitcher/Controllers/ProfileController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/project/progtechwitcher/Controllers/ProfileController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/project/progtechwitcher/Controllers/RegisterController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/project/progtechwitcher/Controllers/RegisterController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/project/progtechwitcher/Database/Database.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/project/progtechwitcher/Database/Database.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/project/progtechwitcher/Controllers/UsersController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/project/progtechwitcher/Controllers/UsersController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/project/progtechwitcher/Logging/LogFiles/log.log" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/project/progtechwitcher/Logging/LogFiles/log.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/project/progtechwitcher/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/project/progtechwitcher/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/project/progtechwitcher/fxml/profile-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/project/progtechwitcher/fxml/profile-view.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/project/progtechwitcher/Controllers/ProfileController$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/project/progtechwitcher/Controllers/ProfileController$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/project/progtechwitcher/Controllers/ProfileController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/project/progtechwitcher/Controllers/ProfileController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/project/progtechwitcher/Database/Database$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/project/progtechwitcher/Database/Database$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/project/progtechwitcher/Database/Database.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/project/progtechwitcher/Database/Database.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/project/progtechwitcher/fxml/users-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/project/progtechwitcher/fxml/users-view.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/project/progtechwitcher/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/project/progtechwitcher/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/project/progtechwitcher/fxml/profile-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/project/progtechwitcher/fxml/profile-view.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -218,6 +209,8 @@
       <workItem from="1652754321428" duration="477000" />
       <workItem from="1652754819908" duration="276000" />
       <workItem from="1652755116152" duration="2006000" />
+      <workItem from="1652757146782" duration="815000" />
+      <workItem from="1652761069185" duration="7031000" />
     </task>
     <task id="LOCAL-00001" summary="Started Layout of the UI.&#10;-&gt; Created a HomeView (WIP)&#10;-&gt; Created a Controller to the view(WIP)&#10;&#10;-&gt; created a style.css which is going to handle the styling of the UI.">
       <created>1651852426093</created>
@@ -303,7 +296,14 @@
       <option name="project" value="LOCAL" />
       <updated>1652729976451</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="We can now register">
+      <created>1652757224175</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1652757224175</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -331,7 +331,8 @@
     <MESSAGE value="Log into file but need to fix date in filename" />
     <MESSAGE value="Implemented CRUD operations" />
     <MESSAGE value="Created md5 hash" />
-    <option name="LAST_COMMIT_MESSAGE" value="Created md5 hash" />
+    <MESSAGE value="We can now register" />
+    <option name="LAST_COMMIT_MESSAGE" value="We can now register" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

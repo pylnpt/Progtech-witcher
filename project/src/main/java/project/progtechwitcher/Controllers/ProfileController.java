@@ -3,14 +3,9 @@ package project.progtechwitcher.Controllers;
 import javafx.fxml.FXML;
 import javafx.scene.control.*;
 import javafx.scene.control.cell.PropertyValueFactory;
-import javafx.scene.input.MouseEvent;
 import javafx.scene.layout.HBox;
-import javafx.scene.layout.VBox;
 import project.progtechwitcher.Database.Database;
 import project.progtechwitcher.models.Jobs;
-import project.progtechwitcher.models.user.CanAdvertiseJobs;
-import project.progtechwitcher.models.user.Employee;
-import project.progtechwitcher.models.user.Employer;
 import project.progtechwitcher.models.user.UserBase;
 
 import java.lang.reflect.Array;
@@ -34,9 +29,7 @@ public class ProfileController {
     @FXML
     private void initialize()
     {
-        Database.GetUsers(2);
-
-        // dButton.setOnAction(event ->KOX());
+        Database.users = null;
         addDataToTextField(userNameInput, roleInput, levelInput);
         generateTable(myJobsTable, tableSection);
         myJobsTable.setOnMouseClicked(e -> clickCell());
@@ -54,9 +47,6 @@ public class ProfileController {
 
     private void generateTable(TableView myJobsTable, HBox tableSection){
         UserBase employer = Database.users.get(0);
-        System.out.println(employer.toString());
-        System.out.println(employer.getRole());
-
 
         ArrayList<Jobs> tableData = null;
 
