@@ -30,27 +30,26 @@ public class RegisterController {
     private void initialize()
     {
         roleComboBox.setItems(comboBoxItemList);
-
-            registerBtn.setOnAction(event -> {try{KOX(userNameInput.getText(), passwordInput.getText(), rePasswordInput.getText(), roleComboBox.getValue().toString());}
-            catch(Exception e)
+        registerBtn.setOnAction(event -> {
+            try
+            {
+                CheckRegistrationData(userNameInput.getText(), passwordInput.getText(), rePasswordInput.getText(), roleComboBox.getValue().toString());
+            } catch(Exception e)
             {
                 Log.Error(RegisterController.class, e.getMessage());
             }
-            });
-
+        });
     }
 
-    private void KOX(String uname, String password, String rePassword, String role)
+    private void CheckRegistrationData(String uname, String password, String rePassword, String role)
     {
         if (checkIfFieldsAreCorrect(uname, password, rePassword, role))
         {
             Database.Registrate(uname, password, RoleConverter.StringToRole(role));
-            System.out.println("Registrated");
+            Log.Info(RegisterController.class, String.format("A new user has registered as %s with a role of %s",uname,role));
         }
 
-        System.out.println("Nok!");
     }
-
     private boolean checkIfFieldsAreCorrect(String uname, String password, String rePassword, String role){
         if(!Objects.equals(uname, "") || !Objects.equals(password, "") ||
                 !Objects.equals(rePassword, "") || !Objects.equals(role, null))

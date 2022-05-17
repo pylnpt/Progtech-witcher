@@ -4,6 +4,9 @@ import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
 import javafx.fxml.FXML;
 import javafx.scene.control.*;
+import project.progtechwitcher.Database.Database;
+import project.progtechwitcher.MainController;
+import project.progtechwitcher.models.user.CanAdvertiseJobs;
 
 public class PostAJobController {
     ObservableList<String> comboBoxItemList = FXCollections.observableArrayList("1","2","3","4","5");
@@ -21,7 +24,13 @@ public class PostAJobController {
     @FXML
     private void initialize()
     {
-        rewardComboBox.setItems(comboBoxItemList);
-        postTheJobBtn.setOnAction(event -> System.out.println("kex"));
+        if(MainController.userId != 0) {
+            Database.GetUsers(MainController.userId);
+            rewardComboBox.setItems(comboBoxItemList);
+
+            postTheJobBtn.setOnAction(event -> new CanAdvertiseJobs(Database.users.get(0)).AdvertiseJob(jobTitleInput.getText(),
+                    jobDescriptionTextArea.getText(), Integer.parseInt(rewardComboBox.getValue().toString()), Integer.parseInt(requiredLevelInput.getText())));
+        }
     }
+
 }

@@ -19,7 +19,7 @@ public class UsersController {
 
     @FXML
     private void initialize(){
-//        Database.GetUsers(0);
+        Database.GetUsers(0);
         addUserToList();
 
     }
@@ -36,8 +36,6 @@ public class UsersController {
         }
     }
 //        Database.GetUsers(0);
-
-
 
 //    private void addDetailToList(){
 //        Database.GetUsers(0);

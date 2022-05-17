@@ -67,9 +67,6 @@ public class MainController {
             }
             useridlabel.setText("");
             System.out.println(userId);
-            if(userId!=0) {
-                //loadPage("/project/progtechwitcher/fxml/profile-view.fxml");
-            }
         });
     }
 
@@ -116,6 +113,7 @@ public class MainController {
     {
         SetButtonsOn();
         initializeNavigationNotLoggedIn();
+        loadPage("/project/progtechwitcher/fxml/home-view.fxml");
         userId=0;
         usernameInput.setVisible(true);
         usernameInput.setDisable(false);
@@ -124,15 +122,6 @@ public class MainController {
         loginBtn.setText("Login");
     }
 
-    private void initializeNavigation() {
-        homeBtn.setOnAction(event -> loadPage("/project/progtechwitcher/fxml/home-view.fxml"));
-        profileBtn.setOnAction(event -> loadPage("/project/progtechwitcher/fxml/profile-view.fxml"));
-        usersBtn.setOnAction(event -> loadPage("/project/progtechwitcher/fxml/users-view.fxml"));
-        jobsBtn.setOnAction(event -> loadPage("/project/progtechwitcher/fxml/jobs-view.fxml"));
-        postAJobBtn.setOnAction(event -> loadPage("/project/progtechwitcher/fxml/post-a-job-view.fxml"));
-        registerBtn.setOnAction(event -> loadPage("/project/progtechwitcher/fxml/register-view.fxml"));
-    }
-    //disableb +hidden
     private void initializeNavigationEmployee() {
         homeBtn.setOnAction(event -> loadPage("/project/progtechwitcher/fxml/home-view.fxml"));
         profileBtn.setOnAction(event -> loadPage("/project/progtechwitcher/fxml/profile-view.fxml"));
