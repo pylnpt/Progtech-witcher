@@ -5,26 +5,31 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="05cb5648-eda6-4c6c-9877-ff37a4422db0" name="Changes" comment="Started usersview - WIP">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/log4j_api_2_17_21.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/log4j_core_2_17_21.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/mysql_connector_java_8_0_292.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2022__05__16__14_33__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2022__05__16__14_33__Changes_.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/project/progtechwitcher/Controllers/PostAJobController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/project/progtechwitcher/Controllers/PostAJobController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project.iml" beforeDir="false" afterPath="$PROJECT_DIR$/project.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/project/progtechwitcher/Controllers/ProfileController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/project/progtechwitcher/Controllers/ProfileController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/project/progtechwitcher/Controllers/RegisterController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/project/progtechwitcher/Controllers/RegisterController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/project/progtechwitcher/Controllers/UsersController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/project/progtechwitcher/Controllers/UsersController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/project/progtechwitcher/Database/Database.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/project/progtechwitcher/Database/Database.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/project/progtechwitcher/Logging/LogFiles/log.log" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/project/progtechwitcher/Logging/LogFiles/log.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/project/progtechwitcher/MainController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/project/progtechwitcher/MainController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/project/progtechwitcher/models/user/CanAdvertiseJobs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/project/progtechwitcher/models/user/CanAdvertiseJobs.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/project/progtechwitcher/models/user/CanTakeJobs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/project/progtechwitcher/models/user/CanTakeJobs.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/project/progtechwitcher/models/Jobs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/project/progtechwitcher/models/Jobs.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/project/progtechwitcher/models/user/UserBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/project/progtechwitcher/models/user/UserBase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/project/progtechwitcher/fxml/profile-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/project/progtechwitcher/fxml/profile-view.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/module-info.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/module-info.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/project/progtechwitcher/Controllers/PostAJobController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/project/progtechwitcher/Controllers/PostAJobController.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/project/progtechwitcher/Controllers/ProfileController$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/project/progtechwitcher/Controllers/ProfileController$1.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/project/progtechwitcher/Controllers/ProfileController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/project/progtechwitcher/Controllers/ProfileController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/project/progtechwitcher/Controllers/UsersController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/project/progtechwitcher/Controllers/UsersController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/project/progtechwitcher/Database/Database$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/project/progtechwitcher/Database/Database$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/project/progtechwitcher/Controllers/RegisterController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/project/progtechwitcher/Controllers/RegisterController.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/project/progtechwitcher/Database/Database.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/project/progtechwitcher/Database/Database.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/project/progtechwitcher/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/project/progtechwitcher/Main.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/project/progtechwitcher/MainController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/project/progtechwitcher/MainController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/project/progtechwitcher/fxml/home-page-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/project/progtechwitcher/fxml/home-page-view.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/project/progtechwitcher/fxml/users-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/project/progtechwitcher/fxml/users-view.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/project/progtechwitcher/models/user/CanAdvertiseJobs.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/project/progtechwitcher/models/user/CanAdvertiseJobs.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/project/progtechwitcher/fxml/profile-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/project/progtechwitcher/fxml/profile-view.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/project/progtechwitcher/models/Jobs.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/project/progtechwitcher/models/Jobs.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/project/progtechwitcher/models/user/CanTakeJobs.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/project/progtechwitcher/models/user/CanTakeJobs.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/project/progtechwitcher/models/user/UserBase.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/project/progtechwitcher/models/user/UserBase.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,17 +75,13 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/mysql-connector-java-8.0.29.jar&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Libraries&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
-  }
-}</component>
+  <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../../../mysql-connector-java-8.0.29.jar" />
+    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+  </component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="org.junit.jupiter.api" />
@@ -335,6 +336,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Started Layout of the UI.&#10;-&gt; Created a HomeView (WIP)&#10;-&gt; Created a Controller to the view(WIP)&#10;&#10;-&gt; created a style.css which is going to handle the styling of the UI." />

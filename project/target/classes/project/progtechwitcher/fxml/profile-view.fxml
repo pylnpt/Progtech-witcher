@@ -5,7 +5,7 @@
 <?import javafx.scene.layout.*?>
 <?import javafx.scene.text.*?>
 
-<AnchorPane prefHeight="800.0" prefWidth="750.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="project.progtechwitcher.Controllers.ProfileController">
+<AnchorPane prefHeight="800.0" prefWidth="750.0" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="project.progtechwitcher.Controllers.ProfileController">
 
     <children>
         <BorderPane layoutX="-3.0" layoutY="-2.0" prefHeight="800.0" prefWidth="750.0" style="-fx-background-color: #9275bd;">
@@ -73,8 +73,32 @@
                      </padding>
                   </Label>
                   <TextField fx:id="levelInput" editable="false" layoutX="236.0" layoutY="102.0" maxHeight="35.0" maxWidth="200.0" minHeight="35.0" minWidth="199.0" prefHeight="35.0" prefWidth="200.0" GridPane.columnIndex="1" GridPane.rowIndex="4" />
-                  <Button mnemonicParsing="false" prefHeight="25.0" prefWidth="200.0" styleClass="registration-button" stylesheets="@../css/style.css" text="Change password" textFill="#2811ff" GridPane.columnIndex="1" GridPane.rowIndex="2" />
                   <TextField fx:id="roleInput" editable="false" layoutX="236.0" layoutY="102.0" maxHeight="35.0" maxWidth="200.0" minHeight="35.0" minWidth="199.0" prefHeight="35.0" prefWidth="200.0" GridPane.columnIndex="1" GridPane.rowIndex="3" />
+                  <Pane prefHeight="39.0" prefWidth="524.0" GridPane.columnIndex="1" GridPane.rowIndex="2">
+                     <children>
+                         <Button fx:id="changePasswordBtn" layoutY="7.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="200.0" styleClass="registration-button" stylesheets="@../css/style.css" text="Change password" textFill="#2811ff" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+                        <PasswordField fx:id="NewPassword" layoutX="304.0" layoutY="2.0" maxHeight="35.0" maxWidth="200.0" minHeight="35.0" minWidth="199.0" prefHeight="35.0" prefWidth="200.0" promptText="New password" />
+                     </children></Pane>
+                  <PasswordField fx:id="currentPassword" maxHeight="35.0" maxWidth="200.0" minHeight="35.0" minWidth="199.0" prefHeight="35.0" prefWidth="200.0" promptText="Current password" GridPane.columnIndex="1" GridPane.halignment="RIGHT" GridPane.rowIndex="1">
+                     <GridPane.margin>
+                        <Insets right="20.0" />
+                     </GridPane.margin>
+                  </PasswordField>
+                  <PasswordField fx:id="NewPassword2" maxHeight="35.0" maxWidth="200.0" minHeight="35.0" minWidth="199.0" prefHeight="35.0" prefWidth="200.0" promptText="New password again" GridPane.columnIndex="1" GridPane.halignment="RIGHT" GridPane.rowIndex="3">
+                     <GridPane.margin>
+                        <Insets right="20.0" />
+                     </GridPane.margin>
+                  </PasswordField>
+                  <Button fx:id="ModPassword" mnemonicParsing="false" prefHeight="26.0" prefWidth="113.0" text="Change password" GridPane.columnIndex="1" GridPane.halignment="RIGHT" GridPane.rowIndex="4">
+                     <GridPane.margin>
+                        <Insets right="20.0" />
+                     </GridPane.margin>
+                  </Button>
+                  <Button fx:id="cancelBtn" mnemonicParsing="false" prefHeight="26.0" prefWidth="68.0" text="Cancel" GridPane.columnIndex="1" GridPane.halignment="RIGHT" GridPane.rowIndex="4">
+                     <GridPane.margin>
+                        <Insets right="150.0" />
+                     </GridPane.margin>
+                  </Button>
                 </children>
             </GridPane>
          </top>
@@ -99,7 +123,7 @@
                            <VBox.margin>
                               <Insets />
                            </VBox.margin></TextArea>
-                        <Button mnemonicParsing="false" prefHeight="67.0" prefWidth="346.0" styleClass="registration-button" stylesheets="@../css/style.css" text="MARK AS DONE" textAlignment="CENTER" />
+                        <Button fx:id="doneBtn" mnemonicParsing="false" prefHeight="67.0" prefWidth="346.0" styleClass="registration-button" stylesheets="@../css/style.css" text="MARK AS DONE" textAlignment="CENTER" />
                      </children></VBox>
                </children>
             </HBox>
