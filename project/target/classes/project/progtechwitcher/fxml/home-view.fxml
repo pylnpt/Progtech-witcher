@@ -10,69 +10,62 @@
     <children>
         <BorderPane layoutX="-3.0" layoutY="-2.0" prefHeight="800.0" prefWidth="750.0" style="-fx-background-color: #9275bd;">
          <center>
-            <GridPane BorderPane.alignment="CENTER">
+            <GridPane alignment="CENTER" BorderPane.alignment="CENTER">
               <columnConstraints>
-                <ColumnConstraints hgrow="SOMETIMES" maxWidth="707.0" minWidth="10.0" prefWidth="666.0" />
-                <ColumnConstraints hgrow="SOMETIMES" maxWidth="362.0" minWidth="10.0" prefWidth="84.0" />
+                <ColumnConstraints hgrow="SOMETIMES" maxWidth="707.0" minWidth="10.0" prefWidth="375.0" />
+                <ColumnConstraints hgrow="SOMETIMES" maxWidth="500.0" minWidth="10.0" prefWidth="375.0" />
               </columnConstraints>
               <rowConstraints>
-                <RowConstraints maxHeight="261.0" minHeight="0.0" prefHeight="54.0" vgrow="SOMETIMES" />
-                <RowConstraints maxHeight="688.0" minHeight="10.0" prefHeight="79.0" vgrow="SOMETIMES" />
-                <RowConstraints maxHeight="700.0" minHeight="10.0" prefHeight="667.0" vgrow="SOMETIMES" />
+                <RowConstraints maxHeight="343.0" minHeight="0.0" prefHeight="286.0" vgrow="SOMETIMES" />
+                <RowConstraints maxHeight="688.0" minHeight="0.0" prefHeight="268.0" vgrow="SOMETIMES" />
+                <RowConstraints maxHeight="700.0" minHeight="10.0" prefHeight="246.0" vgrow="SOMETIMES" />
               </rowConstraints>
                <children>
-                  <Label graphicTextGap="10.0" prefHeight="53.0" prefWidth="579.0" text="Welcome! " textFill="#541690">
-                     <font>
-                        <Font name="Arial Narrow" size="24.0" />
-                     </font>
-                     <padding>
-                        <Insets left="10.0" />
-                     </padding>
-                  </Label>
-                  <Label graphicTextGap="10.0" layoutX="10.0" layoutY="15.0" prefHeight="53.0" prefWidth="655.0" text="In order to use this app please log in to your account or create one." textFill="#541690" GridPane.rowIndex="1">
-                     <font>
-                        <Font name="Arial Narrow" size="24.0" />
-                     </font>
-                     <padding>
-                        <Insets left="10.0" />
-                     </padding>
-                  </Label>
-                  <GridPane GridPane.rowIndex="2">
-                    <columnConstraints>
-                      <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
-                      <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
-                    </columnConstraints>
-                    <rowConstraints>
-                      <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
-                      <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
-                      <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
-                    </rowConstraints>
+                  <VBox alignment="CENTER" maxHeight="250.0" maxWidth="250.0" minHeight="200.0" minWidth="250.0" prefHeight="268.0" prefWidth="328.0" styleClass="card" stylesheets="@../css/style.css" GridPane.halignment="CENTER" GridPane.valignment="CENTER">
+                     <GridPane.margin>
+                        <Insets />
+                     </GridPane.margin>
                      <children>
-                        <VBox prefHeight="223.0" prefWidth="243.0" styleClass="card" stylesheets="@../css/style.css">
-                           <GridPane.margin>
-                              <Insets />
-                           </GridPane.margin>
+                        <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="63.0" prefWidth="333.0" style="-fx-background-color: #541690;" styleClass="card-header" text="Welcome! " textAlignment="CENTER" textFill="#ff9808">
+                           <font>
+                              <Font size="18.0" />
+                           </font>
+                        </Label>
+                        <VBox alignment="TOP_CENTER" prefHeight="200.0" prefWidth="100.0" styleClass="card-body">
                            <children>
-                              <Label contentDisplay="CENTER" prefHeight="41.0" prefWidth="344.0" style="-fx-background-color: #541690;" styleClass="card-header" text="What can you do after you log in:" textAlignment="CENTER" textFill="#ff9808">
-                                 <font>
-                                    <Font size="18.0" />
-                                 </font>
-                                 <padding>
-                                    <Insets left="10.0" />
-                                 </padding>
-                              </Label>
-                              <TextArea editable="false" maxWidth="300.0" minWidth="250.0" prefHeight="178.0" prefWidth="250.0" styleClass="card-body" text="- Post a bounty if you have a problem with &#10;  monsters or with supernatural beings&#10;&#10;- Accept a job if you are a Witcher">
+                              <TextArea editable="false" maxHeight="182.0" maxWidth="270.0" minHeight="148.0" minWidth="186.0" prefHeight="148.0" prefWidth="250.0" style="-fx-background-color: #fff;" styleClass="card-body" text="In order to use this app &#10;please log in to your account &#10;or create one.">
                                  <font>
                                     <Font size="14.0" />
                                  </font>
-                                 <VBox.margin>
-                                    <Insets left="10.0" />
-                                 </VBox.margin>
                               </TextArea>
                            </children>
                         </VBox>
                      </children>
-                  </GridPane>
+                     <opaqueInsets>
+                        <Insets left="100.0" />
+                     </opaqueInsets>
+                  </VBox>
+                  <VBox alignment="CENTER" layoutX="75.0" layoutY="305.0" maxHeight="250.0" maxWidth="250.0" minHeight="200.0" minWidth="250.0" prefHeight="268.0" prefWidth="328.0" styleClass="card" stylesheets="@../css/style.css" GridPane.columnIndex="1">
+                     <children>
+                        <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="63.0" prefWidth="333.0" style="-fx-background-color: #541690;" styleClass="card-header" text="What can you do &#10;after you log in" textAlignment="CENTER" textFill="#ff9808">
+                           <font>
+                              <Font size="18.0" />
+                           </font>
+                        </Label>
+                        <VBox alignment="TOP_CENTER" prefHeight="200.0" prefWidth="100.0" styleClass="card-body">
+                           <children>
+                              <TextArea editable="false" maxHeight="182.0" maxWidth="270.0" minHeight="148.0" minWidth="186.0" prefHeight="148.0" prefWidth="250.0" style="-fx-background-color: #fff;" styleClass="card-body" text="- Post a bounty if you have a &#10;  problem with monsters &#10;  or with supernatural beings&#10;&#10;- Accept a job if you are a Witcher">
+                                 <font>
+                                    <Font size="14.0" />
+                                 </font>
+                              </TextArea>
+                           </children>
+                        </VBox>
+                     </children>
+                     <opaqueInsets>
+                        <Insets left="100.0" />
+                     </opaqueInsets>
+                  </VBox>
                </children>
             </GridPane>
          </center>

@@ -30,6 +30,11 @@
     -fx-background-radius: 2em;
 }
 
+.registration-button {
+    -fx-background-color: #FF9808;
+    -fx-background-radius: 2em;
+}
+
 .navigation-button {
     -fx-background-color: #8f80bf;
     -fx-background-radius: 0em;

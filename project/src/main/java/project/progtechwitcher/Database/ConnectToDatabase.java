@@ -116,20 +116,27 @@ public class ConnectToDatabase {
         }
     }
 
-    public static void GetUsers(){
+    public static void GetUsers(int inputId){
 
         Connection connection = ConnectToDb();
 
         if (connection != null) {
             try {
                 Statement st = connection.createStatement();
-                String query = "select * from users";
+                String query;
+                if(inputId == 0)
+                {
+                    query = "select * from users";
+                }
+                else {
+                    query = String.format("select * from users where id = "+inputId);
+                }
                 ResultSet rs = st.executeQuery(query);
 
                 while(rs.next())
                 {
                     UserBase user = null;
-                    Role role=null;
+                    Role role = null;
                     switch(rs.getString("role"))
                     {
                         case "admin" : role = Role.ADMIN; break;
@@ -156,9 +163,7 @@ public class ConnectToDatabase {
                             user.setId(id);
                             user.setPassword(passwordmd5);
 
-                            UsersJobs = new ArrayList<>();
-                            GetJobs(id, UsersJobs, 'c');
-                            user.advertisedJobs = UsersJobs;
+                            GetJobs(id, user.advertisedJobs, 'c');
                         }
                         case EMPLOYEE -> {
                             user = new CanTakeJobs(new Employee(username));
@@ -193,6 +198,5 @@ public class ConnectToDatabase {
                 Log.Error(ConnectToDatabase.class,"Some error occured while getting data from Users table");
             }
         }
-
     }
 }

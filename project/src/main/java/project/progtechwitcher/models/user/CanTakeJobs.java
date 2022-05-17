@@ -1,4 +1,5 @@
 package project.progtechwitcher.models.user;
+import project.progtechwitcher.Database.ConnectToDatabase;
 import project.progtechwitcher.models.Jobs;
 
 public class CanTakeJobs extends RoleBase {

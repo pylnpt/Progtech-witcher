@@ -42,16 +42,21 @@ public class Main extends Application {
     }
 
     public static void main(String[] args) throws Exception {
-        ConnectToDatabase.GetJobs(0, ConnectToDatabase.jobs, 'a');
-        for(Jobs x:ConnectToDatabase.jobs)
-        {
-            System.out.println(x.toString());
-        }
-        ConnectToDatabase.GetUsers();
-        for(UserBase x:ConnectToDatabase.users)
-        {
-            System.out.println(x.toString());
-        }
+//        ConnectToDatabase.GetJobs(0, ConnectToDatabase.jobs, 'a');
+//        ConnectToDatabase.GetUsers(0);
+//
+//
+//
+//        //kiíratnás
+//        for(Jobs job:ConnectToDatabase.jobs)
+//        {
+//            System.out.println(job.toString());
+//        }
+//        for(UserBase x:ConnectToDatabase.users)
+//        {
+//            System.out.println(x.toString());
+//        }
+
         launch();
     }
 }
