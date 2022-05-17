@@ -23,22 +23,22 @@ class DatabaseTest {
 
     @Test
     void getUsers() {
-        Database.GetUsers();
+        Database.GetUsers(0);
         assertNotNull(Database.users);
     }
 
     @Test //already inserted
     void registrate1() {
-        Database.GetUsers();
+        Database.GetUsers(0);
         ArrayList<UserBase> users = new ArrayList<>(Database.users);
         Database.Registrate("admin1", "password", Role.EMPLOYEE);
         assertEquals(Database.users.size(), users.size());
     }
     @Test // can fail if already inserted (username has unique constraint)
     void registrate2() {
-        Database.GetUsers();
+        Database.GetUsers(0);
         ArrayList<UserBase> users = new ArrayList<>(Database.users);
-        Database.Registrate("newUsername001", "password", Role.EMPLOYEE);
+        Database.Registrate("newUsername002", "password", Role.EMPLOYEE);
         assertNotEquals(Database.users.size(), users.size());
     }
 
