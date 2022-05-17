@@ -16,6 +16,7 @@ module project.progtechwitcher {
     exports project.progtechwitcher;
     exports project.progtechwitcher.Views;
     opens project.progtechwitcher.Views to javafx.fxml;
+    opens project.progtechwitcher.models to javafx.base;
     exports project.progtechwitcher.Controllers;
     opens project.progtechwitcher.Controllers to javafx.fxml;
 }

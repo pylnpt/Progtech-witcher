@@ -47,7 +47,7 @@ public class Main extends Application {
         {
             System.out.println(x.toString());
         }
-        Database.GetUsers();
+        Database.GetUsers(0);
         for(UserBase x: Database.users)
         {
             System.out.println(x.toString());
