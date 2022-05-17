@@ -39,7 +39,7 @@ public class ProfileController {
         addDataToTextField();
 
         myJobsTable.setOnMouseClicked(e -> clickCell());
-        asdBtn.setOnMouseClicked(e-> clearTable());
+
 
     }
     private void clearTable(){
