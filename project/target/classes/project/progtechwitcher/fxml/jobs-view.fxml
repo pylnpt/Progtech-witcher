@@ -1,15 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+<?import javafx.geometry.*?>
 <?import javafx.scene.control.*?>
 <?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
 
-<AnchorPane prefHeight="800.0" prefWidth="750.0"
-            xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1"
-            fx:controller="project.progtechwitcher.Controllers.JobsController">
+<AnchorPane prefHeight="800.0" prefWidth="750.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="project.progtechwitcher.Controllers.JobsController">
    <children>
       <BorderPane layoutX="-3.0" layoutY="-2.0" prefHeight="800.0" prefWidth="750.0" style="-fx-background-color: #9275bd;">
          <center>
-            <TextField editable="false" text="JOBS" BorderPane.alignment="CENTER" />
+            <GridPane BorderPane.alignment="CENTER">
+              <columnConstraints>
+                <ColumnConstraints hgrow="SOMETIMES" maxWidth="750.0" minWidth="10.0" prefWidth="750.0" />
+                <ColumnConstraints hgrow="SOMETIMES" maxWidth="368.0" minWidth="0.0" prefWidth="0.0" />
+              </columnConstraints>
+              <rowConstraints>
+                <RowConstraints maxHeight="85.0" minHeight="10.0" prefHeight="76.0" vgrow="SOMETIMES" />
+                <RowConstraints maxHeight="715.0" minHeight="0.0" prefHeight="715.0" vgrow="SOMETIMES" />
+                <RowConstraints maxHeight="533.0" minHeight="0.0" prefHeight="0.0" vgrow="SOMETIMES" />
+              </rowConstraints>
+               <children>
+                  <Label prefHeight="92.0" prefWidth="375.0" text="Jobs">
+                     <GridPane.margin>
+                        <Insets left="20.0" />
+                     </GridPane.margin>
+                     <font>
+                        <Font name="Arial Rounded MT Bold" size="24.0" />
+                     </font>
+                  </Label>
+                  <TableView prefHeight="200.0" prefWidth="200.0" GridPane.rowIndex="1" />
+               </children>
+            </GridPane>
          </center>
       </BorderPane>
       <Accordion />

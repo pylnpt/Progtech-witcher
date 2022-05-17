@@ -37,10 +37,14 @@ public class ProfileController {
 
         generateTable();
         addDataToTextField();
+
         myJobsTable.setOnMouseClicked(e -> clickCell());
+        asdBtn.setOnMouseClicked(e-> clearTable());
 
     }
-
+    private void clearTable(){
+        myJobsTable.getItems().clear();
+    }
     private void addDataToTextField(){
         for(UserBase user: Database.users)
         {
@@ -106,7 +110,6 @@ public class ProfileController {
                 myJobsTable.getItems().add(jobs);
             }
         }
-        System.out.println(myJobsTable.getSelectionModel().getSelectedItem());
     }
 
     @FXML

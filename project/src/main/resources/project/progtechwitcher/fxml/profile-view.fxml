@@ -99,7 +99,7 @@
                            <VBox.margin>
                               <Insets />
                            </VBox.margin></TextArea>
-                        <Button mnemonicParsing="false" prefHeight="67.0" prefWidth="346.0" styleClass="registration-button" stylesheets="@../css/style.css" text="MARK AS DONE" textAlignment="CENTER" />
+                        <Button fx:id="asdBtn" mnemonicParsing="false" prefHeight="67.0" prefWidth="346.0" styleClass="registration-button" stylesheets="@../css/style.css" text="MARK AS DONE" textAlignment="CENTER" />
                      </children></VBox>
                </children>
             </HBox>

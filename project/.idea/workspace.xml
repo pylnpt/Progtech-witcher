@@ -4,27 +4,21 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="05cb5648-eda6-4c6c-9877-ff37a4422db0" name="Changes" comment="Started usersview - WIP">
+    <list default="true" id="05cb5648-eda6-4c6c-9877-ff37a4422db0" name="Changes" comment="Implemented some functions: &#10;-&gt; Employer now can create job&#10;-&gt; User can see his/her own jobs:&#10;-&gt; if employee then the ones he/she had taken&#10;-&gt; if employer then the ones he/she had posted&#10;-&gt; admin has no jobs that she/he owns&#10;&#10;Debug:&#10;-&gt; navigation debug has been fixed&#10;-&gt;At the ProfileView the table generates successfully without any issue">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/project/progtechwitcher/Controllers/PostAJobController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/project/progtechwitcher/Controllers/PostAJobController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/project/progtechwitcher/Controllers/JobsController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/project/progtechwitcher/Controllers/JobsController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/project/progtechwitcher/Controllers/ProfileController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/project/progtechwitcher/Controllers/ProfileController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/project/progtechwitcher/Controllers/RegisterController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/project/progtechwitcher/Controllers/RegisterController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/project/progtechwitcher/Controllers/UsersController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/project/progtechwitcher/Controllers/UsersController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/project/progtechwitcher/Database/Database.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/project/progtechwitcher/Database/Database.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/project/progtechwitcher/Logging/LogFiles/log.log" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/project/progtechwitcher/Logging/LogFiles/log.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/project/progtechwitcher/MainController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/project/progtechwitcher/MainController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/project/progtechwitcher/models/user/CanAdvertiseJobs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/project/progtechwitcher/models/user/CanAdvertiseJobs.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/project/progtechwitcher/models/user/CanTakeJobs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/project/progtechwitcher/models/user/CanTakeJobs.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/project/progtechwitcher/fxml/jobs-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/project/progtechwitcher/fxml/jobs-view.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/project/progtechwitcher/fxml/profile-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/project/progtechwitcher/fxml/profile-view.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/project/progtechwitcher/Controllers/JobsController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/project/progtechwitcher/Controllers/JobsController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/project/progtechwitcher/Controllers/PostAJobController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/project/progtechwitcher/Controllers/PostAJobController.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/project/progtechwitcher/Controllers/ProfileController$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/project/progtechwitcher/Controllers/ProfileController$1.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/project/progtechwitcher/Controllers/ProfileController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/project/progtechwitcher/Controllers/ProfileController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/project/progtechwitcher/Controllers/UsersController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/project/progtechwitcher/Controllers/UsersController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/project/progtechwitcher/Database/Database$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/project/progtechwitcher/Database/Database$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/project/progtechwitcher/Database/Database.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/project/progtechwitcher/Database/Database.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/project/progtechwitcher/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/project/progtechwitcher/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/project/progtechwitcher/MainController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/project/progtechwitcher/MainController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/project/progtechwitcher/fxml/home-page-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/project/progtechwitcher/fxml/home-page-view.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/project/progtechwitcher/fxml/users-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/project/progtechwitcher/fxml/users-view.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/project/progtechwitcher/models/user/CanAdvertiseJobs.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/project/progtechwitcher/models/user/CanAdvertiseJobs.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/project/progtechwitcher/Controllers/RegisterController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/project/progtechwitcher/Controllers/RegisterController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/project/progtechwitcher/fxml/jobs-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/project/progtechwitcher/fxml/jobs-view.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/project/progtechwitcher/fxml/profile-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/project/progtechwitcher/fxml/profile-view.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/project/progtechwitcher/models/user/CanTakeJobs.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/project/progtechwitcher/models/user/CanTakeJobs.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,9 +70,9 @@
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;last_opened_file_path&quot;: &quot;C:/Users/mysql-connector-java-8.0.29.jar&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Libraries&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Problems&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
   }
 }</component>
   <component name="RecentsManager">
@@ -226,7 +220,11 @@
       <workItem from="1652757146782" duration="815000" />
       <workItem from="1652761069185" duration="7031000" />
       <workItem from="1652769537831" duration="1785000" />
-      <workItem from="1652771341895" duration="4243000" />
+      <workItem from="1652771341895" duration="6024000" />
+      <workItem from="1652777390495" duration="4822000" />
+      <workItem from="1652805331245" duration="188000" />
+      <workItem from="1652805539636" duration="2871000" />
+      <workItem from="1652810744291" duration="77000" />
     </task>
     <task id="LOCAL-00001" summary="Started Layout of the UI.&#10;-&gt; Created a HomeView (WIP)&#10;-&gt; Created a Controller to the view(WIP)&#10;&#10;-&gt; created a style.css which is going to handle the styling of the UI.">
       <created>1651852426093</created>
@@ -319,7 +317,14 @@
       <option name="project" value="LOCAL" />
       <updated>1652757224175</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Implemented some functions: &#10;-&gt; Employer now can create job&#10;-&gt; User can see his/her own jobs:&#10;-&gt; if employee then the ones he/she had taken&#10;-&gt; if employer then the ones he/she had posted&#10;-&gt; admin has no jobs that she/he owns&#10;&#10;Debug:&#10;-&gt; navigation debug has been fixed&#10;-&gt;At the ProfileView the table generates successfully without any issue">
+      <created>1652776156539</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1652776156539</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -349,7 +354,8 @@
     <MESSAGE value="Created md5 hash" />
     <MESSAGE value="We can now register" />
     <MESSAGE value="Started usersview - WIP" />
-    <option name="LAST_COMMIT_MESSAGE" value="Started usersview - WIP" />
+    <MESSAGE value="Implemented some functions: &#10;-&gt; Employer now can create job&#10;-&gt; User can see his/her own jobs:&#10;-&gt; if employee then the ones he/she had taken&#10;-&gt; if employer then the ones he/she had posted&#10;-&gt; admin has no jobs that she/he owns&#10;&#10;Debug:&#10;-&gt; navigation debug has been fixed&#10;-&gt;At the ProfileView the table generates successfully without any issue" />
+    <option name="LAST_COMMIT_MESSAGE" value="Implemented some functions: &#10;-&gt; Employer now can create job&#10;-&gt; User can see his/her own jobs:&#10;-&gt; if employee then the ones he/she had taken&#10;-&gt; if employer then the ones he/she had posted&#10;-&gt; admin has no jobs that she/he owns&#10;&#10;Debug:&#10;-&gt; navigation debug has been fixed&#10;-&gt;At the ProfileView the table generates successfully without any issue" />
     <option name="GROUP_MULTIFILE_MERGE_BY_DIRECTORY" value="true" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
