@@ -5,9 +5,9 @@ import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.stage.Stage;
-import javafx.stage.StageStyle;
-import project.progtechwitcher.Database.ConnectToDatabase;
-import project.progtechwitcher.Logging.Log;
+import project.progtechwitcher.Database.Database;
+import project.progtechwitcher.Database.TypeForReadingJobs;
+import project.progtechwitcher.Hash.MD5Hash;
 import project.progtechwitcher.models.Jobs;
 import project.progtechwitcher.models.user.UserBase;
 
@@ -42,21 +42,17 @@ public class Main extends Application {
     }
 
     public static void main(String[] args) throws Exception {
-//        ConnectToDatabase.GetJobs(0, ConnectToDatabase.jobs, 'a');
-//        ConnectToDatabase.GetUsers(0);
-//
-//
-//
-//        //kiíratnás
-//        for(Jobs job:ConnectToDatabase.jobs)
-//        {
-//            System.out.println(job.toString());
-//        }
-//        for(UserBase x:ConnectToDatabase.users)
-//        {
-//            System.out.println(x.toString());
-//        }
-
+        Database.GetJobs(0, Database.jobs, TypeForReadingJobs.ALL);
+        for(Jobs x: Database.jobs)
+        {
+            System.out.println(x.toString());
+        }
+        Database.GetUsers();
+        for(UserBase x: Database.users)
+        {
+            System.out.println(x.toString());
+        }
+        System.out.println(MD5Hash.getMd5("123"));
         launch();
     }
 }

@@ -4,7 +4,7 @@
         <Property name="filename">./src/main/java/project/progtechwitcher/Logging/LogFiles</Property>
     </Properties>
     <Appenders>
-        <RollingFile name="File" fileName="${filename}/log.log" filePattern="${filename}/log-%d{yyyy-MM-dd}.log.gz">
+        <RollingFile name="File" fileName="${filename}/log.log" filePattern="${filename}/log-%d{yyyy-MM-dd}.log">
             <PatternLayout>
                 <pattern>%d [%p] %C [%t] : %m%n</pattern>
             </PatternLayout>
