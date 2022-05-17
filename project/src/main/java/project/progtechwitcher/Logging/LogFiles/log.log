@@ -1482,3 +1482,190 @@
 2022-05-17 08:06:15,736 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Getting data from Users table was successful
 2022-05-17 08:06:27,454 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
 2022-05-17 08:06:27,455 [WARN] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Cannot invoke "project.progtechwitcher.models.user.UserBase.getId()" because "node" is null
+=======
+2022-05-17 04:13:41,395 [ERROR] project.progtechwitcher.Logging.Log [main] : com.mysql.cj.jdbc.Driver
+2022-05-17 04:13:41,399 [ERROR] project.progtechwitcher.Logging.Log [main] : No suitable driver found for jdbc:mysql://localhost:3306/progtech
+2022-05-17 04:13:41,399 [ERROR] project.progtechwitcher.Logging.Log [main] : com.mysql.cj.jdbc.Driver
+2022-05-17 04:13:41,400 [ERROR] project.progtechwitcher.Logging.Log [main] : No suitable driver found for jdbc:mysql://localhost:3306/progtech
+2022-05-17 04:15:14,558 [INFO] project.progtechwitcher.Logging.Log [main] : Connected to Database
+2022-05-17 04:15:14,613 [INFO] project.progtechwitcher.Logging.Log [main] : Getting data from Jobs table was successful
+2022-05-17 04:15:14,631 [INFO] project.progtechwitcher.Logging.Log [main] : Connected to Database
+2022-05-17 04:15:14,653 [INFO] project.progtechwitcher.Logging.Log [main] : Connected to Database
+2022-05-17 04:15:14,657 [INFO] project.progtechwitcher.Logging.Log [main] : Getting data from Jobs table was successful
+2022-05-17 04:15:14,662 [INFO] project.progtechwitcher.Logging.Log [main] : Connected to Database
+2022-05-17 04:15:14,664 [INFO] project.progtechwitcher.Logging.Log [main] : Getting data from Jobs table was successful
+2022-05-17 04:15:14,665 [INFO] project.progtechwitcher.Logging.Log [main] : Getting data from Users table was successful
+2022-05-17 04:15:20,763 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-17 04:15:20,772 [ERROR] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '= 2' at line 1
+2022-05-17 04:24:46,567 [INFO] project.progtechwitcher.Logging.Log [main] : Connected to Database
+2022-05-17 04:24:46,645 [INFO] project.progtechwitcher.Logging.Log [main] : Getting data from Jobs table was successful
+2022-05-17 04:24:46,667 [INFO] project.progtechwitcher.Logging.Log [main] : Connected to Database
+2022-05-17 04:24:46,674 [INFO] project.progtechwitcher.Logging.Log [main] : Connected to Database
+2022-05-17 04:24:46,678 [INFO] project.progtechwitcher.Logging.Log [main] : Getting data from Jobs table was successful
+2022-05-17 04:24:46,684 [INFO] project.progtechwitcher.Logging.Log [main] : Connected to Database
+2022-05-17 04:24:46,687 [INFO] project.progtechwitcher.Logging.Log [main] : Getting data from Jobs table was successful
+2022-05-17 04:24:46,688 [INFO] project.progtechwitcher.Logging.Log [main] : Getting data from Users table was successful
+2022-05-17 04:24:49,996 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-17 04:24:50,010 [ERROR] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '= 2' at line 1
+2022-05-17 04:30:02,220 [INFO] project.progtechwitcher.Logging.Log [main] : Connected to Database
+2022-05-17 04:30:02,273 [INFO] project.progtechwitcher.Logging.Log [main] : Getting data from Jobs table was successful
+2022-05-17 04:30:02,293 [INFO] project.progtechwitcher.Logging.Log [main] : Connected to Database
+2022-05-17 04:30:02,301 [INFO] project.progtechwitcher.Logging.Log [main] : Connected to Database
+2022-05-17 04:30:02,306 [INFO] project.progtechwitcher.Logging.Log [main] : Getting data from Jobs table was successful
+2022-05-17 04:30:02,313 [INFO] project.progtechwitcher.Logging.Log [main] : Connected to Database
+2022-05-17 04:30:02,316 [INFO] project.progtechwitcher.Logging.Log [main] : Getting data from Jobs table was successful
+2022-05-17 04:30:02,316 [INFO] project.progtechwitcher.Logging.Log [main] : Getting data from Users table was successful
+2022-05-17 04:30:04,761 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-17 04:30:04,773 [ERROR] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '= 2' at line 1
+2022-05-17 04:32:44,465 [INFO] project.progtechwitcher.Logging.Log [main] : Connected to Database
+2022-05-17 04:32:44,508 [INFO] project.progtechwitcher.Logging.Log [main] : Getting data from Jobs table was successful
+2022-05-17 04:32:44,524 [INFO] project.progtechwitcher.Logging.Log [main] : Connected to Database
+2022-05-17 04:32:44,531 [INFO] project.progtechwitcher.Logging.Log [main] : Connected to Database
+2022-05-17 04:32:44,534 [INFO] project.progtechwitcher.Logging.Log [main] : Getting data from Jobs table was successful
+2022-05-17 04:32:44,538 [INFO] project.progtechwitcher.Logging.Log [main] : Connected to Database
+2022-05-17 04:32:44,541 [INFO] project.progtechwitcher.Logging.Log [main] : Getting data from Jobs table was successful
+2022-05-17 04:32:44,541 [INFO] project.progtechwitcher.Logging.Log [main] : Getting data from Users table was successful
+2022-05-17 04:32:54,703 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-17 04:32:54,711 [ERROR] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '= 2' at line 1
+2022-05-17 04:35:45,716 [INFO] project.progtechwitcher.Logging.Log [main] : Connected to Database
+2022-05-17 04:35:45,751 [INFO] project.progtechwitcher.Logging.Log [main] : Getting data from Jobs table was successful
+2022-05-17 04:35:45,770 [INFO] project.progtechwitcher.Logging.Log [main] : Connected to Database
+2022-05-17 04:35:45,777 [INFO] project.progtechwitcher.Logging.Log [main] : Connected to Database
+2022-05-17 04:35:45,784 [INFO] project.progtechwitcher.Logging.Log [main] : Getting data from Jobs table was successful
+2022-05-17 04:35:45,789 [INFO] project.progtechwitcher.Logging.Log [main] : Connected to Database
+2022-05-17 04:35:45,791 [INFO] project.progtechwitcher.Logging.Log [main] : Getting data from Jobs table was successful
+2022-05-17 04:35:45,792 [INFO] project.progtechwitcher.Logging.Log [main] : Getting data from Users table was successful
+2022-05-17 04:35:48,566 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-17 04:35:48,574 [ERROR] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '= 2' at line 1
+2022-05-17 04:35:56,522 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-17 04:35:56,523 [ERROR] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '= 2' at line 1
+2022-05-17 04:35:57,604 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-17 04:35:57,604 [ERROR] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '= 2' at line 1
+2022-05-17 04:35:59,060 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-17 04:35:59,061 [ERROR] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '= 2' at line 1
+2022-05-17 04:36:00,645 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-17 04:36:00,646 [ERROR] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '= 2' at line 1
+2022-05-17 04:52:07,225 [INFO] project.progtechwitcher.Logging.Log [main] : Connected to Database
+2022-05-17 04:52:07,275 [INFO] project.progtechwitcher.Logging.Log [main] : Getting data from Jobs table was successful
+2022-05-17 04:52:07,303 [INFO] project.progtechwitcher.Logging.Log [main] : Connected to Database
+2022-05-17 04:52:07,311 [INFO] project.progtechwitcher.Logging.Log [main] : Connected to Database
+2022-05-17 04:52:07,315 [INFO] project.progtechwitcher.Logging.Log [main] : Getting data from Jobs table was successful
+2022-05-17 04:52:07,322 [INFO] project.progtechwitcher.Logging.Log [main] : Connected to Database
+2022-05-17 04:52:07,324 [INFO] project.progtechwitcher.Logging.Log [main] : Getting data from Jobs table was successful
+2022-05-17 04:52:07,325 [INFO] project.progtechwitcher.Logging.Log [main] : Getting data from Users table was successful
+2022-05-17 04:53:16,503 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-17 04:53:16,520 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-17 04:53:16,523 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-17 04:53:16,525 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Getting data from Jobs table was successful
+2022-05-17 04:53:16,529 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-17 04:53:16,531 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Getting data from Jobs table was successful
+2022-05-17 04:53:16,534 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-17 04:53:16,535 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Getting data from Jobs table was successful
+2022-05-17 04:53:16,535 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Getting data from Users table was successful
+2022-05-17 04:54:24,351 [INFO] project.progtechwitcher.Logging.Log [main] : Connected to Database
+2022-05-17 04:54:24,386 [INFO] project.progtechwitcher.Logging.Log [main] : Getting data from Jobs table was successful
+2022-05-17 04:54:24,404 [INFO] project.progtechwitcher.Logging.Log [main] : Connected to Database
+2022-05-17 04:54:24,411 [INFO] project.progtechwitcher.Logging.Log [main] : Connected to Database
+2022-05-17 04:54:24,414 [INFO] project.progtechwitcher.Logging.Log [main] : Getting data from Jobs table was successful
+2022-05-17 04:54:24,420 [INFO] project.progtechwitcher.Logging.Log [main] : Connected to Database
+2022-05-17 04:54:24,423 [INFO] project.progtechwitcher.Logging.Log [main] : Getting data from Jobs table was successful
+2022-05-17 04:54:24,427 [INFO] project.progtechwitcher.Logging.Log [main] : Connected to Database
+2022-05-17 04:54:24,429 [INFO] project.progtechwitcher.Logging.Log [main] : Getting data from Jobs table was successful
+2022-05-17 04:54:24,430 [INFO] project.progtechwitcher.Logging.Log [main] : Getting data from Users table was successful
+2022-05-17 04:54:27,290 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-17 04:54:27,303 [ERROR] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '= 2' at line 1
+2022-05-17 04:55:23,106 [INFO] project.progtechwitcher.Logging.Log [main] : Connected to Database
+2022-05-17 04:55:23,139 [INFO] project.progtechwitcher.Logging.Log [main] : Getting data from Jobs table was successful
+2022-05-17 04:55:23,153 [INFO] project.progtechwitcher.Logging.Log [main] : Connected to Database
+2022-05-17 04:55:23,158 [INFO] project.progtechwitcher.Logging.Log [main] : Connected to Database
+2022-05-17 04:55:23,161 [INFO] project.progtechwitcher.Logging.Log [main] : Getting data from Jobs table was successful
+2022-05-17 04:55:23,165 [INFO] project.progtechwitcher.Logging.Log [main] : Connected to Database
+2022-05-17 04:55:23,167 [INFO] project.progtechwitcher.Logging.Log [main] : Getting data from Jobs table was successful
+2022-05-17 04:55:23,170 [INFO] project.progtechwitcher.Logging.Log [main] : Connected to Database
+2022-05-17 04:55:23,172 [INFO] project.progtechwitcher.Logging.Log [main] : Getting data from Jobs table was successful
+2022-05-17 04:55:23,172 [INFO] project.progtechwitcher.Logging.Log [main] : Getting data from Users table was successful
+2022-05-17 04:56:06,521 [INFO] project.progtechwitcher.Logging.Log [main] : Connected to Database
+2022-05-17 04:56:06,558 [INFO] project.progtechwitcher.Logging.Log [main] : Getting data from Jobs table was successful
+2022-05-17 04:56:06,572 [INFO] project.progtechwitcher.Logging.Log [main] : Connected to Database
+2022-05-17 04:56:06,578 [INFO] project.progtechwitcher.Logging.Log [main] : Connected to Database
+2022-05-17 04:56:06,581 [INFO] project.progtechwitcher.Logging.Log [main] : Getting data from Jobs table was successful
+2022-05-17 04:56:06,586 [INFO] project.progtechwitcher.Logging.Log [main] : Connected to Database
+2022-05-17 04:56:06,588 [INFO] project.progtechwitcher.Logging.Log [main] : Getting data from Jobs table was successful
+2022-05-17 04:56:06,592 [INFO] project.progtechwitcher.Logging.Log [main] : Connected to Database
+2022-05-17 04:56:06,593 [INFO] project.progtechwitcher.Logging.Log [main] : Getting data from Jobs table was successful
+2022-05-17 04:56:06,593 [INFO] project.progtechwitcher.Logging.Log [main] : Getting data from Users table was successful
+2022-05-17 05:03:02,146 [INFO] project.progtechwitcher.Logging.Log [main] : Connected to Database
+2022-05-17 05:03:02,182 [INFO] project.progtechwitcher.Logging.Log [main] : Getting data from Jobs table was successful
+2022-05-17 05:03:02,198 [INFO] project.progtechwitcher.Logging.Log [main] : Connected to Database
+2022-05-17 05:03:02,204 [INFO] project.progtechwitcher.Logging.Log [main] : Connected to Database
+2022-05-17 05:03:02,208 [INFO] project.progtechwitcher.Logging.Log [main] : Getting data from Jobs table was successful
+2022-05-17 05:03:02,212 [INFO] project.progtechwitcher.Logging.Log [main] : Connected to Database
+2022-05-17 05:03:02,215 [INFO] project.progtechwitcher.Logging.Log [main] : Getting data from Jobs table was successful
+2022-05-17 05:03:02,219 [INFO] project.progtechwitcher.Logging.Log [main] : Connected to Database
+2022-05-17 05:03:02,220 [INFO] project.progtechwitcher.Logging.Log [main] : Getting data from Jobs table was successful
+2022-05-17 05:03:02,221 [INFO] project.progtechwitcher.Logging.Log [main] : Getting data from Users table was successful
+2022-05-17 05:03:57,081 [INFO] project.progtechwitcher.Logging.Log [main] : Connected to Database
+2022-05-17 05:03:57,119 [INFO] project.progtechwitcher.Logging.Log [main] : Getting data from Jobs table was successful
+2022-05-17 05:03:57,136 [INFO] project.progtechwitcher.Logging.Log [main] : Connected to Database
+2022-05-17 05:03:57,144 [INFO] project.progtechwitcher.Logging.Log [main] : Connected to Database
+2022-05-17 05:03:57,147 [INFO] project.progtechwitcher.Logging.Log [main] : Getting data from Jobs table was successful
+2022-05-17 05:03:57,153 [INFO] project.progtechwitcher.Logging.Log [main] : Connected to Database
+2022-05-17 05:03:57,155 [INFO] project.progtechwitcher.Logging.Log [main] : Getting data from Jobs table was successful
+2022-05-17 05:03:57,160 [INFO] project.progtechwitcher.Logging.Log [main] : Connected to Database
+2022-05-17 05:03:57,161 [INFO] project.progtechwitcher.Logging.Log [main] : Getting data from Jobs table was successful
+2022-05-17 05:03:57,161 [INFO] project.progtechwitcher.Logging.Log [main] : Getting data from Users table was successful
+2022-05-17 05:06:27,956 [INFO] project.progtechwitcher.Logging.Log [main] : Connected to Database
+2022-05-17 05:06:27,995 [INFO] project.progtechwitcher.Logging.Log [main] : Getting data from Jobs table was successful
+2022-05-17 05:06:28,015 [INFO] project.progtechwitcher.Logging.Log [main] : Connected to Database
+2022-05-17 05:06:28,023 [INFO] project.progtechwitcher.Logging.Log [main] : Connected to Database
+2022-05-17 05:06:28,025 [INFO] project.progtechwitcher.Logging.Log [main] : Getting data from Jobs table was successful
+2022-05-17 05:06:28,031 [INFO] project.progtechwitcher.Logging.Log [main] : Connected to Database
+2022-05-17 05:06:28,034 [INFO] project.progtechwitcher.Logging.Log [main] : Getting data from Jobs table was successful
+2022-05-17 05:06:28,038 [INFO] project.progtechwitcher.Logging.Log [main] : Connected to Database
+2022-05-17 05:06:28,039 [INFO] project.progtechwitcher.Logging.Log [main] : Getting data from Jobs table was successful
+2022-05-17 05:06:28,040 [INFO] project.progtechwitcher.Logging.Log [main] : Getting data from Users table was successful
+2022-05-17 05:08:14,698 [INFO] project.progtechwitcher.Logging.Log [main] : Connected to Database
+2022-05-17 05:08:14,733 [INFO] project.progtechwitcher.Logging.Log [main] : Getting data from Jobs table was successful
+2022-05-17 05:08:14,752 [INFO] project.progtechwitcher.Logging.Log [main] : Connected to Database
+2022-05-17 05:08:14,757 [INFO] project.progtechwitcher.Logging.Log [main] : Connected to Database
+2022-05-17 05:08:14,760 [INFO] project.progtechwitcher.Logging.Log [main] : Getting data from Jobs table was successful
+2022-05-17 05:08:14,765 [INFO] project.progtechwitcher.Logging.Log [main] : Connected to Database
+2022-05-17 05:08:14,767 [INFO] project.progtechwitcher.Logging.Log [main] : Getting data from Jobs table was successful
+2022-05-17 05:08:14,770 [INFO] project.progtechwitcher.Logging.Log [main] : Connected to Database
+2022-05-17 05:08:14,771 [INFO] project.progtechwitcher.Logging.Log [main] : Getting data from Jobs table was successful
+2022-05-17 05:08:14,771 [INFO] project.progtechwitcher.Logging.Log [main] : Getting data from Users table was successful
+2022-05-17 05:08:17,240 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-17 05:08:17,251 [ERROR] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '= 2' at line 1
+2022-05-17 05:08:22,310 [ERROR] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Cannot invoke "Object.toString()" because the return value of "javafx.scene.control.ComboBox.getValue()" is null
+2022-05-17 05:08:27,576 [ERROR] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Cannot invoke "Object.toString()" because the return value of "javafx.scene.control.ComboBox.getValue()" is null
+2022-05-17 05:08:27,814 [ERROR] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Cannot invoke "Object.toString()" because the return value of "javafx.scene.control.ComboBox.getValue()" is null
+2022-05-17 05:08:28,007 [ERROR] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Cannot invoke "Object.toString()" because the return value of "javafx.scene.control.ComboBox.getValue()" is null
+2022-05-17 05:08:28,229 [ERROR] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Cannot invoke "Object.toString()" because the return value of "javafx.scene.control.ComboBox.getValue()" is null
+2022-05-17 05:08:29,283 [ERROR] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Cannot invoke "Object.toString()" because the return value of "javafx.scene.control.ComboBox.getValue()" is null
+2022-05-17 05:08:29,771 [ERROR] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Cannot invoke "Object.toString()" because the return value of "javafx.scene.control.ComboBox.getValue()" is null
+2022-05-17 05:09:05,788 [ERROR] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Cannot invoke "Object.toString()" because the return value of "javafx.scene.control.ComboBox.getValue()" is null
+2022-05-17 05:09:06,039 [ERROR] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Cannot invoke "Object.toString()" because the return value of "javafx.scene.control.ComboBox.getValue()" is null
+2022-05-17 05:09:06,272 [ERROR] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Cannot invoke "Object.toString()" because the return value of "javafx.scene.control.ComboBox.getValue()" is null
+2022-05-17 05:10:40,754 [INFO] project.progtechwitcher.Logging.Log [main] : Connected to Database
+2022-05-17 05:10:40,789 [INFO] project.progtechwitcher.Logging.Log [main] : Getting data from Jobs table was successful
+2022-05-17 05:10:40,804 [INFO] project.progtechwitcher.Logging.Log [main] : Connected to Database
+2022-05-17 05:10:40,810 [INFO] project.progtechwitcher.Logging.Log [main] : Connected to Database
+2022-05-17 05:10:40,812 [INFO] project.progtechwitcher.Logging.Log [main] : Getting data from Jobs table was successful
+2022-05-17 05:10:40,817 [INFO] project.progtechwitcher.Logging.Log [main] : Connected to Database
+2022-05-17 05:10:40,819 [INFO] project.progtechwitcher.Logging.Log [main] : Getting data from Jobs table was successful
+2022-05-17 05:10:40,822 [INFO] project.progtechwitcher.Logging.Log [main] : Connected to Database
+2022-05-17 05:10:40,823 [INFO] project.progtechwitcher.Logging.Log [main] : Getting data from Jobs table was successful
+2022-05-17 05:10:40,824 [INFO] project.progtechwitcher.Logging.Log [main] : Getting data from Users table was successful
+2022-05-17 05:10:45,847 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-17 05:10:45,854 [ERROR] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '= 2' at line 1
+2022-05-17 05:10:47,879 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-17 05:10:47,879 [ERROR] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '= 2' at line 1
+2022-05-17 05:10:49,248 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-17 05:10:49,249 [ERROR] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '= 2' at line 1
+2022-05-17 05:10:50,342 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-17 05:10:50,343 [ERROR] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '= 2' at line 1
+2022-05-17 05:10:53,221 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-17 05:10:53,222 [ERROR] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '= 2' at line 1
+2022-05-17 05:10:57,044 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-17 05:10:57,045 [ERROR] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '= 2' at line 1
+

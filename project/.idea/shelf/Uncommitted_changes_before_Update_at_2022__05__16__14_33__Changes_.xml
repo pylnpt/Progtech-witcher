@@ -1,0 +1,24 @@
+<changelist name="Uncommitted_changes_before_Update_at_2022__05__16__14_33_[Changes]" date="1652704605969" recycled="true" deleted="true">
+  <option name="PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2022__05__16__14_33_[Changes]/shelved.patch" />
+  <option name="DESCRIPTION" value="Uncommitted changes before Update at 2022. 05. 16. 14:33 [Changes]" />
+  <binary>
+    <option name="BEFORE_PATH" value="target/classes/project/progtechwitcher/Main.class" />
+    <option name="AFTER_PATH" value="target/classes/project/progtechwitcher/Main.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2022__05__16__14_33_[Changes]/Main.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="target/classes/project/progtechwitcher/Database/ConnectToDatabase.class" />
+    <option name="AFTER_PATH" value="target/classes/project/progtechwitcher/Database/ConnectToDatabase.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2022__05__16__14_33_[Changes]/ConnectToDatabase.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="target/classes/project/progtechwitcher/Database/ConnectToDatabase$1.class" />
+    <option name="AFTER_PATH" value="target/classes/project/progtechwitcher/Database/ConnectToDatabase$1.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2022__05__16__14_33_[Changes]/ConnectToDatabase$1.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="target/classes/module-info.class" />
+    <option name="AFTER_PATH" value="target/classes/module-info.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2022__05__16__14_33_[Changes]/module-info.class" />
+  </binary>
+</changelist>

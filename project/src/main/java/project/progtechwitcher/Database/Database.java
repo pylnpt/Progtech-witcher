@@ -171,6 +171,7 @@ public class Database {
                 String query;
                 if(inputId==0)
                 {
+
                     users = null;
                     users = new ArrayList<UserBase>();
                     query = "select * from users";
@@ -180,6 +181,12 @@ public class Database {
                     users = null;
                     users = new ArrayList<UserBase>();
                     query = String.format("select * from users where id = "+ inputId);
+
+                    query = "select * from users";
+                }
+                else {
+                    query = String.format("select * from users whereid = "+inputId);
+
                 }
                 ResultSet rs = st.executeQuery(query);
 
@@ -273,6 +280,11 @@ public class Database {
                 int rs = st.executeUpdate(query);
                 st.close();
                 connection.close();
+
+
+                users = null;
+                users = new ArrayList<UserBase>();
+
                 GetUsers(0);
             }
             catch (Exception e)
@@ -293,6 +305,11 @@ public class Database {
                 st.close();
                 connection.close();
                 GetJobs(0, jobs, TypeForReadingJobs.ALL);
+
+
+                users = null;
+                users = new ArrayList<UserBase>();
+
                 GetUsers(0);
             }
             catch (Exception e)
@@ -319,6 +336,11 @@ public class Database {
                 st.close();
                 connection.close();
                 GetJobs(0, jobs, TypeForReadingJobs.ALL);
+
+
+                users = null;
+                users = new ArrayList<UserBase>();
+
                 GetUsers(0);
             }
             catch (Exception e)
@@ -337,6 +359,10 @@ public class Database {
                 preparedStmt.close();
                 connection.close();
                 GetJobs(0, jobs, TypeForReadingJobs.ALL);
+
+                users = null;
+                users = new ArrayList<UserBase>();
+
                 GetUsers(0);
             } catch (Exception e) {
                 Log.Error(Database.class, e.getMessage());
@@ -365,6 +391,10 @@ public class Database {
                 st2.executeUpdate(query);
                 st2.close();
                 connection.close();
+
+                users = null;
+                users = new ArrayList<UserBase>();
+              
                 GetUsers(0);
             } catch (Exception e) {
                 Log.Error(Database.class, e.getMessage());
@@ -380,6 +410,10 @@ public class Database {
                 preparedStmt.executeUpdate(query);
                 preparedStmt.close();
                 connection.close();
+
+                users = null;
+                users = new ArrayList<UserBase>();
+
                 GetUsers(0);
             } catch (Exception e) {
                 Log.Error(Database.class, e.getMessage());
@@ -401,6 +435,10 @@ public class Database {
 
 
                 GetJobs(0, jobs, TypeForReadingJobs.ALL);
+
+                users = null;
+                users = new ArrayList<UserBase>();
+
                 GetUsers(0);
             } catch (Exception e) {
                 Log.Error(Database.class, e.getMessage());
@@ -431,6 +469,10 @@ public class Database {
                 }
                 connection.close();
                 GetJobs(0, jobs, TypeForReadingJobs.ALL);
+
+                users = null;
+                users = new ArrayList<UserBase>();
+
                 GetUsers(0);
             } catch (Exception e) {
                 Log.Error(Database.class, e.getMessage());
