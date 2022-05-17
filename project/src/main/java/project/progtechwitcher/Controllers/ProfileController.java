@@ -63,6 +63,7 @@ public class ProfileController {
 
         generateTable();
         addDataToTextField();
+
         myJobsTable.setOnMouseClicked(e -> clickCell());
         SetJobDone();
 
@@ -110,6 +111,7 @@ public class ProfileController {
     {
         myJobsTable.getItems().clear();
         System.out.println("kox");
+
     }
 
     private void addDataToTextField(){
@@ -181,7 +183,6 @@ public class ProfileController {
                 myJobsTable.getItems().add(jobs);
             }
         }
-        System.out.println(myJobsTable.getSelectionModel().getSelectedItem());
     }
 
     @FXML
