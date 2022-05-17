@@ -38,7 +38,7 @@ class DatabaseTest {
     void registrate2() {
         Database.GetUsers(0);
         ArrayList<UserBase> users = new ArrayList<>(Database.users);
-        Database.Registrate("newUsername001", "password", Role.EMPLOYEE);
+        Database.Registrate("newUsername002", "password", Role.EMPLOYEE);
         assertNotEquals(Database.users.size(), users.size());
     }
 

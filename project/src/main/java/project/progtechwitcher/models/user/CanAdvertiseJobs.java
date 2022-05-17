@@ -23,7 +23,7 @@ public class CanAdvertiseJobs extends RoleBase{
                 break;
             }
         }
-        if(creatorId == this.user.getId() && !someoneAssigned)
+        if(creatorId == this.user.getId() || !someoneAssigned)
         {
             Database.DeleteJob(jobId);
         }
