@@ -66,7 +66,7 @@ public class MainController {
                 NotLoggedInFields();
             }
             useridlabel.setText("");
-            System.out.println(userId);
+            //System.out.println(userId);
         });
     }
 
