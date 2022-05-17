@@ -223,9 +223,8 @@ public class ProfileController {
     private void SetJobDone(){
         if(user.getRole() == Role.EMPLOYEE) {
             doneBtn.setOnMouseClicked(event -> {
-                SetButtonActionIfEmployee();
-                ClearTable();
-                generateTable();
+                new CanTakeJobs(user).JobDone(jobId);
+                Refresh();
                 addDataToTextField();
             });
         }
@@ -234,26 +233,21 @@ public class ProfileController {
             doneBtn.setText("Delete Job");
             doneBtn.setOnMouseClicked(event -> {
                 try {
-                    SetButtonActionIfEmployer();
+                    new CanAdvertiseJobs(user).DeleteJob(jobId);
+                    Refresh();
                 } catch (IllegalAccessException e) {
                     e.printStackTrace();
-                    ClearTable();
-                    generateTable();
                 }
             });
         }
     }
-
-    private void SetButtonActionIfEmployee(){
-        new CanTakeJobs(user).JobDone(jobId);
+    private void Refresh()
+    {
         Database.GetUsers(user.getId());
         user = Database.users.get(0);
-    }
-
-    private void SetButtonActionIfEmployer() throws IllegalAccessException {
-        new CanAdvertiseJobs(user).DeleteJob(jobId);
-        Database.GetUsers(user.getId());
-        user = Database.users.get(0);
+        ClearTable();
+        generateTable();
+        descriptionTextField.setText("");
     }
 
 }
