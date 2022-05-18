@@ -48,6 +48,8 @@ public class ProfileController {
 
     private UserBase user;
     private int jobId=0;
+    private int reward=0;
+
 
     @FXML
     private void initialize()
@@ -107,14 +109,12 @@ public class ProfileController {
         NewPassword2.setDisable(false);
         NewPassword2.setVisible(true);
     }
-    private void ClearTable()
-    {
-        myJobsTable.getItems().clear();
-        System.out.println("kox");
-
-    }
 
     private void addDataToTextField(){
+        userNameInput.setText("");
+        roleInput.setText("");
+        levelInput.setText("");
+
         userNameInput.setText(user.getUsername());
         roleInput.setText(user.getRole().toString());
         levelInput.setText(Integer.toString(user.getLevel()));
@@ -199,7 +199,8 @@ public class ProfileController {
             jobId = Integer.parseInt(idSplit.split("=")[1]);
             descriptionTextField.setText(description);
 
-            System.out.println(jobId);
+            String rewSplit = myJobsTable.getSelectionModel().getSelectedItem().toString().split(",")[3];
+            reward = Integer.parseInt(rewSplit.split("=")[1]);
         }
         catch(Exception e)
         {
@@ -225,7 +226,7 @@ public class ProfileController {
     private void SetJobDone(){
         if(user.getRole() == Role.EMPLOYEE) {
             doneBtn.setOnMouseClicked(event -> {
-                new CanTakeJobs(user).JobDone(jobId);
+                new CanTakeJobs(user).JobDone(jobId, reward+user.getLevel());
                 Refresh();
                 addDataToTextField();
             });
@@ -247,7 +248,7 @@ public class ProfileController {
     {
         Database.GetUsers(user.getId());
         user = Database.users.get(0);
-        ClearTable();
+        myJobsTable.getItems().clear();
         generateTable();
         descriptionTextField.setText("");
     }
