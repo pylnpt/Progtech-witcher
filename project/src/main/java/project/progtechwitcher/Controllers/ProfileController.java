@@ -2,20 +2,15 @@ package project.progtechwitcher.Controllers;
 
 import javafx.fxml.FXML;
 import javafx.scene.control.*;
-import javafx.scene.control.cell.PropertyValueFactory;
 import javafx.scene.layout.HBox;
 import project.progtechwitcher.Database.Database;
 import project.progtechwitcher.Hash.MD5Hash;
+import project.progtechwitcher.Main;
 import project.progtechwitcher.MainController;
-import project.progtechwitcher.models.Jobs;
 import project.progtechwitcher.models.user.CanAdvertiseJobs;
 import project.progtechwitcher.models.user.CanTakeJobs;
 import project.progtechwitcher.models.user.Role;
 import project.progtechwitcher.models.user.UserBase;
-
-import java.lang.reflect.Array;
-import java.util.ArrayList;
-import java.util.HashMap;
 
 public class ProfileController {
     @FXML
@@ -46,33 +41,31 @@ public class ProfileController {
     @FXML
     private Button cancelBtn;
 
-    private UserBase user;
     private int jobId=0;
     private int reward=0;
 
+    UserBase user = MainController.user;
+    ProfileTableTemplate profileTable = new ProfileTableTemplate();
 
     @FXML
     private void initialize()
     {
-        Database.GetUsers(MainController.userId);
-        user =Database.users.get(0);
+        profileTable.createTable(myJobsTable, profileTable.tableData, tableSection);
+        System.out.println(user.toString());
         passwordOff();
-        changePasswordBtn.setOnMouseClicked(event->{
+        changePasswordBtn.setOnMouseClicked(event-> {
             passwordOn();
         });
+
         cancelBtn.setOnMouseClicked(event -> passwordOff());
         ModPassword.setOnMouseClicked(event->ChangePasswd());
 
-        generateTable();
-        addDataToTextField();
-
         myJobsTable.setOnMouseClicked(e -> clickCell());
+        addDataToTextField();
         SetJobDone();
 
     }
-
-    private void passwordOff()
-    {
+    private void passwordOff() {
         ModPassword.setDisable(true);
         ModPassword.setManaged(false);
         ModPassword.setVisible(false);
@@ -90,8 +83,7 @@ public class ProfileController {
         NewPassword2.setDisable(true);
         NewPassword2.setVisible(false);
     }
-    private void passwordOn()
-    {
+    private void passwordOn() {
         ModPassword.setDisable(false);
         ModPassword.setManaged(true);
         ModPassword.setVisible(true);
@@ -109,8 +101,8 @@ public class ProfileController {
         NewPassword2.setDisable(false);
         NewPassword2.setVisible(true);
     }
+    private void addDataToTextField() {
 
-    private void addDataToTextField(){
         userNameInput.setText("");
         roleInput.setText("");
         levelInput.setText("");
@@ -118,78 +110,9 @@ public class ProfileController {
         userNameInput.setText(user.getUsername());
         roleInput.setText(user.getRole().toString());
         levelInput.setText(Integer.toString(user.getLevel()));
-
-    }
-
-    private void generateTable(){
-
-        ArrayList<Jobs> tableData;
-
-        switch (user.getRole())
-        {
-            case ADMIN -> {
-                tableData = new ArrayList<>();
-                tableSection.managedProperty().bind(myJobsTable.visibleProperty());
-                tableSection.setVisible(false);
-                break;
-            }
-            case EMPLOYER -> {
-                tableData = new ArrayList<>(user.advertisedJobs);
-                addTableData(user.advertisedJobs);
-                break;
-            }
-            case EMPLOYEE -> {
-                tableData = new ArrayList<>();
-                for(Jobs job : user.takenJobs)
-                {
-                    if(job.isDone() != true)
-                    {
-                        tableData.add(job);
-                    }
-                }
-                addTableData(tableData);
-                break;
-            }
-        }
     }
     @FXML
-    public void addTableData(ArrayList<Jobs> tableData){
-        TableColumn<String, Jobs> firstColumn = new TableColumn<>("Title");
-        TableColumn<Integer, Jobs> secondColumn = new TableColumn<>("Reward");
-        TableColumn<Integer, Jobs> thirdColumn = new TableColumn<>("Required level");
-
-        firstColumn.setCellValueFactory(new PropertyValueFactory<>("title"));
-        secondColumn.setCellValueFactory(new PropertyValueFactory<>("reward"));
-        thirdColumn.setCellValueFactory(new PropertyValueFactory<>("requiredLevel"));
-
-        firstColumn.prefWidthProperty().bind(myJobsTable.widthProperty().multiply(0.5));
-        secondColumn.prefWidthProperty().bind(myJobsTable.widthProperty().multiply(0.2));
-        thirdColumn.prefWidthProperty().bind(myJobsTable.widthProperty().multiply(0.3));
-
-        firstColumn.setResizable(false);
-        secondColumn.setResizable(false);
-        thirdColumn.setResizable(false);
-
-        myJobsTable.getColumns().add(firstColumn);
-        myJobsTable.getColumns().add(secondColumn);
-        myJobsTable.getColumns().add(thirdColumn);
-
-        for (Jobs jobs : tableData){
-            if(user.getRole() == Role.EMPLOYEE && jobs.isDone() == false)
-            {
-                myJobsTable.getItems().add(jobs);
-            }
-            else {
-                if(jobs.getAcceptedBy()==0) {
-                    myJobsTable.getItems().add(jobs);
-                }
-            }
-        }
-    }
-
-    @FXML
-    public void clickCell()
-    {
+    public void clickCell() {
         try {
             descriptionTextField.setText("");
             String splitDescription = myJobsTable.getSelectionModel().getSelectedItem().toString().split(",")[2];
@@ -207,10 +130,8 @@ public class ProfileController {
 
         }
     }
-
-    private void ChangePasswd()
-    {
-        if(!(currentPassword.getText()=="" || NewPassword.getText()=="" || NewPassword2.getText()==""))
+    private void ChangePasswd() {
+        if(!(currentPassword.getText() =="" || NewPassword.getText()=="" || NewPassword2.getText()==""))
         {
             if(MD5Hash.getMd5(currentPassword.getText()).equals(user.getPassword()))
             {
@@ -221,10 +142,9 @@ public class ProfileController {
             }
         }
     }
-
     @FXML
-    private void SetJobDone(){
-        if(user.getRole() == Role.EMPLOYEE) {
+    private void SetJobDone() {
+        if(this.user.getRole() == Role.EMPLOYEE) {
             doneBtn.setOnMouseClicked(event -> {
                 new CanTakeJobs(user).JobDone(jobId, reward+user.getLevel());
                 Refresh();
@@ -244,13 +164,12 @@ public class ProfileController {
             });
         }
     }
-    private void Refresh()
-    {
+    private void Refresh() {
+        profileTable.createTable(myJobsTable, profileTable.tableData, tableSection);
+
         Database.GetUsers(user.getId());
         user = Database.users.get(0);
         myJobsTable.getItems().clear();
-        generateTable();
         descriptionTextField.setText("");
     }
-
 }

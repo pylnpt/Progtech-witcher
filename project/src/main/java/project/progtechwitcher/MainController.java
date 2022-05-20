@@ -8,8 +8,6 @@ import javafx.scene.control.TextField;
 import javafx.scene.layout.AnchorPane;
 import project.progtechwitcher.Database.Database;
 import project.progtechwitcher.Logging.Log;
-import project.progtechwitcher.models.user.Employee;
-import project.progtechwitcher.models.user.Employer;
 import project.progtechwitcher.models.user.UserBase;
 
 import java.io.IOException;
@@ -38,6 +36,8 @@ public class MainController {
     private TextField passwordInput;
     @FXML
     private Label useridlabel;
+
+    public static UserBase user;
     public static int userId = 0;
 
     @FXML
@@ -81,7 +81,7 @@ public class MainController {
         loginBtn.setText("Logout");
 
         Database.GetUsers(userId);
-        System.out.println(Database.users.get(0).toString());
+        user = Database.users.get(0);
 
         switch(Database.users.get(0).getRole())
         {
@@ -114,7 +114,10 @@ public class MainController {
         SetButtonsOn();
         initializeNavigationNotLoggedIn();
         loadPage("/project/progtechwitcher/fxml/home-view.fxml");
-        userId=0;
+
+        userId = 0;
+        user = null;
+
         usernameInput.setVisible(true);
         usernameInput.setDisable(false);
         passwordInput.setVisible(true);
