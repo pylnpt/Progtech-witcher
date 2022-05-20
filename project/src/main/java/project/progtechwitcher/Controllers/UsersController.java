@@ -91,6 +91,10 @@ public class UsersController {
             {
                 adminBtn.setDisable(true);
             }
+            else
+            {
+                adminBtn.setDisable(false);
+            }
             a.DeleteUser(userId);
             System.out.println("Deleted user: "+userId);
             userList.getItems().clear();
