@@ -4,24 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="05cb5648-eda6-4c6c-9877-ff37a4422db0" name="Changes" comment="Jobsview - WIP">
-      <change afterPath="$PROJECT_DIR$/src/main/java/project/progtechwitcher/Controllers/JobsTableTemplate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/project/progtechwitcher/Controllers/ProfileTableTemplate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/project/progtechwitcher/Controllers/SuperTableTemplate.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/Tests/project/progtechwitcher/Database/DatabaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Tests/project/progtechwitcher/Database/DatabaseTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/project/progtechwitcher/Controllers/JobsController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/project/progtechwitcher/Controllers/JobsController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/project/progtechwitcher/Controllers/ProfileController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/project/progtechwitcher/Controllers/ProfileController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/project/progtechwitcher/Logging/LogFiles/log.log" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/project/progtechwitcher/Logging/LogFiles/log.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/project/progtechwitcher/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/project/progtechwitcher/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/project/progtechwitcher/MainController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/project/progtechwitcher/MainController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/project/progtechwitcher/models/Jobs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/project/progtechwitcher/models/Jobs.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/project/progtechwitcher/fxml/jobs-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/project/progtechwitcher/fxml/jobs-view.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/project/progtechwitcher/Controllers/JobsController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/project/progtechwitcher/Controllers/JobsController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/project/progtechwitcher/Controllers/ProfileController$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/project/progtechwitcher/Controllers/ProfileController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/project/progtechwitcher/Controllers/ProfileController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/project/progtechwitcher/MainController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/project/progtechwitcher/MainController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/project/progtechwitcher/fxml/jobs-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/project/progtechwitcher/fxml/jobs-view.fxml" afterDir="false" />
+    <list default="true" id="05cb5648-eda6-4c6c-9877-ff37a4422db0" name="Changes" comment="Refactored the table creation with the use of the template dp.&#10;Created 5 unit test on getting data from jobs (Databasewise).">
+      <change beforePath="$PROJECT_DIR$/target/classes/project/progtechwitcher/fxml/home-page-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/project/progtechwitcher/fxml/home-page-view.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/project/progtechwitcher/Database/DatabaseTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/project/progtechwitcher/Database/DatabaseTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -208,7 +193,7 @@
       <workItem from="1652899518947" duration="1749000" />
       <workItem from="1652902552961" duration="2812000" />
       <workItem from="1652905386867" duration="17513000" />
-      <workItem from="1652997355093" duration="8773000" />
+      <workItem from="1652997355093" duration="9118000" />
     </task>
     <task id="LOCAL-00001" summary="Started Layout of the UI.&#10;-&gt; Created a HomeView (WIP)&#10;-&gt; Created a Controller to the view(WIP)&#10;&#10;-&gt; created a style.css which is going to handle the styling of the UI.">
       <created>1651852426093</created>
@@ -301,7 +286,14 @@
       <option name="project" value="LOCAL" />
       <updated>1652757224175</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Refactored the table creation with the use of the template dp.&#10;Created 5 unit test on getting data from jobs (Databasewise).">
+      <created>1653006469523</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1653006469523</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -331,7 +323,8 @@
     <MESSAGE value="Created md5 hash" />
     <MESSAGE value="We can now register" />
     <MESSAGE value="Started usersview - WIP" />
-    <option name="LAST_COMMIT_MESSAGE" value="Started usersview - WIP" />
+    <MESSAGE value="Refactored the table creation with the use of the template dp.&#10;Created 5 unit test on getting data from jobs (Databasewise)." />
+    <option name="LAST_COMMIT_MESSAGE" value="Refactored the table creation with the use of the template dp.&#10;Created 5 unit test on getting data from jobs (Databasewise)." />
     <option name="GROUP_MULTIFILE_MERGE_BY_DIRECTORY" value="true" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
