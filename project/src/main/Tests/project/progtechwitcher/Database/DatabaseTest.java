@@ -49,4 +49,34 @@ class DatabaseTest {
         Database.AdvertiseJob(4, "title", "description", 0, 1);
         assertNotEquals(Database.jobs.size(), jobs.size());
     }
+
+    @Test
+    void getJobs1() {
+        Database.GetJobs(0, Database.jobs, TypeForReadingJobs.ALL);
+        assertNotEquals(0, Database.jobs.size());
+    }
+    @Test
+    void getJobs2() {
+        Database.GetJobs(2, Database.jobs, TypeForReadingJobs.CREATED);
+        assertNotEquals(0, Database.jobs.size());
+    }
+
+    @Test
+    void getJobs3() {
+        Database.GetJobs(2, Database.jobs, TypeForReadingJobs.ACCEPTED);
+        assertNotEquals(0, Database.jobs.size());
+    }
+
+    @Test
+    void getJobs4() {
+        Database.jobs.clear();
+        Database.GetJobs(0, Database.jobs, TypeForReadingJobs.CREATED);
+        assertEquals(0, Database.jobs.size());
+    }
+
+    @Test
+    void getJobs5() {
+        Database.GetJobs(9, Database.jobs, TypeForReadingJobs.ALL);
+        assertNotEquals(0, Database.jobs.size());
+    }
 }

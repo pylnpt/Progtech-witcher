@@ -1,6 +1,6 @@
 package project.progtechwitcher.models;
 
-public class Jobs {
+public class Jobs extends Object {
     private int id;
     private String title;
     private String description;
