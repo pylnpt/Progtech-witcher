@@ -353,35 +353,21 @@ public class Database {
             }
         }
     }
-    public static void AddReward2User(int jobId, int userId) {
+    public static void AddReward2User(int evolved, int userId) {
         Connection connection = ConnectToDb();
         if (connection != null) {
             try {
-                String query = String.format("Select reward from jobs where id = "+jobId);
-                Statement preparedStmt = connection.createStatement();
-                ResultSet rs = preparedStmt.executeQuery(query);
-                int reward = rs.getInt("reward");
-                preparedStmt.close();
-
-                query = String.format("Select level from users where id = "+userId);
-                Statement st = connection.createStatement();
-                ResultSet rs2 = st.executeQuery(query);
-                int level = rs2.getInt("level");
-                st.close();
-                level +=reward;
-
+                String query;
                 Statement st2 = connection.createStatement();
-                query = String.format("Update users set level = "+level+" where id ="+userId);
+                query = String.format("Update users set level = "+evolved+" where id ="+userId);
                 st2.executeUpdate(query);
                 st2.close();
                 connection.close();
 
                 users = null;
                 users = new ArrayList<UserBase>();
-              
                 GetUsers(0);
             } catch (Exception e) {
-                Log.Error(Database.class, e.getMessage());
             }
         }
     }

@@ -41,6 +41,8 @@ public class ProfileController {
     private Button cancelBtn;
 
     private int jobId=0;
+    private int reward=0;
+
     UserBase user = MainController.user;
     ProfileTableTemplate profileTable = new ProfileTableTemplate();
 
@@ -99,6 +101,11 @@ public class ProfileController {
         NewPassword2.setVisible(true);
     }
     private void addDataToTextField() {
+
+        userNameInput.setText("");
+        roleInput.setText("");
+        levelInput.setText("");
+
         userNameInput.setText(user.getUsername());
         roleInput.setText(user.getRole().toString());
         levelInput.setText(Integer.toString(user.getLevel()));
@@ -114,6 +121,8 @@ public class ProfileController {
             jobId = Integer.parseInt(idSplit.split("=")[1]);
             descriptionTextField.setText(description);
 
+            String rewSplit = myJobsTable.getSelectionModel().getSelectedItem().toString().split(",")[3];
+            reward = Integer.parseInt(rewSplit.split("=")[1]);
         }
         catch(Exception e)
         {
@@ -136,7 +145,7 @@ public class ProfileController {
     private void SetJobDone() {
         if(this.user.getRole() == Role.EMPLOYEE) {
             doneBtn.setOnMouseClicked(event -> {
-                new CanTakeJobs(user).JobDone(jobId);
+                new CanTakeJobs(user).JobDone(jobId, reward+user.getLevel());
                 Refresh();
                 addDataToTextField();
             });
@@ -156,6 +165,10 @@ public class ProfileController {
     }
     private void Refresh() {
         profileTable.createTable(myJobsTable, profileTable.tableData, tableSection);
+
+        Database.GetUsers(user.getId());
+        user = Database.users.get(0);
+        myJobsTable.getItems().clear();
         descriptionTextField.setText("");
     }
 }

@@ -11,9 +11,9 @@ public class CanTakeJobs extends RoleBase {
 
 
     public void TakeJob(int JobId, int requiredLevel) throws Exception {
-        if(requiredLevel > user.getLevel())
+        if(requiredLevel > this.user.getLevel())
         {
-            throw new Exception("");
+            throw new Exception("Cannot take job");
         }
         else
         {
@@ -21,10 +21,11 @@ public class CanTakeJobs extends RoleBase {
         }
     }
 
-    public void JobDone(int jobId)
+    public void JobDone(int jobId, int evolved)
     {
         Database.SetJobDone(jobId, this.user.getId());
-        Database.AddReward2User(jobId, this.user.getId());
+        Database.AddReward2User(evolved, this.user.getId());
     }
+
 }
 
