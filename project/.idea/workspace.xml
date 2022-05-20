@@ -5,21 +5,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="05cb5648-eda6-4c6c-9877-ff37a4422db0" name="Changes" comment="Job by employer">
-      <change afterPath="$PROJECT_DIR$/.idea/runConfigurations.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/6fbf50cb-1ea8-4bad-83ad-89be3d9ac495.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/runConfigurations.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/project/progtechwitcher/Controllers/PostAJobController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/project/progtechwitcher/Controllers/PostAJobController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/project/progtechwitcher/Controllers/ProfileController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/project/progtechwitcher/Controllers/ProfileController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/project/progtechwitcher/Controllers/UsersController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/project/progtechwitcher/Controllers/UsersController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/project/progtechwitcher/Database/Database.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/project/progtechwitcher/Database/Database.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/project/progtechwitcher/Logging/LogFiles/log.log" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/project/progtechwitcher/Logging/LogFiles/log.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/project/progtechwitcher/models/user/CanTakeJobs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/project/progtechwitcher/models/user/CanTakeJobs.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/project/progtechwitcher/fxml/users-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/project/progtechwitcher/fxml/users-view.fxml" afterDir="false" />
-    <list default="true" id="05cb5648-eda6-4c6c-9877-ff37a4422db0" name="Changes" comment="Refactored the table creation with the use of the template dp.&#10;Created 5 unit test on getting data from jobs (Databasewise).">
-      <change beforePath="$PROJECT_DIR$/target/classes/project/progtechwitcher/fxml/home-page-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/project/progtechwitcher/fxml/home-page-view.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/project/progtechwitcher/Database/DatabaseTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/project/progtechwitcher/Database/DatabaseTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/project/progtechwitcher/fxml/post-a-job-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/project/progtechwitcher/fxml/post-a-job-view.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/project/progtechwitcher/fxml/register-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/project/progtechwitcher/fxml/register-view.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/project/progtechwitcher/Controllers/PostAJobController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/project/progtechwitcher/Controllers/PostAJobController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/project/progtechwitcher/Controllers/ProfileController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/project/progtechwitcher/Controllers/ProfileController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/project/progtechwitcher/Controllers/UsersController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/project/progtechwitcher/Controllers/UsersController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/project/progtechwitcher/Database/Database.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/project/progtechwitcher/Database/Database.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/project/progtechwitcher/fxml/post-a-job-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/project/progtechwitcher/fxml/post-a-job-view.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/project/progtechwitcher/fxml/register-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/project/progtechwitcher/fxml/register-view.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/project/progtechwitcher/fxml/users-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/project/progtechwitcher/fxml/users-view.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/project/progtechwitcher/models/user/CanTakeJobs.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/project/progtechwitcher/models/user/CanTakeJobs.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,14 +63,6 @@
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
-  </component>
-  <component name="PropertiesComponent">
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../../../mysql-connector-java-8.0.29.jar" />
-    <property name="project.structure.last.edited" value="Libraries" />
-    <property name="project.structure.proportion" value="0.15" />
-    <property name="project.structure.side.proportion" value="0.2" />
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
@@ -198,8 +189,6 @@
       <list>
         <item itemvalue="Application.Main" />
         <item itemvalue="JUnit.DatabaseTest" />
-        <item itemvalue="JUnit.DatabaseTest.getJobs4" />
-        <item itemvalue="JUnit.DatabaseTest.getJobs5" />
         <item itemvalue="JUnit.DatabaseTest.registrate2" />
       </list>
     </recent_temporary>
@@ -229,6 +218,7 @@
       <workItem from="1652905386867" duration="17513000" />
       <workItem from="1652997355093" duration="9118000" />
       <workItem from="1652877814973" duration="16145000" />
+      <workItem from="1653007731889" duration="196000" />
     </task>
     <task id="LOCAL-00001" summary="Started Layout of the UI.&#10;-&gt; Created a HomeView (WIP)&#10;-&gt; Created a Controller to the view(WIP)&#10;&#10;-&gt; created a style.css which is going to handle the styling of the UI.">
       <created>1651852426093</created>
@@ -321,12 +311,12 @@
       <option name="project" value="LOCAL" />
       <updated>1652757224175</updated>
     </task>
-    <task id="LOCAL-00014" summary="Job Done">
-      <created>1652813505504</created>
+    <task id="LOCAL-00014" summary="Refactored the table creation with the use of the template dp.&#10;Created 5 unit test on getting data from jobs (Databasewise).">
+      <created>1653006469523</created>
       <option name="number" value="00014" />
       <option name="presentableId" value="LOCAL-00014" />
       <option name="project" value="LOCAL" />
-      <updated>1652813505504</updated>
+      <updated>1653006469523</updated>
     </task>
     <task id="LOCAL-00015" summary="Job by employer">
       <created>1652813828885</created>
@@ -334,14 +324,6 @@
       <option name="presentableId" value="LOCAL-00015" />
       <option name="project" value="LOCAL" />
       <updated>1652813828885</updated>
-    </task>
-    <option name="localTasksCounter" value="16" />
-    <task id="LOCAL-00014" summary="Refactored the table creation with the use of the template dp.&#10;Created 5 unit test on getting data from jobs (Databasewise).">
-      <created>1653006469523</created>
-      <option name="number" value="00014" />
-      <option name="presentableId" value="LOCAL-00014" />
-      <option name="project" value="LOCAL" />
-      <updated>1653006469523</updated>
     </task>
     <option name="localTasksCounter" value="15" />
     <servers />
@@ -359,7 +341,6 @@
         </entry>
       </map>
     </option>
-    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Started Layout of the UI.&#10;-&gt; Created a HomeView (WIP)&#10;-&gt; Created a Controller to the view(WIP)&#10;&#10;-&gt; created a style.css which is going to handle the styling of the UI." />
@@ -376,7 +357,6 @@
     <MESSAGE value="Started usersview - WIP" />
     <MESSAGE value="Job Done" />
     <MESSAGE value="Job by employer" />
-    <option name="LAST_COMMIT_MESSAGE" value="Job by employer" />
     <MESSAGE value="Refactored the table creation with the use of the template dp.&#10;Created 5 unit test on getting data from jobs (Databasewise)." />
     <option name="LAST_COMMIT_MESSAGE" value="Refactored the table creation with the use of the template dp.&#10;Created 5 unit test on getting data from jobs (Databasewise)." />
     <option name="GROUP_MULTIFILE_MERGE_BY_DIRECTORY" value="true" />

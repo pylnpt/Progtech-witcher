@@ -305,3 +305,1267 @@
 2022-05-19 00:27:31,175 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
 2022-05-19 00:27:31,178 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
 2022-05-19 00:27:31,178 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Getting data from Users table was successful
+2022-05-20 02:39:22,185 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:39:22,217 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:39:22,223 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:39:22,240 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:39:22,244 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:39:22,250 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Getting data from Users table was successful
+2022-05-20 02:39:23,948 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:39:23,951 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:39:23,952 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Getting data from Users table was successful
+2022-05-20 02:39:23,955 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:39:23,958 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:39:23,961 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:39:23,963 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:39:23,967 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:39:23,971 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:39:23,974 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:39:23,974 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Getting data from Jobs table was successful
+2022-05-20 02:39:23,977 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:39:23,981 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:39:23,984 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:39:23,986 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Getting data from Jobs table was successful
+2022-05-20 02:39:23,988 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:39:23,991 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:39:23,992 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Getting data from Jobs table was successful
+2022-05-20 02:39:23,995 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:39:23,998 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:39:23,998 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Getting data from Jobs table was successful
+2022-05-20 02:39:24,001 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:39:24,004 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:39:24,007 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:39:24,010 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:39:24,013 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:39:24,015 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:39:24,018 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:39:24,019 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Getting data from Jobs table was successful
+2022-05-20 02:39:24,021 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:39:24,024 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:39:24,027 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:39:24,030 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:39:24,030 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Getting data from Jobs table was successful
+2022-05-20 02:39:24,033 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:39:24,036 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:39:24,037 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Getting data from Users table was successful
+2022-05-20 02:39:24,039 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:39:24,042 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:39:24,045 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:39:24,047 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:39:24,050 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:39:24,053 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:39:24,056 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:39:24,057 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Getting data from Jobs table was successful
+2022-05-20 02:39:24,059 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:39:24,062 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:39:24,065 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:39:24,065 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Getting data from Jobs table was successful
+2022-05-20 02:39:24,068 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:39:24,071 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:39:24,071 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Getting data from Jobs table was successful
+2022-05-20 02:39:24,074 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:39:24,076 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:39:24,077 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Getting data from Jobs table was successful
+2022-05-20 02:39:24,079 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:39:24,082 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:39:24,085 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:39:24,087 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:39:24,090 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:39:24,093 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:39:24,096 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:39:24,096 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Getting data from Jobs table was successful
+2022-05-20 02:39:24,099 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:39:24,102 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:39:24,104 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:39:24,107 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:39:24,108 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Getting data from Jobs table was successful
+2022-05-20 02:39:24,110 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:39:24,112 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:39:24,113 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Getting data from Users table was successful
+2022-05-20 02:39:35,686 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:39:35,691 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:39:35,692 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Getting data from Jobs table was successful
+2022-05-20 02:39:35,694 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:39:35,697 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:39:35,699 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:39:35,703 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:39:35,705 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:39:35,708 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:39:35,711 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:39:35,714 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:39:35,717 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:39:35,720 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:39:35,720 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Getting data from Jobs table was successful
+2022-05-20 02:39:35,723 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:39:35,725 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:39:35,728 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:39:35,730 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:39:35,733 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:39:35,735 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:39:35,738 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:39:35,739 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Getting data from Jobs table was successful
+2022-05-20 02:39:35,741 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:39:35,744 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:39:35,746 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:39:35,747 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Getting data from Jobs table was successful
+2022-05-20 02:39:35,749 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:39:35,752 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:39:35,753 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Getting data from Jobs table was successful
+2022-05-20 02:39:35,755 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:39:35,758 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:39:35,759 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Getting data from Jobs table was successful
+2022-05-20 02:39:35,761 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:39:35,764 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:39:35,767 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:39:35,769 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:39:35,772 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:39:35,775 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:39:35,778 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:39:35,779 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Getting data from Jobs table was successful
+2022-05-20 02:39:35,781 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:39:35,784 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:39:35,786 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:39:35,789 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:39:35,790 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Getting data from Jobs table was successful
+2022-05-20 02:39:35,792 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:39:35,793 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Getting data from Users table was successful
+2022-05-20 02:39:35,796 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:39:35,799 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:39:35,801 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:39:35,804 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:39:35,807 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:39:35,810 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:39:35,812 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:39:35,813 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Getting data from Jobs table was successful
+2022-05-20 02:39:35,815 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:39:35,818 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:39:35,820 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:39:35,821 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Getting data from Jobs table was successful
+2022-05-20 02:39:35,823 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:39:35,826 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:39:35,827 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Getting data from Jobs table was successful
+2022-05-20 02:39:35,829 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:39:35,831 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:39:35,832 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Getting data from Jobs table was successful
+2022-05-20 02:39:35,834 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:39:35,836 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:39:35,839 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:39:35,842 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:39:35,844 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:39:35,847 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:39:35,850 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:39:35,850 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Getting data from Jobs table was successful
+2022-05-20 02:39:35,853 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:39:35,855 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:39:35,857 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:39:35,860 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:39:35,861 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Getting data from Jobs table was successful
+2022-05-20 02:39:35,863 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:39:35,864 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Getting data from Users table was successful
+2022-05-20 02:39:47,002 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:39:47,006 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:39:47,006 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Getting data from Jobs table was successful
+2022-05-20 02:39:47,009 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:39:47,012 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:39:47,014 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:39:47,017 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:39:47,020 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:39:47,022 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:39:47,025 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:39:47,028 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:39:47,031 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:39:47,034 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:39:47,035 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Getting data from Jobs table was successful
+2022-05-20 02:39:47,037 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:39:47,039 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:39:47,042 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:39:47,044 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:39:47,046 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:39:47,049 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:39:47,052 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:39:47,053 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Getting data from Jobs table was successful
+2022-05-20 02:39:47,055 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:39:47,057 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:39:47,060 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:39:47,061 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Getting data from Jobs table was successful
+2022-05-20 02:39:47,063 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:39:47,066 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:39:47,066 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Getting data from Jobs table was successful
+2022-05-20 02:39:47,069 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:39:47,071 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:39:47,072 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Getting data from Jobs table was successful
+2022-05-20 02:39:47,074 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:39:47,077 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:39:47,080 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:39:47,083 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:39:47,086 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:39:47,088 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:39:47,091 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:39:47,092 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Getting data from Jobs table was successful
+2022-05-20 02:39:47,094 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:39:47,097 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:39:47,099 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:39:47,102 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:39:47,103 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Getting data from Jobs table was successful
+2022-05-20 02:39:47,103 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Getting data from Users table was successful
+2022-05-20 02:39:47,107 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:39:47,109 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:39:47,111 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:39:47,113 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:39:47,116 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:39:47,119 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:39:47,121 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:39:47,122 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Getting data from Jobs table was successful
+2022-05-20 02:39:47,124 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:39:47,127 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:39:47,130 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:39:47,130 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Getting data from Jobs table was successful
+2022-05-20 02:39:47,133 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:39:47,135 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:39:47,136 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Getting data from Jobs table was successful
+2022-05-20 02:39:47,139 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:39:47,141 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:39:47,142 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Getting data from Jobs table was successful
+2022-05-20 02:39:47,144 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:39:47,146 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:39:47,148 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:39:47,151 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:39:47,153 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:39:47,156 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:39:47,159 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:39:47,159 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Getting data from Jobs table was successful
+2022-05-20 02:39:47,162 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:39:47,165 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:39:47,167 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:39:47,170 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:39:47,171 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Getting data from Jobs table was successful
+2022-05-20 02:39:47,171 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Getting data from Users table was successful
+2022-05-20 02:39:50,899 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:39:50,903 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:39:50,903 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Getting data from Jobs table was successful
+2022-05-20 02:39:50,906 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:39:50,908 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:39:50,911 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:39:50,914 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:39:50,916 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:39:50,919 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:39:50,921 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:39:50,923 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:39:50,926 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:39:50,929 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:39:50,930 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Getting data from Jobs table was successful
+2022-05-20 02:39:50,932 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:39:50,935 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:39:50,937 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:39:50,939 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:39:50,942 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:39:50,945 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:39:50,948 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:39:50,948 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Getting data from Jobs table was successful
+2022-05-20 02:39:50,951 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:39:50,953 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:39:50,955 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:39:50,956 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Getting data from Jobs table was successful
+2022-05-20 02:39:50,958 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:39:50,961 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:39:50,962 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Getting data from Jobs table was successful
+2022-05-20 02:39:50,964 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:39:50,967 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:39:50,968 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Getting data from Jobs table was successful
+2022-05-20 02:39:50,970 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:39:50,972 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:39:50,974 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:39:50,977 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:39:50,979 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:39:50,982 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:39:50,984 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:39:50,985 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Getting data from Jobs table was successful
+2022-05-20 02:39:50,987 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:39:50,989 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:39:50,991 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:39:50,994 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:39:50,995 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Getting data from Jobs table was successful
+2022-05-20 02:39:50,995 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Getting data from Users table was successful
+2022-05-20 02:39:50,998 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:39:51,001 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:39:51,003 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:39:51,005 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:39:51,008 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:39:51,011 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:39:51,013 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:39:51,014 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Getting data from Jobs table was successful
+2022-05-20 02:39:51,016 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:39:51,018 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:39:51,021 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:39:51,021 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Getting data from Jobs table was successful
+2022-05-20 02:39:51,023 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:39:51,026 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:39:51,026 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Getting data from Jobs table was successful
+2022-05-20 02:39:51,028 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:39:51,030 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:39:51,031 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Getting data from Jobs table was successful
+2022-05-20 02:39:51,033 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:39:51,035 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:39:51,037 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:39:51,040 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:39:51,042 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:39:51,044 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:39:51,047 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:39:51,048 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Getting data from Jobs table was successful
+2022-05-20 02:39:51,050 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:39:51,052 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:39:51,055 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:39:51,057 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:39:51,058 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Getting data from Jobs table was successful
+2022-05-20 02:39:51,058 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Getting data from Users table was successful
+2022-05-20 02:39:54,015 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:39:54,018 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:39:54,018 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Getting data from Jobs table was successful
+2022-05-20 02:39:54,020 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:39:54,022 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:39:54,025 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:39:54,028 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:39:54,030 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:39:54,032 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:39:54,034 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:39:54,036 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:39:54,038 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:39:54,040 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:39:54,041 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Getting data from Jobs table was successful
+2022-05-20 02:39:54,043 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:39:54,045 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:39:54,047 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:39:54,049 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:39:54,051 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:39:54,054 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:39:54,056 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:39:54,056 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Getting data from Jobs table was successful
+2022-05-20 02:39:54,059 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:39:54,061 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:39:54,064 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:39:54,064 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Getting data from Jobs table was successful
+2022-05-20 02:39:54,066 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:39:54,069 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:39:54,069 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Getting data from Jobs table was successful
+2022-05-20 02:39:54,071 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:39:54,074 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:39:54,075 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Getting data from Jobs table was successful
+2022-05-20 02:39:54,077 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:39:54,079 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:39:54,081 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:39:54,083 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:39:54,085 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:39:54,088 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:39:54,090 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:39:54,090 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Getting data from Jobs table was successful
+2022-05-20 02:39:54,092 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:39:54,094 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:39:54,096 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:39:54,099 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:39:54,099 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Getting data from Jobs table was successful
+2022-05-20 02:39:54,100 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Getting data from Users table was successful
+2022-05-20 02:39:54,103 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:39:54,105 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:39:54,107 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:39:54,109 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:39:54,111 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:39:54,114 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:39:54,116 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:39:54,116 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Getting data from Jobs table was successful
+2022-05-20 02:39:54,118 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:39:54,121 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:39:54,123 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:39:54,124 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Getting data from Jobs table was successful
+2022-05-20 02:39:54,126 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:39:54,129 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:39:54,129 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Getting data from Jobs table was successful
+2022-05-20 02:39:54,131 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:39:54,134 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:39:54,135 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Getting data from Jobs table was successful
+2022-05-20 02:39:54,136 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:39:54,138 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:39:54,141 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:39:54,143 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:39:54,146 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:39:54,148 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:39:54,151 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:39:54,151 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Getting data from Jobs table was successful
+2022-05-20 02:39:54,153 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:39:54,155 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:39:54,158 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:39:54,161 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:39:54,161 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Getting data from Jobs table was successful
+2022-05-20 02:39:54,162 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Getting data from Users table was successful
+2022-05-20 02:39:57,112 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:39:57,115 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:39:57,116 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Getting data from Jobs table was successful
+2022-05-20 02:39:57,118 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:39:57,120 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:39:57,123 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:39:57,125 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:39:57,128 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:39:57,130 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:39:57,133 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:39:57,135 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:39:57,137 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:39:57,140 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:39:57,141 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Getting data from Jobs table was successful
+2022-05-20 02:39:57,143 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:39:57,145 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:39:57,147 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:39:57,149 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:39:57,151 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:39:57,153 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:39:57,155 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:39:57,156 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Getting data from Jobs table was successful
+2022-05-20 02:39:57,157 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:39:57,160 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:39:57,162 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:39:57,163 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Getting data from Jobs table was successful
+2022-05-20 02:39:57,165 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:39:57,167 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:39:57,168 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Getting data from Jobs table was successful
+2022-05-20 02:39:57,170 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:39:57,172 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:39:57,172 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Getting data from Jobs table was successful
+2022-05-20 02:39:57,174 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:39:57,176 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:39:57,178 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:39:57,180 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:39:57,182 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:39:57,184 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:39:57,187 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:39:57,187 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Getting data from Jobs table was successful
+2022-05-20 02:39:57,189 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:39:57,191 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:39:57,193 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:39:57,196 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:39:57,197 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Getting data from Jobs table was successful
+2022-05-20 02:39:57,197 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Getting data from Users table was successful
+2022-05-20 02:39:57,201 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:39:57,203 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:39:57,205 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:39:57,207 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:39:57,210 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:39:57,212 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:39:57,214 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:39:57,215 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Getting data from Jobs table was successful
+2022-05-20 02:39:57,217 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:39:57,219 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:39:57,221 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:39:57,222 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Getting data from Jobs table was successful
+2022-05-20 02:39:57,224 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:39:57,227 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:39:57,228 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Getting data from Jobs table was successful
+2022-05-20 02:39:57,230 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:39:57,232 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:39:57,233 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Getting data from Jobs table was successful
+2022-05-20 02:39:57,235 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:39:57,237 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:39:57,240 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:39:57,243 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:39:57,245 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:39:57,248 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:39:57,250 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:39:57,251 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Getting data from Jobs table was successful
+2022-05-20 02:39:57,253 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:39:57,256 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:39:57,258 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:39:57,261 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:39:57,262 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Getting data from Jobs table was successful
+2022-05-20 02:39:57,262 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Getting data from Users table was successful
+2022-05-20 02:39:58,414 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:39:58,417 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:39:58,417 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Getting data from Users table was successful
+2022-05-20 02:39:58,419 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:39:58,422 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:39:58,425 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:39:58,427 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:39:58,430 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:39:58,432 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:39:58,435 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:39:58,436 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Getting data from Jobs table was successful
+2022-05-20 02:39:58,438 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:39:58,440 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:39:58,443 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:39:58,444 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Getting data from Jobs table was successful
+2022-05-20 02:39:58,446 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:39:58,449 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:39:58,449 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Getting data from Jobs table was successful
+2022-05-20 02:39:58,451 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:39:58,454 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:39:58,455 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Getting data from Jobs table was successful
+2022-05-20 02:39:58,457 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:39:58,459 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:39:58,462 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:39:58,464 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:39:58,467 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:39:58,469 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:39:58,471 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:39:58,472 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Getting data from Jobs table was successful
+2022-05-20 02:39:58,474 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:39:58,476 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:39:58,479 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:39:58,481 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:39:58,482 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Getting data from Jobs table was successful
+2022-05-20 02:39:58,482 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Getting data from Users table was successful
+2022-05-20 02:39:58,484 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:39:58,486 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:39:58,488 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:39:58,490 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:39:58,493 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:39:58,495 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:39:58,497 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:39:58,498 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Getting data from Jobs table was successful
+2022-05-20 02:39:58,499 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:39:58,502 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:39:58,505 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:39:58,505 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Getting data from Jobs table was successful
+2022-05-20 02:39:58,507 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:39:58,509 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:39:58,510 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Getting data from Jobs table was successful
+2022-05-20 02:39:58,512 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:39:58,514 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:39:58,515 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Getting data from Jobs table was successful
+2022-05-20 02:39:58,517 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:39:58,519 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:39:58,521 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:39:58,523 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:39:58,526 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:39:58,528 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:39:58,530 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:39:58,530 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Getting data from Jobs table was successful
+2022-05-20 02:39:58,532 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:39:58,534 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:39:58,536 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:39:58,538 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:39:58,539 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Getting data from Jobs table was successful
+2022-05-20 02:39:58,539 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Getting data from Users table was successful
+2022-05-20 02:39:59,766 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:39:59,768 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:39:59,768 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Getting data from Users table was successful
+2022-05-20 02:40:00,300 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:40:00,302 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:40:00,302 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Getting data from Users table was successful
+2022-05-20 02:40:00,304 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:40:00,307 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:40:00,309 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:40:00,311 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:40:00,314 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:40:00,316 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:40:00,318 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:40:00,319 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Getting data from Jobs table was successful
+2022-05-20 02:40:00,321 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:40:00,323 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:40:00,325 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:40:00,325 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Getting data from Jobs table was successful
+2022-05-20 02:40:00,328 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:40:00,330 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:40:00,331 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Getting data from Jobs table was successful
+2022-05-20 02:40:00,332 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:40:00,335 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:40:00,335 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Getting data from Jobs table was successful
+2022-05-20 02:40:00,337 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:40:00,339 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:40:00,342 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:40:00,344 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:40:00,347 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:40:00,349 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:40:00,351 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:40:00,352 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Getting data from Jobs table was successful
+2022-05-20 02:40:00,353 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:40:00,355 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:40:00,357 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:40:00,360 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:40:00,360 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Getting data from Jobs table was successful
+2022-05-20 02:40:00,360 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Getting data from Users table was successful
+2022-05-20 02:40:00,362 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:40:00,365 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:40:00,367 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:40:00,369 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:40:00,371 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:40:00,373 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:40:00,376 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:40:00,376 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Getting data from Jobs table was successful
+2022-05-20 02:40:00,378 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:40:00,380 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:40:00,383 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:40:00,383 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Getting data from Jobs table was successful
+2022-05-20 02:40:00,385 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:40:00,388 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:40:00,388 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Getting data from Jobs table was successful
+2022-05-20 02:40:00,390 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:40:00,392 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:40:00,393 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Getting data from Jobs table was successful
+2022-05-20 02:40:00,395 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:40:00,397 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:40:00,399 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:40:00,401 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:40:00,404 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:40:00,407 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:40:00,409 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:40:00,410 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Getting data from Jobs table was successful
+2022-05-20 02:40:00,412 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:40:00,414 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:40:00,416 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:40:00,418 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:40:00,419 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Getting data from Jobs table was successful
+2022-05-20 02:40:00,419 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Getting data from Users table was successful
+2022-05-20 02:40:04,427 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:40:04,439 [ERROR] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Cannot delete or update a parent row: a foreign key constraint fails (`progtech`.`work_user_connection`, CONSTRAINT `work_user_connection_ibfk_2` FOREIGN KEY (`job_id`) REFERENCES `jobs` (`id`))
+2022-05-20 02:40:04,442 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:40:04,445 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:40:04,447 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:40:04,449 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:40:04,452 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:40:04,453 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Getting data from Jobs table was successful
+2022-05-20 02:40:04,455 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:40:04,457 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:40:04,458 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Getting data from Jobs table was successful
+2022-05-20 02:40:04,460 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:40:04,462 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:40:04,462 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Getting data from Jobs table was successful
+2022-05-20 02:40:04,464 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:40:04,466 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:40:04,468 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:40:04,470 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:40:04,472 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:40:04,475 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:40:04,477 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:40:04,477 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Getting data from Jobs table was successful
+2022-05-20 02:40:04,479 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:40:04,481 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:40:04,483 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:40:04,485 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:40:04,486 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Getting data from Jobs table was successful
+2022-05-20 02:40:04,486 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Getting data from Users table was successful
+2022-05-20 02:40:08,899 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:40:08,901 [ERROR] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Cannot delete or update a parent row: a foreign key constraint fails (`progtech`.`work_user_connection`, CONSTRAINT `work_user_connection_ibfk_1` FOREIGN KEY (`user_id`) REFERENCES `users` (`id`))
+2022-05-20 02:40:08,904 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:40:08,906 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:40:08,908 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:40:08,911 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:40:08,913 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:40:08,914 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Getting data from Jobs table was successful
+2022-05-20 02:40:08,916 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:40:08,919 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:40:08,919 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Getting data from Jobs table was successful
+2022-05-20 02:40:08,921 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:40:08,923 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:40:08,924 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Getting data from Jobs table was successful
+2022-05-20 02:40:08,926 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:40:08,928 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:40:08,930 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:40:08,932 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:40:08,934 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:40:08,936 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:40:08,938 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:40:08,939 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Getting data from Jobs table was successful
+2022-05-20 02:40:08,941 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:40:08,942 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:40:08,944 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:40:08,946 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:40:08,947 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Getting data from Jobs table was successful
+2022-05-20 02:40:08,947 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Getting data from Users table was successful
+2022-05-20 02:40:11,870 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:40:11,872 [ERROR] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Cannot delete or update a parent row: a foreign key constraint fails (`progtech`.`work_user_connection`, CONSTRAINT `work_user_connection_ibfk_1` FOREIGN KEY (`user_id`) REFERENCES `users` (`id`))
+2022-05-20 02:40:11,874 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:40:11,876 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:40:11,878 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:40:11,880 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:40:11,882 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:40:11,882 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Getting data from Jobs table was successful
+2022-05-20 02:40:11,884 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:40:11,886 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:40:11,887 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Getting data from Jobs table was successful
+2022-05-20 02:40:11,888 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:40:11,891 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:40:11,891 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Getting data from Jobs table was successful
+2022-05-20 02:40:11,893 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:40:11,894 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:40:11,896 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:40:11,897 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:40:11,899 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:40:11,900 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:40:11,902 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:40:11,902 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Getting data from Jobs table was successful
+2022-05-20 02:40:11,911 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:40:11,913 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:40:11,915 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:40:11,917 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:40:11,918 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Getting data from Jobs table was successful
+2022-05-20 02:40:11,918 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Getting data from Users table was successful
+2022-05-20 02:40:14,777 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:40:14,780 [ERROR] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Cannot delete or update a parent row: a foreign key constraint fails (`progtech`.`work_user_connection`, CONSTRAINT `work_user_connection_ibfk_2` FOREIGN KEY (`job_id`) REFERENCES `jobs` (`id`))
+2022-05-20 02:40:14,783 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:40:14,785 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:40:14,786 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:40:14,788 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:40:14,790 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:40:14,790 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Getting data from Jobs table was successful
+2022-05-20 02:40:14,792 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:40:14,794 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:40:14,794 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Getting data from Jobs table was successful
+2022-05-20 02:40:14,796 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:40:14,797 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:40:14,798 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Getting data from Jobs table was successful
+2022-05-20 02:40:14,799 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:40:14,800 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:40:14,802 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:40:14,804 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:40:14,805 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:40:14,807 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:40:14,809 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:40:14,810 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Getting data from Jobs table was successful
+2022-05-20 02:40:14,812 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:40:14,812 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Getting data from Users table was successful
+2022-05-20 02:40:15,881 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:40:15,884 [ERROR] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Cannot delete or update a parent row: a foreign key constraint fails (`progtech`.`work_user_connection`, CONSTRAINT `work_user_connection_ibfk_2` FOREIGN KEY (`job_id`) REFERENCES `jobs` (`id`))
+2022-05-20 02:40:15,886 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:40:15,888 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:40:15,889 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:40:15,891 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:40:15,893 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:40:15,893 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Getting data from Jobs table was successful
+2022-05-20 02:40:15,895 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:40:15,897 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:40:15,897 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Getting data from Jobs table was successful
+2022-05-20 02:40:15,899 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:40:15,899 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:40:15,900 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Getting data from Jobs table was successful
+2022-05-20 02:40:15,901 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:40:15,903 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:40:15,904 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:40:15,907 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:40:15,909 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:40:15,911 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:40:15,912 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:40:15,913 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Getting data from Jobs table was successful
+2022-05-20 02:40:15,914 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:40:15,915 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Getting data from Users table was successful
+2022-05-20 02:40:16,162 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:40:16,164 [ERROR] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Cannot delete or update a parent row: a foreign key constraint fails (`progtech`.`work_user_connection`, CONSTRAINT `work_user_connection_ibfk_2` FOREIGN KEY (`job_id`) REFERENCES `jobs` (`id`))
+2022-05-20 02:40:16,166 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:40:16,169 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:40:16,171 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:40:16,174 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:40:16,176 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:40:16,177 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Getting data from Jobs table was successful
+2022-05-20 02:40:16,179 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:40:16,182 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:40:16,182 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Getting data from Jobs table was successful
+2022-05-20 02:40:16,185 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:40:16,187 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:40:16,188 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Getting data from Jobs table was successful
+2022-05-20 02:40:16,190 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:40:16,192 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:40:16,195 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:40:16,198 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:40:16,200 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:40:16,202 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:40:16,204 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:40:16,205 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Getting data from Jobs table was successful
+2022-05-20 02:40:16,207 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:40:16,207 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Getting data from Users table was successful
+2022-05-20 02:40:16,630 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:40:16,632 [ERROR] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Cannot delete or update a parent row: a foreign key constraint fails (`progtech`.`work_user_connection`, CONSTRAINT `work_user_connection_ibfk_2` FOREIGN KEY (`job_id`) REFERENCES `jobs` (`id`))
+2022-05-20 02:40:16,635 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:40:16,637 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:40:16,638 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:40:16,640 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:40:16,643 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:40:16,644 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Getting data from Jobs table was successful
+2022-05-20 02:40:16,646 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:40:16,648 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:40:16,649 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Getting data from Jobs table was successful
+2022-05-20 02:40:16,651 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:40:16,653 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:40:16,653 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Getting data from Jobs table was successful
+2022-05-20 02:40:16,655 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:40:16,657 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:40:16,659 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:40:16,661 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:40:16,663 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:40:16,665 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:40:16,667 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:40:16,667 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Getting data from Jobs table was successful
+2022-05-20 02:40:16,669 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:40:16,669 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Getting data from Users table was successful
+2022-05-20 02:40:16,919 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:40:16,922 [ERROR] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Cannot delete or update a parent row: a foreign key constraint fails (`progtech`.`work_user_connection`, CONSTRAINT `work_user_connection_ibfk_2` FOREIGN KEY (`job_id`) REFERENCES `jobs` (`id`))
+2022-05-20 02:40:16,925 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:40:16,928 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:40:16,930 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:40:16,933 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:40:16,936 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:40:16,937 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Getting data from Jobs table was successful
+2022-05-20 02:40:16,939 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:40:16,942 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:40:16,943 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Getting data from Jobs table was successful
+2022-05-20 02:40:16,945 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:40:16,947 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:40:16,948 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Getting data from Jobs table was successful
+2022-05-20 02:40:16,950 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:40:16,952 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:40:16,954 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:40:16,956 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:40:16,958 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:40:16,960 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:40:16,961 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:40:16,962 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Getting data from Jobs table was successful
+2022-05-20 02:40:16,964 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:40:16,964 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Getting data from Users table was successful
+2022-05-20 02:40:17,173 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:40:17,175 [ERROR] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Cannot delete or update a parent row: a foreign key constraint fails (`progtech`.`work_user_connection`, CONSTRAINT `work_user_connection_ibfk_2` FOREIGN KEY (`job_id`) REFERENCES `jobs` (`id`))
+2022-05-20 02:40:17,177 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:40:17,179 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:40:17,181 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:40:17,183 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:40:17,185 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:40:17,186 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Getting data from Jobs table was successful
+2022-05-20 02:40:17,188 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:40:17,191 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:40:17,191 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Getting data from Jobs table was successful
+2022-05-20 02:40:17,194 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:40:17,196 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:40:17,196 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Getting data from Jobs table was successful
+2022-05-20 02:40:17,198 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:40:17,201 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:40:17,204 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:40:17,206 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:40:17,209 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:40:17,211 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:40:17,214 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:40:17,214 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Getting data from Jobs table was successful
+2022-05-20 02:40:17,216 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:40:17,217 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Getting data from Users table was successful
+2022-05-20 02:40:21,385 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:40:21,388 [ERROR] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Cannot delete or update a parent row: a foreign key constraint fails (`progtech`.`work_user_connection`, CONSTRAINT `work_user_connection_ibfk_2` FOREIGN KEY (`job_id`) REFERENCES `jobs` (`id`))
+2022-05-20 02:40:21,390 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:40:21,393 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:40:21,395 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:40:21,397 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:40:21,399 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:40:21,400 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Getting data from Jobs table was successful
+2022-05-20 02:40:21,402 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:40:21,404 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:40:21,404 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Getting data from Jobs table was successful
+2022-05-20 02:40:21,406 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:40:21,408 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:40:21,409 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Getting data from Jobs table was successful
+2022-05-20 02:40:21,410 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:40:21,412 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:40:21,414 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:40:21,416 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:40:21,418 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:40:21,419 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:40:21,421 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:40:21,422 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Getting data from Jobs table was successful
+2022-05-20 02:40:21,423 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:40:21,424 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Getting data from Users table was successful
+2022-05-20 02:40:23,722 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:40:23,724 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:40:23,724 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Getting data from Users table was successful
+2022-05-20 02:40:23,725 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:40:23,728 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:40:23,729 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:40:23,732 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:40:23,734 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:40:23,734 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Getting data from Jobs table was successful
+2022-05-20 02:40:23,736 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:40:23,738 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:40:23,738 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Getting data from Jobs table was successful
+2022-05-20 02:40:23,740 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:40:23,741 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:40:23,742 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Getting data from Jobs table was successful
+2022-05-20 02:40:23,743 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:40:23,745 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:40:23,747 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:40:23,748 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:40:23,751 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:40:23,753 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:40:23,754 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:40:23,755 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Getting data from Jobs table was successful
+2022-05-20 02:40:23,755 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:40:23,756 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Getting data from Users table was successful
+2022-05-20 02:40:23,757 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:40:23,759 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:40:23,762 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:40:23,764 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:40:23,766 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:40:23,767 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Getting data from Jobs table was successful
+2022-05-20 02:40:23,768 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:40:23,770 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:40:23,771 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Getting data from Jobs table was successful
+2022-05-20 02:40:23,772 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:40:23,774 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:40:23,774 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Getting data from Jobs table was successful
+2022-05-20 02:40:23,776 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:40:23,778 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:40:23,780 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:40:23,782 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:40:23,784 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:40:23,786 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:40:23,787 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:40:23,788 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Getting data from Jobs table was successful
+2022-05-20 02:40:23,789 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:40:23,790 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Getting data from Users table was successful
+2022-05-20 02:40:24,695 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:40:24,697 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:40:24,697 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Getting data from Users table was successful
+2022-05-20 02:40:24,699 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:40:24,701 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:40:24,703 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:40:24,705 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:40:24,707 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:40:24,709 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:40:24,710 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:40:24,712 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:40:24,713 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:40:24,715 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:40:24,715 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Getting data from Jobs table was successful
+2022-05-20 02:40:25,386 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:40:25,389 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:40:25,389 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Getting data from Users table was successful
+2022-05-20 02:40:25,391 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:40:25,393 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:40:25,395 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:40:25,397 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:40:25,400 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:40:25,400 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Getting data from Jobs table was successful
+2022-05-20 02:40:25,402 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:40:25,404 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:40:25,404 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Getting data from Jobs table was successful
+2022-05-20 02:40:25,406 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:40:25,408 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:40:25,409 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Getting data from Jobs table was successful
+2022-05-20 02:40:25,410 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:40:25,412 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:40:25,414 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:40:25,416 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:40:25,418 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:40:25,420 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:40:25,422 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:40:25,423 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Getting data from Jobs table was successful
+2022-05-20 02:40:25,425 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:40:25,425 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Getting data from Users table was successful
+2022-05-20 02:40:25,427 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:40:25,429 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:40:25,430 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:40:25,432 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:40:25,434 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:40:25,435 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Getting data from Jobs table was successful
+2022-05-20 02:40:25,436 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:40:25,438 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:40:25,438 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Getting data from Jobs table was successful
+2022-05-20 02:40:25,440 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:40:25,442 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:40:25,442 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Getting data from Jobs table was successful
+2022-05-20 02:40:25,444 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:40:25,445 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:40:25,447 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:40:25,450 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:40:25,452 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:40:25,454 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:40:25,455 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:40:25,456 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Getting data from Jobs table was successful
+2022-05-20 02:40:25,457 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:40:25,458 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Getting data from Users table was successful
+2022-05-20 02:40:26,406 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:40:26,408 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:40:26,409 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Getting data from Users table was successful
+2022-05-20 02:40:28,129 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:40:28,131 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:40:28,131 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Getting data from Users table was successful
+2022-05-20 02:40:28,133 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:40:28,136 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:40:28,138 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:40:28,139 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:40:28,141 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:40:28,143 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:40:28,145 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:40:28,146 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:40:28,148 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:40:28,149 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:40:28,150 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Getting data from Jobs table was successful
+2022-05-20 02:40:42,712 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:40:42,714 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:40:42,714 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Getting data from Users table was successful
+2022-05-20 02:40:42,716 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:40:42,718 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:40:42,721 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:40:42,723 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:40:42,726 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:40:42,728 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:40:42,730 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:40:42,732 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:40:42,735 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:40:42,737 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:40:42,737 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Getting data from Jobs table was successful
+2022-05-20 02:40:43,240 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:40:43,242 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:40:43,242 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Getting data from Users table was successful
+2022-05-20 02:40:43,244 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:40:43,246 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:40:43,248 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:40:43,250 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:40:43,252 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:40:43,252 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Getting data from Jobs table was successful
+2022-05-20 02:40:43,254 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:40:43,256 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:40:43,256 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Getting data from Jobs table was successful
+2022-05-20 02:40:43,258 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:40:43,260 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:40:43,260 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Getting data from Jobs table was successful
+2022-05-20 02:40:43,262 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:40:43,263 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:40:43,265 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:40:43,267 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:40:43,270 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:40:43,272 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:40:43,274 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:40:43,275 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Getting data from Jobs table was successful
+2022-05-20 02:40:43,277 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:40:43,277 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Getting data from Users table was successful
+2022-05-20 02:40:43,280 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:40:43,282 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:40:43,283 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:40:43,286 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:40:43,288 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:40:43,288 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Getting data from Jobs table was successful
+2022-05-20 02:40:43,290 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:40:43,291 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:40:43,292 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Getting data from Jobs table was successful
+2022-05-20 02:40:43,293 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:40:43,295 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:40:43,296 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Getting data from Jobs table was successful
+2022-05-20 02:40:43,298 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:40:43,300 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:40:43,303 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:40:43,305 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:40:43,307 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:40:43,309 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:40:43,311 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:40:43,312 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Getting data from Jobs table was successful
+2022-05-20 02:40:43,314 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:40:43,314 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Getting data from Users table was successful
+2022-05-20 02:40:43,873 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:40:43,875 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:40:43,876 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Getting data from Users table was successful
+2022-05-20 02:40:43,877 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:40:43,879 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:40:43,881 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:40:43,883 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:40:43,884 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:40:43,886 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:40:43,888 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:40:43,890 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:40:43,891 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:40:43,892 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:40:43,893 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Getting data from Jobs table was successful
+2022-05-20 02:41:12,111 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:41:12,113 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:41:12,114 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Getting data from Users table was successful
+2022-05-20 02:41:12,115 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:41:12,118 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:41:12,120 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:41:12,122 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:41:12,124 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:41:12,126 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:41:12,128 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:41:12,130 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:41:12,132 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:41:12,133 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:41:12,134 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Getting data from Jobs table was successful
+2022-05-20 02:41:13,080 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:41:13,082 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:41:13,082 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Getting data from Users table was successful
+2022-05-20 02:41:13,084 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:41:13,086 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:41:13,087 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:41:13,089 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:41:13,091 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:41:13,091 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Getting data from Jobs table was successful
+2022-05-20 02:41:13,093 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:41:13,094 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:41:13,095 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Getting data from Jobs table was successful
+2022-05-20 02:41:13,096 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:41:13,097 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:41:13,098 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Getting data from Jobs table was successful
+2022-05-20 02:41:13,099 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:41:13,100 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:41:13,102 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:41:13,104 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:41:13,106 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:41:13,107 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:41:13,109 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:41:13,110 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Getting data from Jobs table was successful
+2022-05-20 02:41:13,111 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:41:13,112 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Getting data from Users table was successful
+2022-05-20 02:41:13,113 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:41:13,114 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:41:13,116 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:41:13,118 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:41:13,119 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:41:13,120 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Getting data from Jobs table was successful
+2022-05-20 02:41:13,121 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:41:13,124 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:41:13,124 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Getting data from Jobs table was successful
+2022-05-20 02:41:13,125 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:41:13,127 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:41:13,127 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Getting data from Jobs table was successful
+2022-05-20 02:41:13,128 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:41:13,129 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:41:13,131 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:41:13,133 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:41:13,134 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:41:13,136 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:41:13,137 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:41:13,137 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Getting data from Jobs table was successful
+2022-05-20 02:41:13,139 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:41:13,139 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Getting data from Users table was successful
+2022-05-20 02:41:15,215 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:41:15,217 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:41:15,217 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Getting data from Users table was successful
+2022-05-20 02:41:19,127 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:41:19,127 [WARN] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Cannot invoke "project.progtechwitcher.models.user.UserBase.getId()" because "node" is null
+2022-05-20 02:41:35,837 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:41:35,841 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:41:35,842 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:41:35,844 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:41:35,845 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:41:35,847 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:41:35,847 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Getting data from Jobs table was successful
+2022-05-20 02:41:35,849 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:41:35,850 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:41:35,851 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Getting data from Jobs table was successful
+2022-05-20 02:41:35,852 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:41:35,854 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:41:35,855 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Getting data from Jobs table was successful
+2022-05-20 02:41:35,856 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:41:35,857 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:41:35,859 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:41:35,861 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:41:35,863 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:41:35,865 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:41:35,867 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:41:35,867 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Getting data from Jobs table was successful
+2022-05-20 02:41:35,869 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:41:35,871 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:41:35,873 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:41:35,873 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Getting data from Jobs table was successful
+2022-05-20 02:41:35,873 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Getting data from Users table was successful
+2022-05-20 02:41:35,873 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : A new user has registered as employer with a role of employer
+2022-05-20 02:41:44,798 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:41:44,800 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:41:44,802 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:41:44,803 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:41:44,804 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Getting data from Jobs table was successful
+2022-05-20 02:41:44,806 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:41:44,808 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:41:44,810 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:41:44,810 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Getting data from Jobs table was successful
+2022-05-20 02:41:44,810 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Getting data from Users table was successful
+2022-05-20 02:41:45,945 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:41:45,947 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:41:45,949 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:41:45,949 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Getting data from Jobs table was successful
+2022-05-20 02:41:45,949 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Getting data from Users table was successful
+2022-05-20 02:41:49,100 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:41:49,103 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:41:49,104 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:41:49,105 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Getting data from Jobs table was successful
+2022-05-20 02:41:49,105 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Getting data from Users table was successful
+2022-05-20 02:41:50,116 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:41:50,118 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:41:50,120 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:41:50,120 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Getting data from Jobs table was successful
+2022-05-20 02:41:50,120 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Getting data from Users table was successful
+2022-05-20 02:41:50,931 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:41:50,933 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:41:50,935 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:41:50,936 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Getting data from Jobs table was successful
+2022-05-20 02:41:50,936 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Getting data from Users table was successful
+2022-05-20 02:42:55,842 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:42:55,848 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:42:55,850 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:42:55,852 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:42:55,854 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:42:55,855 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:42:55,857 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:42:55,858 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:42:55,859 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:42:55,861 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:42:55,862 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:42:55,863 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:42:55,864 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Getting data from Jobs table was successful
+2022-05-20 02:42:55,865 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:42:55,866 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:42:55,868 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:42:55,870 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:42:55,872 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:42:55,872 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Getting data from Jobs table was successful
+2022-05-20 02:42:55,873 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:42:55,875 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:42:55,876 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Getting data from Jobs table was successful
+2022-05-20 02:42:55,877 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:42:55,879 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:42:55,879 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Getting data from Jobs table was successful
+2022-05-20 02:42:55,881 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:42:55,882 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:42:55,884 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:42:55,886 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:42:55,888 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:42:55,890 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:42:55,892 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:42:55,892 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Getting data from Jobs table was successful
+2022-05-20 02:42:55,894 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:42:55,895 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:42:55,897 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:42:55,899 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:42:55,900 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Getting data from Jobs table was successful
+2022-05-20 02:42:55,900 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Getting data from Users table was successful
+2022-05-20 02:42:57,628 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:42:57,630 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:42:57,632 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:42:57,634 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:42:57,634 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Getting data from Jobs table was successful
+2022-05-20 02:42:57,634 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Getting data from Users table was successful
+2022-05-20 02:42:58,734 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:42:58,737 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:42:58,738 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:42:58,740 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:42:58,740 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Getting data from Jobs table was successful
+2022-05-20 02:42:58,740 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Getting data from Users table was successful
+2022-05-20 02:43:09,110 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:43:09,113 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:43:09,114 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:43:09,117 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:43:09,117 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Getting data from Jobs table was successful
+2022-05-20 02:43:09,117 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Getting data from Users table was successful
+2022-05-20 02:43:09,825 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:43:09,827 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:43:09,828 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:43:09,830 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:43:09,831 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Getting data from Jobs table was successful
+2022-05-20 02:43:09,831 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Getting data from Users table was successful
+2022-05-20 02:43:10,743 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:43:10,744 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:43:10,746 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:43:10,748 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:43:10,748 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Getting data from Jobs table was successful
+2022-05-20 02:43:10,748 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Getting data from Users table was successful
+2022-05-20 02:43:12,504 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:43:12,505 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:43:12,506 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:43:12,509 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:43:12,509 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Getting data from Jobs table was successful
+2022-05-20 02:43:12,509 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Getting data from Users table was successful
+2022-05-20 02:43:14,863 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:43:14,865 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:43:14,867 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:43:14,869 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:43:14,869 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Getting data from Jobs table was successful
+2022-05-20 02:43:14,869 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Getting data from Users table was successful
+2022-05-20 02:43:16,189 [INFO] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Connected to Database
+2022-05-20 02:43:16,189 [WARN] project.progtechwitcher.Logging.Log [JavaFX Application Thread] : Cannot invoke "project.progtechwitcher.models.user.UserBase.getId()" because "node" is null

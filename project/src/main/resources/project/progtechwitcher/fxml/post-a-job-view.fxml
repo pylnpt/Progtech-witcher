@@ -63,7 +63,7 @@
                                 <Insets left="10.0" />
                             </GridPane.margin>
                         </Label>
-                        <ComboBox fx:id="rewardComboBox" maxHeight="35.0" maxWidth="300.0" minHeight="35.0" minWidth="300.0" prefHeight="35.0" prefWidth="300.0" promptText="-- Please select a reward --" GridPane.columnIndex="1" GridPane.rowIndex="4" />
+                        <ComboBox fx:id="rewardComboBox" maxHeight="35.0" maxWidth="300.0" minHeight="35.0" minWidth="300.0" prefHeight="35.0" prefWidth="300.0" promptText="-- Please select a reward --" styleClass="authentication-input" stylesheets="@../css/style.css" GridPane.columnIndex="1" GridPane.rowIndex="4" />
                         <Button fx:id="postTheJobBtn" alignment="CENTER" contentDisplay="CENTER" mnemonicParsing="false" prefHeight="40.0" prefWidth="300.0" styleClass="registration-button" stylesheets="@../css/style.css" text="POST THE JOB" textAlignment="CENTER" textFill="#9275bd" GridPane.columnIndex="1" GridPane.rowIndex="5">
                             <opaqueInsets>
                                 <Insets />
@@ -77,11 +77,11 @@
                             </GridPane.margin>
                         </Separator>
                         <Separator prefWidth="200.0" GridPane.columnIndex="1" GridPane.valignment="BOTTOM" />
-                        <TextField fx:id="jobTitleInput" maxHeight="35.0" maxWidth="300.0" minHeight="35.0" minWidth="300.0" prefHeight="35.0" prefWidth="300.0" promptText="\@Job title" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+                        <TextField fx:id="jobTitleInput" maxHeight="35.0" maxWidth="300.0" minHeight="35.0" minWidth="300.0" prefHeight="35.0" prefWidth="300.0" promptText="\@Job title" styleClass="authentication-input" stylesheets="@../css/style.css" GridPane.columnIndex="1" GridPane.rowIndex="1" />
                         <Separator halignment="RIGHT" layoutX="10.0" layoutY="141.0" prefWidth="200.0" valignment="BOTTOM" GridPane.rowIndex="5" GridPane.valignment="TOP" />
                         <Separator layoutX="236.0" layoutY="141.0" prefWidth="200.0" GridPane.columnIndex="1" GridPane.rowIndex="5" GridPane.valignment="TOP" />
-                  <TextField fx:id="requiredLevelInput" layoutX="236.0" layoutY="194.0" maxHeight="35.0" maxWidth="300.0" minHeight="35.0" minWidth="300.0" prefHeight="35.0" prefWidth="300.0" promptText="\@Required level" GridPane.columnIndex="1" GridPane.rowIndex="3" />
-                  <TextArea fx:id="jobDescriptionTextArea" maxHeight="90.0" maxWidth="300.0" minHeight="90.0" minWidth="300.0" prefHeight="90.0" prefWidth="300.0" promptText="\@Job description" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+                  <TextField fx:id="requiredLevelInput" layoutX="236.0" layoutY="194.0" maxHeight="35.0" maxWidth="300.0" minHeight="35.0" minWidth="300.0" prefHeight="35.0" prefWidth="300.0" promptText="\@Required level" styleClass="authentication-input" stylesheets="@../css/style.css" GridPane.columnIndex="1" GridPane.rowIndex="3" />
+                  <TextArea fx:id="jobDescriptionTextArea" maxHeight="90.0" maxWidth="300.0" minHeight="90.0" minWidth="300.0" prefHeight="90.0" prefWidth="300.0" promptText="\@Job description" styleClass="container" stylesheets="@../css/style.css" GridPane.columnIndex="1" GridPane.rowIndex="2" />
                     </children>
                 </GridPane>
             </center></BorderPane>

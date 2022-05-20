@@ -3,6 +3,7 @@ package project.progtechwitcher.Controllers;
 import javafx.fxml.FXML;
 import javafx.scene.control.*;
 import javafx.scene.layout.HBox;
+import project.progtechwitcher.Database.Database;
 import project.progtechwitcher.Hash.MD5Hash;
 import project.progtechwitcher.Main;
 import project.progtechwitcher.MainController;
