@@ -311,9 +311,11 @@ public class Database {
         if (connection != null) {
             try
             {
-                String query = String.format("Update jobs set is_someone_assigned = 1 where id = " + jobId);
+                String query="";
+                query = String.format("Update jobs set is_someone_assigned = 1 where id = " + jobId);
                 Statement preparedStmt = connection.createStatement();
                 preparedStmt.executeUpdate(query);
+                preparedStmt.close();
 
                 Statement st = connection.createStatement();
                 query = String.format("Insert into work_user_connection(user_id, job_id, is_done) values("+userId+","+jobId+", 0)");

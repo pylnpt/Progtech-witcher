@@ -28,7 +28,7 @@ public class JobsTableTemplate extends SuperTableTemplate {
     protected void addTableData(ArrayList<Object> tableData, TableView tableName, UserBase user) {
         tableData = new ArrayList<>();
         for (Jobs jobs : Database.jobs) {
-            if (jobs.getAcceptedBy() != 0) {
+            if (jobs.getAcceptedBy() == 0) {
                 tableName.getItems().add(jobs);
                 System.out.println(jobs.toString());
             }
@@ -44,7 +44,7 @@ public class JobsTableTemplate extends SuperTableTemplate {
             tableName.getColumns().add(column);
 
             for (Jobs jobs : Database.jobs) {
-                if (jobs.getAcceptedBy() != 0) {
+                if (jobs.getAcceptedBy() == 0) {
                     tableName.getItems().add(jobs.getRequiredLevel());
                 }
             }
