@@ -4,11 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="05cb5648-eda6-4c6c-9877-ff37a4422db0" name="Changes" comment="Started usersview - WIP">
+    <list default="true" id="05cb5648-eda6-4c6c-9877-ff37a4422db0" name="Changes" comment="Job by employer">
+      <change afterPath="$PROJECT_DIR$/.idea/runConfigurations.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/6fbf50cb-1ea8-4bad-83ad-89be3d9ac495.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/project/progtechwitcher/Controllers/PostAJobController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/project/progtechwitcher/Controllers/PostAJobController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/project/progtechwitcher/Controllers/ProfileController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/project/progtechwitcher/Controllers/ProfileController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/project/progtechwitcher/Controllers/UsersController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/project/progtechwitcher/Controllers/UsersController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/project/progtechwitcher/Database/Database.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/project/progtechwitcher/Database/Database.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/project/progtechwitcher/Logging/LogFiles/log.log" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/project/progtechwitcher/Logging/LogFiles/log.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/project/progtechwitcher/Controllers/ProfileController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/project/progtechwitcher/Controllers/ProfileController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/project/progtechwitcher/models/user/CanTakeJobs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/project/progtechwitcher/models/user/CanTakeJobs.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/project/progtechwitcher/fxml/users-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/project/progtechwitcher/fxml/users-view.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,6 +64,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../../../mysql-connector-java-8.0.29.jar" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
@@ -207,6 +216,7 @@
       <workItem from="1652761069185" duration="7031000" />
       <workItem from="1652769537831" duration="1785000" />
       <workItem from="1652771341895" duration="4243000" />
+      <workItem from="1652877814973" duration="16145000" />
     </task>
     <task id="LOCAL-00001" summary="Started Layout of the UI.&#10;-&gt; Created a HomeView (WIP)&#10;-&gt; Created a Controller to the view(WIP)&#10;&#10;-&gt; created a style.css which is going to handle the styling of the UI.">
       <created>1651852426093</created>
@@ -299,7 +309,21 @@
       <option name="project" value="LOCAL" />
       <updated>1652757224175</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Job Done">
+      <created>1652813505504</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1652813505504</updated>
+    </task>
+    <task id="LOCAL-00015" summary="Job by employer">
+      <created>1652813828885</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1652813828885</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -330,7 +354,9 @@
     <MESSAGE value="Created md5 hash" />
     <MESSAGE value="We can now register" />
     <MESSAGE value="Started usersview - WIP" />
-    <option name="LAST_COMMIT_MESSAGE" value="Started usersview - WIP" />
+    <MESSAGE value="Job Done" />
+    <MESSAGE value="Job by employer" />
+    <option name="LAST_COMMIT_MESSAGE" value="Job by employer" />
     <option name="GROUP_MULTIFILE_MERGE_BY_DIRECTORY" value="true" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
